@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classJoystick" kind="class" prot="public">
+    <compoundname>Joystick</compoundname>
+    <includes refid="joystick_8hh" local="no">joystick.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classJoystick_1ac822cf12c13b0611d5a2535bb39a48b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Joystick::_fd</definition>
+        <argsstring></argsstring>
+        <name>_fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="65" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.hh" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classJoystick_1ac5faea26fc83f4cf8113fc962ae788c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Joystick::openPath</definition>
+        <argsstring>(std::string devicePath)</argsstring>
+        <name>openPath</name>
+        <param>
+          <type>std::string</type>
+          <declname>devicePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="63" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classJoystick_1a23429c0470e1a32b8de61e1ad7c251c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Joystick::~Joystick</definition>
+        <argsstring>()</argsstring>
+        <name>~Joystick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="68" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classJoystick_1a158b1f77b78717efbf1b8fac43b1fcef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Joystick::Joystick</definition>
+        <argsstring>()</argsstring>
+        <name>Joystick</name>
+        <briefdescription>
+<para>Initialises an instance for the first joystick: /dev/input/js0. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initialises an instance for the joystick with the specified, zero-indexed number. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="74" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classJoystick_1a0bd88249a8e103fe326d5345019a3de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Joystick::Joystick</definition>
+        <argsstring>(int joystickNumber)</argsstring>
+        <name>Joystick</name>
+        <param>
+          <type>int</type>
+          <declname>joystickNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="75" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classJoystick_1ac0cd7f0cb955fd62850589e1f0660285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Joystick::Joystick</definition>
+        <argsstring>(std::string devicePath)</argsstring>
+        <name>Joystick</name>
+        <param>
+          <type>std::string</type>
+          <declname>devicePath</declname>
+        </param>
+        <briefdescription>
+<para>Initialises an instance for the joystick device specified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="78" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classJoystick_1a466b80d028a829cb4aa24ae60602c646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Joystick::isFound</definition>
+        <argsstring>()</argsstring>
+        <name>isFound</name>
+        <briefdescription>
+<para>Returns true if the joystick was found and may be used, otherwise false. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="81" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classJoystick_1a13d48d8d9a32a788394f69472b6b3d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Joystick::sample</definition>
+        <argsstring>(JoystickEvent *event)</argsstring>
+        <name>sample</name>
+        <param>
+          <type><ref refid="classJoystickEvent" kindref="compound">JoystickEvent</ref> *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to populate the provided <ref refid="classJoystickEvent" kindref="compound">JoystickEvent</ref> instance with data from the joystick. Returns true if data is available, otherwise false. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="85" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.cc" bodystart="46" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a joystick device. Allows data to be sampled from it. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/joystick/joystick.hh" line="61" bodyfile="/home/usappz/DeadalusSim/source/joystick/joystick.hh" bodystart="60" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classJoystick_1ac822cf12c13b0611d5a2535bb39a48b4" prot="private" virt="non-virtual"><scope>Joystick</scope><name>_fd</name></member>
+      <member refid="classJoystick_1a466b80d028a829cb4aa24ae60602c646" prot="public" virt="non-virtual"><scope>Joystick</scope><name>isFound</name></member>
+      <member refid="classJoystick_1a158b1f77b78717efbf1b8fac43b1fcef" prot="public" virt="non-virtual"><scope>Joystick</scope><name>Joystick</name></member>
+      <member refid="classJoystick_1a0bd88249a8e103fe326d5345019a3de2" prot="public" virt="non-virtual"><scope>Joystick</scope><name>Joystick</name></member>
+      <member refid="classJoystick_1ac0cd7f0cb955fd62850589e1f0660285" prot="public" virt="non-virtual"><scope>Joystick</scope><name>Joystick</name></member>
+      <member refid="classJoystick_1ac5faea26fc83f4cf8113fc962ae788c2" prot="private" virt="non-virtual"><scope>Joystick</scope><name>openPath</name></member>
+      <member refid="classJoystick_1a13d48d8d9a32a788394f69472b6b3d9d" prot="public" virt="non-virtual"><scope>Joystick</scope><name>sample</name></member>
+      <member refid="classJoystick_1a23429c0470e1a32b8de61e1ad7c251c1" prot="public" virt="non-virtual"><scope>Joystick</scope><name>~Joystick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

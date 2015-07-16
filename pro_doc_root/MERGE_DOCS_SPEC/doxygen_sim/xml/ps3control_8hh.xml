@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="ps3control_8hh" kind="file">
+    <compoundname>ps3control.hh</compoundname>
+    <includedby refid="sil_8cc" local="yes">/home/usappz/DeadalusSim/source/sil/sil.cc</includedby>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ps3control_8hh_1a2f42ec9f30934c824c44e512dc511e5b" prot="public" static="no">
+        <name>LEFT_STICK_UP_MAX</name>
+        <initializer>-32767</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="6" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ps3control_8hh_1a26ef24d4891a7f43e1971b1a2400ac35" prot="public" static="no">
+        <name>LEFT_STICK_DOWN_MAX</name>
+        <initializer>32767</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="7" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ps3control_8hh_1ae415a1090c9b10a95d6f0fbd222cb984" prot="public" static="no">
+        <name>PS3_GAIN_GAS</name>
+        <initializer>0.008f;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="11" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ps3control_8hh_1a5173bc5a5f2d8154526bbbf968ea6ebf" prot="public" static="no">
+        <name>PS3_GAIN_PITCH</name>
+        <initializer>0.0001f;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="12" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ps3control_8hh_1aed89fb7624fcd9e835fe336387530f13" prot="public" static="no">
+        <name>PS3_GAIN_ROLL</name>
+        <initializer>0.0001f;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="13" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ps3control_8hh_1aef216a66e124761d74cf7bd0cfe8a009" prot="public" static="no">
+        <name>PS3_GAIN_YAW</name>
+        <initializer>0.005f;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" line="14" bodyfile="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_PS3_CONTROL_HH_<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_PS3_CONTROL_HH_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment">//<sp/>axis0<sp/>(left-stick,<sp/>left/right)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LEFT_STICK_UP_MAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-32767<sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>LEFT_STICK_DOWN_MAX<sp/><sp/><sp/><sp/><sp/>32767</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment">//<sp/>maximal<sp/>gains</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PS3_GAIN_GAS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.008f;</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PS3_GAIN_PITCH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0001f;</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PS3_GAIN_ROLL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0001f;</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PS3_GAIN_YAW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.005f;</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">#define<sp/>CTRL_GAS_MAX<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">#define<sp/>CTRL_ROLL_MAX</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">#define<sp/>CTRL_PITCH_MAX</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">#define<sp/>CTRL_YAW_MAX</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/ps3control.hh"/>
+  </compounddef>
+</doxygen>

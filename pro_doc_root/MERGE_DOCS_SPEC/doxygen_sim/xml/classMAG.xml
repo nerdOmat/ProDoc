@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classMAG" kind="class" prot="public">
+    <compoundname>MAG</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMAG_1a29709cccd4a8fc8d3ecf8646e5d24fd6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MAG::mag_x</definition>
+        <argsstring></argsstring>
+        <name>mag_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="214" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMAG_1a3eb871e74ebc1576b4745af33a9bbd0c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MAG::mag_y</definition>
+        <argsstring></argsstring>
+        <name>mag_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="214" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMAG_1a5762e6f926b3ec3a8b6ff18cdd6965ba" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MAG::mag_z</definition>
+        <argsstring></argsstring>
+        <name>mag_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="214" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMAG_1ac734724869ac0d1261fd5dc3a3e6d54a" prot="private" static="no" mutable="no">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 MAG::mag_vec3</definition>
+        <argsstring></argsstring>
+        <name>mag_vec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="217" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMAG_1a4bcbb01a0e2c45b0ae41e4d3ad5cc878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAG::set</definition>
+        <argsstring>(double m_x, double m_y, double m_z)</argsstring>
+        <name>set</name>
+        <param>
+          <type>double</type>
+          <declname>m_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>m_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>m_z</declname>
+        </param>
+        <briefdescription>
+<para>Set magnetic field values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="227" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="226" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMAG_1a1c816ef6f02a6311c2d6f633d27c3d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MAG::set</definition>
+        <argsstring>(gazebo::math::Vector3 mag)</argsstring>
+        <name>set</name>
+        <param>
+          <type>gazebo::math::Vector3</type>
+          <declname>mag</declname>
+        </param>
+        <briefdescription>
+<para>Set magnetic field values in gazebo types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="235" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="234" bodyend="240"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for magnetic field sensor data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="212" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="211" bodyend="244"/>
+    <listofallmembers>
+      <member refid="classMAG_1ac734724869ac0d1261fd5dc3a3e6d54a" prot="private" virt="non-virtual"><scope>MAG</scope><name>mag_vec3</name></member>
+      <member refid="classMAG_1a29709cccd4a8fc8d3ecf8646e5d24fd6" prot="public" virt="non-virtual"><scope>MAG</scope><name>mag_x</name></member>
+      <member refid="classMAG_1a3eb871e74ebc1576b4745af33a9bbd0c" prot="public" virt="non-virtual"><scope>MAG</scope><name>mag_y</name></member>
+      <member refid="classMAG_1a5762e6f926b3ec3a8b6ff18cdd6965ba" prot="public" virt="non-virtual"><scope>MAG</scope><name>mag_z</name></member>
+      <member refid="classMAG_1a4bcbb01a0e2c45b0ae41e4d3ad5cc878" prot="public" virt="non-virtual"><scope>MAG</scope><name>set</name></member>
+      <member refid="classMAG_1a1c816ef6f02a6311c2d6f633d27c3d8e" prot="public" virt="non-virtual"><scope>MAG</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

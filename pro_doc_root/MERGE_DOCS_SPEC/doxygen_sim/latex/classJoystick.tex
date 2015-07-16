@@ -1,0 +1,64 @@
+\hypertarget{classJoystick}{\section{\-Joystick \-Class \-Reference}
+\label{classJoystick}\index{\-Joystick@{\-Joystick}}
+}
+
+
+\-Represents a joystick device. \-Allows data to be sampled from it.  
+
+
+
+
+{\ttfamily \#include $<$joystick.\-hh$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classJoystick_a158b1f77b78717efbf1b8fac43b1fcef}{\-Joystick} ()
+\begin{DoxyCompactList}\small\item\em \-Initialises an instance for the first joystick\-: /dev/input/js0. \end{DoxyCompactList}\item 
+\hypertarget{classJoystick_a0bd88249a8e103fe326d5345019a3de2}{{\bfseries \-Joystick} (int joystick\-Number)}\label{classJoystick_a0bd88249a8e103fe326d5345019a3de2}
+
+\item 
+\hypertarget{classJoystick_ac0cd7f0cb955fd62850589e1f0660285}{\hyperlink{classJoystick_ac0cd7f0cb955fd62850589e1f0660285}{\-Joystick} (std\-::string device\-Path)}\label{classJoystick_ac0cd7f0cb955fd62850589e1f0660285}
+
+\begin{DoxyCompactList}\small\item\em \-Initialises an instance for the joystick device specified. \end{DoxyCompactList}\item 
+\hypertarget{classJoystick_a466b80d028a829cb4aa24ae60602c646}{bool \hyperlink{classJoystick_a466b80d028a829cb4aa24ae60602c646}{is\-Found} ()}\label{classJoystick_a466b80d028a829cb4aa24ae60602c646}
+
+\begin{DoxyCompactList}\small\item\em \-Returns true if the joystick was found and may be used, otherwise false. \end{DoxyCompactList}\item 
+\hypertarget{classJoystick_a13d48d8d9a32a788394f69472b6b3d9d}{bool \hyperlink{classJoystick_a13d48d8d9a32a788394f69472b6b3d9d}{sample} (\hyperlink{classJoystickEvent}{\-Joystick\-Event} $\ast$event)}\label{classJoystick_a13d48d8d9a32a788394f69472b6b3d9d}
+
+\begin{DoxyCompactList}\small\item\em \-Attempts to populate the provided \hyperlink{classJoystickEvent}{\-Joystick\-Event} instance with data from the joystick. \-Returns true if data is available, otherwise false. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classJoystick_ac5faea26fc83f4cf8113fc962ae788c2}{void {\bfseries open\-Path} (std\-::string device\-Path)}\label{classJoystick_ac5faea26fc83f4cf8113fc962ae788c2}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classJoystick_ac822cf12c13b0611d5a2535bb39a48b4}{int {\bfseries \-\_\-fd}}\label{classJoystick_ac822cf12c13b0611d5a2535bb39a48b4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Represents a joystick device. \-Allows data to be sampled from it. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classJoystick_a158b1f77b78717efbf1b8fac43b1fcef}{\index{\-Joystick@{\-Joystick}!\-Joystick@{\-Joystick}}
+\index{\-Joystick@{\-Joystick}!Joystick@{\-Joystick}}
+\subsubsection[{\-Joystick}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Joystick\-::\-Joystick} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classJoystick_a158b1f77b78717efbf1b8fac43b1fcef}
+
+
+\-Initialises an instance for the first joystick\-: /dev/input/js0. 
+
+\-Initialises an instance for the joystick with the specified, zero-\/indexed number. 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/usappz/\-Deadalus\-Sim/source/joystick/joystick.\-hh\item 
+/home/usappz/\-Deadalus\-Sim/source/joystick/joystick.\-cc\end{DoxyCompactItemize}

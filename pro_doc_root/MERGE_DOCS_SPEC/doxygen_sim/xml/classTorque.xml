@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classTorque" kind="class" prot="public">
+    <compoundname>Torque</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classTorque_1a64b4e9ef32f9ca60fa5902a4bb3b3bc0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Torque::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="98" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTorque_1a070c7b6cc2709580beb1dcfd49ac5886" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Torque::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="99" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTorque_1a960a9d0e47dfdca04359994daf0dea33" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Torque::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="100" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTorque_1ae87feb5f218fba7aa5be9fab4e2d114c" prot="private" static="no" mutable="no">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 Torque::torque_vec3</definition>
+        <argsstring></argsstring>
+        <name>torque_vec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="103" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTorque_1adab996768b7f4f78f489fed1ae256930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 Torque::vec3</definition>
+        <argsstring>()</argsstring>
+        <name>vec3</name>
+        <briefdescription>
+<para>Return torque values in gazebo type gazebo::math::Vector3. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="108" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classTorque_1a15f19c1be7744f4cb2de141a60f2b8d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Torque::set_torque</definition>
+        <argsstring>(double r, double p, double y)</argsstring>
+        <name>set_torque</name>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Set torque. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>roll </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pitch </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>yaw </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="118" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="117" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for torques on the quadrocopter frame. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="96" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="95" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classTorque_1a070c7b6cc2709580beb1dcfd49ac5886" prot="public" virt="non-virtual"><scope>Torque</scope><name>pitch</name></member>
+      <member refid="classTorque_1a64b4e9ef32f9ca60fa5902a4bb3b3bc0" prot="public" virt="non-virtual"><scope>Torque</scope><name>roll</name></member>
+      <member refid="classTorque_1a15f19c1be7744f4cb2de141a60f2b8d5" prot="public" virt="non-virtual"><scope>Torque</scope><name>set_torque</name></member>
+      <member refid="classTorque_1ae87feb5f218fba7aa5be9fab4e2d114c" prot="private" virt="non-virtual"><scope>Torque</scope><name>torque_vec3</name></member>
+      <member refid="classTorque_1adab996768b7f4f78f489fed1ae256930" prot="public" virt="non-virtual"><scope>Torque</scope><name>vec3</name></member>
+      <member refid="classTorque_1a960a9d0e47dfdca04359994daf0dea33" prot="public" virt="non-virtual"><scope>Torque</scope><name>yaw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

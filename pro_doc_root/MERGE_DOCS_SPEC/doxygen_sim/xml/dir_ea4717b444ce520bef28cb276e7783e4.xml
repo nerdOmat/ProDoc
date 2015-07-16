@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_ea4717b444ce520bef28cb276e7783e4" kind="dir">
+    <compoundname>/home/usappz/DeadalusSim/source/</compoundname>
+    <innerdir refid="dir_c4281fbd73f88f15ea1128345f110628">/home/usappz/DeadalusSim/source/dependencies/</innerdir>
+    <innerdir refid="dir_163814bbaf85410eff9286c0b9ff6664">/home/usappz/DeadalusSim/source/gazebo_plugins/</innerdir>
+    <innerdir refid="dir_d2fb64e04484a12e110299d38e992e4c">/home/usappz/DeadalusSim/source/joystick/</innerdir>
+    <innerdir refid="dir_eabdd9a6b24a18ca53b10b0c0335cd1a">/home/usappz/DeadalusSim/source/quadrotor_dynamics/</innerdir>
+    <innerdir refid="dir_7cab9fd6335a927d8fdc83ce9d98d423">/home/usappz/DeadalusSim/source/sil/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/"/>
+  </compounddef>
+</doxygen>

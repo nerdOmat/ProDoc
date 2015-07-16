@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classMechanics" kind="class" prot="public">
+    <compoundname>Mechanics</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMechanics_1a9ed197f325203c900db04d1bf2389832" prot="public" static="no" mutable="no">
+        <type><ref refid="classThrust" kindref="compound">Thrust</ref></type>
+        <definition>Thrust Mechanics::thrust</definition>
+        <argsstring></argsstring>
+        <name>thrust</name>
+        <briefdescription>
+<para><ref refid="classThrust" kindref="compound">Thrust</ref> Forces on all four motors on the quadrocopter frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="129" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMechanics_1a4467d7d60ace2a433c2001b21bf4c2d3" prot="public" static="no" mutable="no">
+        <type><ref refid="classTorque" kindref="compound">Torque</ref></type>
+        <definition>Torque Mechanics::torque</definition>
+        <argsstring></argsstring>
+        <name>torque</name>
+        <briefdescription>
+<para><ref refid="classTorque" kindref="compound">Torque</ref> on the quadrocopter frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="130" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Classes for Thrusts and Torques on quadrocopter frame. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="32">
+        <label>Thrust</label>
+        <link refid="classThrust"/>
+      </node>
+      <node id="33">
+        <label>Torque</label>
+        <link refid="classTorque"/>
+      </node>
+      <node id="31">
+        <label>Mechanics</label>
+        <link refid="classMechanics"/>
+        <childnode refid="32" relation="usage">
+          <edgelabel>thrust</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>torque</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="127" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="126" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classMechanics_1a9ed197f325203c900db04d1bf2389832" prot="public" virt="non-virtual"><scope>Mechanics</scope><name>thrust</name></member>
+      <member refid="classMechanics_1a4467d7d60ace2a433c2001b21bf4c2d3" prot="public" virt="non-virtual"><scope>Mechanics</scope><name>torque</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

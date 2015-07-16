@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gazebo__model__plugin_8hh" kind="file">
+    <compoundname>gazebo_model_plugin.hh</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includes local="no">boost/bind.hpp</includes>
+    <includes local="no">gazebo/gazebo.hh</includes>
+    <includes local="no">gazebo/physics/physics.hh</includes>
+    <includes local="no">gazebo/common/common.hh</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">gazebo/transport/transport.hh</includes>
+    <includes local="no">gazebo/msgs/msgs.hh</includes>
+    <includes local="no">sdf/sdf.hh</includes>
+    <includes local="no">boost/gil/gil_all.hpp</includes>
+    <includes local="no">boost/gil/extension/io/png_dynamic_io.hpp</includes>
+    <includes refid="quadrotor__dynamics_8hh" local="yes">../quadrotor_dynamics/quadrotor_dynamics.hh</includes>
+    <includes refid="resources_8hh" local="yes">../dependencies/resources.hh</includes>
+    <includes refid="sil_8hh" local="yes">../sil/sil.hh</includes>
+    <includedby refid="gazebo__model__plugin_8cc" local="yes">/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc</includedby>
+    <incdepgraph>
+      <node id="66">
+        <label>gazebo/common/common.hh</label>
+      </node>
+      <node id="62">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="71">
+        <label>boost/gil/gil_all.hpp</label>
+      </node>
+      <node id="76">
+        <label>../dependencies/resources.hh</label>
+        <link refid="resources_8hh_source"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>constants.hh</label>
+        <link refid="constants_8hh_source"/>
+      </node>
+      <node id="74">
+        <label>string</label>
+      </node>
+      <node id="69">
+        <label>gazebo/msgs/msgs.hh</label>
+      </node>
+      <node id="68">
+        <label>gazebo/transport/transport.hh</label>
+      </node>
+      <node id="75">
+        <label>gazebo/math/Vector3.hh</label>
+      </node>
+      <node id="64">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="78">
+        <label>../sil/sil.hh</label>
+        <link refid="sil_8hh_source"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh</label>
+        <link refid="gazebo_model_plugin.hh"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>../joystick/joystick.hh</label>
+        <link refid="joystick_8hh_source"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>sdf/sdf.hh</label>
+      </node>
+      <node id="72">
+        <label>boost/gil/extension/io/png_dynamic_io.hpp</label>
+      </node>
+      <node id="61">
+        <label>math.h</label>
+      </node>
+      <node id="60">
+        <label>iostream</label>
+      </node>
+      <node id="73">
+        <label>../quadrotor_dynamics/quadrotor_dynamics.hh</label>
+        <link refid="quadrotor__dynamics_8hh_source"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="65">
+        <label>gazebo/physics/physics.hh</label>
+      </node>
+      <node id="67">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgazebo_1_1GazeboModelPlugin" prot="public">gazebo::GazeboModelPlugin</innerclass>
+    <innernamespace refid="namespacegazebo">gazebo</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>____<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_____<sp/><sp/><sp/><sp/><sp/>_<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>/<sp/>___|<sp/><sp/>__<sp/>_<sp/>_<sp/>__<sp/><sp/>_<sp/>__|__<sp/><sp/>/<sp/><sp/>__|<sp/>|<sp/>___<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>\___<sp/>\<sp/>/<sp/>_`<sp/>|<sp/>&apos;_<sp/>\|<sp/>&apos;_<sp/>\<sp/>/<sp/>/<sp/><sp/>/<sp/>_`<sp/>|/<sp/>_<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/>___)<sp/>|<sp/>(_|<sp/>|<sp/>|_)<sp/>|<sp/>|_)<sp/>/<sp/>/_<sp/>|<sp/>(_|<sp/>|<sp/><sp/>__/</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>|____/<sp/>\__,_|<sp/>.__/|<sp/>.__/____(_)__,_|\___|</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|_|<sp/><sp/><sp/>|_|<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Andreas<sp/>Gschossmann</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Email:<sp/><sp/>andreas.gschossmann@hs-regensburg.de</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>gazebo_model_plugin.cc<sp/>-<sp/>gazebo-plugin<sp/>to<sp/>get<sp/>access<sp/>to<sp/>gazebo-API</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_GAZEBO_MODEL_PLUGIN_HH_<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_GAZEBO_MODEL_PLUGIN_HH_</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/shared_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/bind.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/gazebo.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/physics/physics.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/common/common.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/transport/transport.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/msgs/msgs.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/shared_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sdf/sdf.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/gil/gil_all.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/gil/extension/io/png_dynamic_io.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;gazebo/math/Vector3.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;gazebo/physics/physics.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;imu.pb.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../quadrotor_dynamics/quadrotor_dynamics.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../dependencies/resources.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../sil/sil.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gazebo</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{<sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classgazebo_1_1GazeboModelPlugin" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1GazeboModelPlugin" kindref="compound" tooltip="Model plugin for gazebo.">GazeboModelPlugin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ModelPlugin</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//private</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classgazebo_1_1GazeboModelPlugin_1a2571cf379d4745beb5442ae21f645f25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>transport::NodePtr<sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a2571cf379d4745beb5442ae21f645f25" kindref="member" tooltip="Node for publishing simulated IMU sensor data.">node</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60" refid="classgazebo_1_1GazeboModelPlugin_1a6bb4e9927e64ad53d649535e2ef8d0b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>transport::SubscriberPtr<sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a6bb4e9927e64ad53d649535e2ef8d0b0" kindref="member" tooltip="Subscriber for simulated IMU sensor data.">imuSubscriber</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a2eb3a7d7cac16ab46a6be036a9573b12" kindref="member" tooltip="Constructor.">GazeboModelPlugin</ref>();<sp/><sp/></highlight><highlight class="comment">//:<sp/>ModelPlugin();//,<sp/>_myQuadRotorDynamics(),<sp/>_rotor_speed()</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public:<sp/>virtual<sp/>~GazeboModelPlugin();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72" refid="classgazebo_1_1GazeboModelPlugin_1aa7c7b05e8f795ed76e5042a62fc829c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classQuadRotorDynamics" kindref="compound" tooltip="Class for the calculation of the Quadrotor Dynamics.">QuadRotorDynamics</ref><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1aa7c7b05e8f795ed76e5042a62fc829c4" kindref="member" tooltip="Destructor.">_myQuadRotorDynamics</ref>;</highlight></codeline>
+<codeline lineno="73" refid="classgazebo_1_1GazeboModelPlugin_1a20d35d7157cad810ac9aa1b92927579b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a20d35d7157cad810ac9aa1b92927579b" kindref="member" tooltip="Current rotor speeds of the motors.">_rotor_speed</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74" refid="classgazebo_1_1GazeboModelPlugin_1a02f22e2315b742e4b76807364082d8ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMechanics" kindref="compound" tooltip="Container Classes for Thrusts and Torques on quadrocopter frame.">Mechanics</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a02f22e2315b742e4b76807364082d8ec" kindref="member">_mechanics</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78" refid="classgazebo_1_1GazeboModelPlugin_1a69d01118cf06d61fea5e62ee77489b8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSIL" kindref="compound" tooltip="The SIL class contains everything, that is needed to simulate the Software in the Loop (SIL) of the q...">SIL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a69d01118cf06d61fea5e62ee77489b8a" kindref="member" tooltip="Instance of the Software in the Loop (SIL)">_sil</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79" refid="classgazebo_1_1GazeboModelPlugin_1a1e9a41b9fd8c68ac969d97f933db0198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classSensors" kindref="compound" tooltip="Container Class for sensor data (IMU, MAG, GPS)">Sensors</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a1e9a41b9fd8c68ac969d97f933db0198" kindref="member">_sensor_vals</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>MotorNumber<sp/>{m1,<sp/>m2,<sp/>m3,<sp/>m4,<sp/>front,<sp/>rear,<sp/>right,<sp/>left,<sp/>all};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Load(physics::ModelPtr<sp/>_parent,<sp/>sdf::ElementPtr<sp/></highlight><highlight class="comment">/*_sdf*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a65181b67c9709f1f66767b540bf632ce" kindref="member" tooltip="Function is called everytime an imu-message is received.">callback_imu</ref>(ConstIMUPtr<sp/>&amp;msg);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1aab07b045bb13a56523a8843954d6f78c" kindref="member" tooltip="Called by the world update start event, for all simulation steps.">OnUpdate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>common::UpdateInfo<sp/>&amp;<sp/></highlight><highlight class="comment">/*_info*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classgazebo_1_1GazeboModelPlugin_1a0fbfe75bffa843ac952e1d08ea67110f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>physics::ModelPtr<sp/><ref refid="classgazebo_1_1GazeboModelPlugin_1a0fbfe75bffa843ac952e1d08ea67110f" kindref="member" tooltip="Pointer to the model.">model</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>motor<sp/>links<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_1,<sp/>motor_front;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_2,<sp/>motor_right;<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_3,<sp/>motor_rear;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_4,<sp/>motor_left;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>center<sp/>Link</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>frame_center;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>motor<sp/>rod<sp/>links</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_prop_1,<sp/>motor_prop_front;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_prop_2,<sp/>motor_prop_right;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_prop_3,<sp/>motor_prop_rear;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>physics::LinkPtr<sp/>motor_prop_4,<sp/>motor_prop_left;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>the<sp/>update<sp/>event<sp/>connection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>event::ConnectionPtr<sp/>updateConnection;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gazebo<sp/>Time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>common::Time<sp/>_current_time;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>common::Time<sp/>_last_time;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>common::Time<sp/>_dt;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>gazebo::math::Vector3<sp/>_earth_mag_vec3;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>get_magnetic_field();<sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>motor-values:<sp/>forces,<sp/>angular<sp/>velocities,<sp/>moments<sp/>(own<sp/>approach)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public:<sp/>bool<sp/>SetPhysics(const<sp/>MotorNumber<sp/>myMotorNmb,<sp/>double<sp/>value,<sp/>bool<sp/>update<sp/>=<sp/>false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public:<sp/>bool<sp/>SetThrust(const<sp/>MotorNumber<sp/>myMotorNmb,<sp/>double<sp/>value);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh"/>
+  </compounddef>
+</doxygen>

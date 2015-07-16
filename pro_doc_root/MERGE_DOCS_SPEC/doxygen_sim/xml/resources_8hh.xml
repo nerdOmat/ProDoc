@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="resources_8hh" kind="file">
+    <compoundname>resources.hh</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">gazebo/gazebo.hh</includes>
+    <includes local="no">gazebo/physics/physics.hh</includes>
+    <includes local="no">gazebo/msgs/msgs.hh</includes>
+    <includes local="no">gazebo/math/Vector3.hh</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="constants_8hh" local="yes">constants.hh</includes>
+    <includedby refid="quadrotor__dynamics_8hh" local="yes">/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh</includedby>
+    <includedby refid="sil_8hh" local="yes">/home/usappz/DeadalusSim/source/sil/sil.hh</includedby>
+    <includedby refid="gazebo__model__plugin_8hh" local="yes">/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>/home/usappz/DeadalusSim/source/dependencies/resources.hh</label>
+        <link refid="resources.hh"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>constants.hh</label>
+        <link refid="constants_8hh_source"/>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>gazebo/msgs/msgs.hh</label>
+      </node>
+      <node id="16">
+        <label>gazebo/math/Vector3.hh</label>
+      </node>
+      <node id="13">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="14">
+        <label>gazebo/physics/physics.hh</label>
+      </node>
+      <node id="17">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="19">
+        <label>/home/usappz/DeadalusSim/source/dependencies/resources.hh</label>
+        <link refid="resources.hh"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/home/usappz/DeadalusSim/source/sil/sil.hh</label>
+        <link refid="sil_8hh_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh</label>
+        <link refid="gazebo__model__plugin_8hh_source"/>
+      </node>
+      <node id="20">
+        <label>/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh</label>
+        <link refid="quadrotor__dynamics_8hh_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classAngularVel" prot="public">AngularVel</innerclass>
+    <innerclass refid="classActuationVal" prot="public">ActuationVal</innerclass>
+    <innerclass refid="classThrust" prot="public">Thrust</innerclass>
+    <innerclass refid="classTorque" prot="public">Torque</innerclass>
+    <innerclass refid="classMechanics" prot="public">Mechanics</innerclass>
+    <innerclass refid="classGPS" prot="public">GPS</innerclass>
+    <innerclass refid="classIMU" prot="public">IMU</innerclass>
+    <innerclass refid="classMAG" prot="public">MAG</innerclass>
+    <innerclass refid="classSensors" prot="public">Sensors</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_RESOURCES_HH_<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_RESOURCES_HH_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/gazebo.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/physics/physics.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/msgs/msgs.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/math/Vector3.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;constants.hh&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">gazebo;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classAngularVel" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="classAngularVel_1ac2a344f43aa10a8ef2ef432752cd5f7a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref>()<sp/>:<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>motor()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>{};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>motor[4];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="classAngularVel_1adb9bb615453cfa0614a54a61d98e73c0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/>get_acceleration(<sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/>angular_vel_current,<sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/>angular_vel_last,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dT<sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAngularVel" kindref="compound" tooltip="Container Class for Angular velocities of four motors.">AngularVel</ref><sp/>alpha;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;4;<sp/>i++)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>alpha<sp/>=<sp/>(Omega_current<sp/>-<sp/>Omega_last)<sp/>/<sp/>dt<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>alpha.motor[i]<sp/>=<sp/>(<sp/>angular_vel_current.motor[i]<sp/>-<sp/>angular_vel_last.motor[i]<sp/>)<sp/>/<sp/>dT;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>alpha;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classActuationVal" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classActuationVal" kindref="compound" tooltip="Container class for actuation values of four motors.">ActuationVal</ref><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51" refid="classActuationVal_1a3ae2be4775a524a441fed113ff621a39" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classActuationVal" kindref="compound" tooltip="Container class for actuation values of four motors.">ActuationVal</ref>()<sp/>:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>motor()</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>{};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>motor[4];<sp/></highlight><highlight class="comment">//<sp/>never<sp/>negative</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classThrust" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classThrust" kindref="compound" tooltip="Container class for Thrusts of four motors.">Thrust</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63" refid="classThrust_1ac5c6aefb280d3d3ffe2970c1a6d7f421" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classThrust" kindref="compound" tooltip="Container class for Thrusts of four motors.">Thrust</ref>()<sp/>:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>motor()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>{};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>motor[4];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71" refid="classThrust_1a1a1b69987e0ba0c118594a16c9aac8a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>motor_vec3[4];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="77" refid="classThrust_1a9eb98d876a28c1f9d84bf329df9f3bab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>vec3(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nmb_motor)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>motor_vec3[nmb_motor].Set<sp/>(0.0,<sp/>0.0,<sp/>motor[nmb_motor]);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>motor_vec3[nmb_motor];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86" refid="classThrust_1aacfa892b397ca841afd069d44d798159" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>all_vec3()</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>myThrust<sp/>(0.0,<sp/>0.0,<sp/>motor[0]<sp/>+<sp/>motor[1]<sp/>+<sp/>motor[2]<sp/>+<sp/>motor[3]);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>myThrust;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="classTorque" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classTorque" kindref="compound" tooltip="Container Class for torques on the quadrocopter frame.">Torque</ref><sp/></highlight><highlight class="comment">//in<sp/>Torque<sp/>umbenennen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>roll;</highlight><highlight class="comment">//<sp/>=<sp/>0.0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pitch;</highlight><highlight class="comment">//<sp/>=<sp/>0.0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yaw;</highlight><highlight class="comment">//<sp/>=<sp/>0.0;<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>torque_vec3;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="107" refid="classTorque_1adab996768b7f4f78f489fed1ae256930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>vec3()</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>torque_vec3.Set<sp/>(roll,<sp/>pitch,<sp/>yaw);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>torque_vec3;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="classTorque_1a15f19c1be7744f4cb2de141a60f2b8d5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_torque(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>roll<sp/>=<sp/>r;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>pitch<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>yaw<sp/>=<sp/>y;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="classMechanics" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMechanics" kindref="compound" tooltip="Container Classes for Thrusts and Torques on quadrocopter frame.">Mechanics</ref></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="129" refid="classMechanics_1a9ed197f325203c900db04d1bf2389832" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classThrust" kindref="compound" tooltip="Container class for Thrusts of four motors.">Thrust</ref><sp/><sp/><ref refid="classMechanics_1a9ed197f325203c900db04d1bf2389832" kindref="member" tooltip="Thrust Forces on all four motors on the quadrocopter frame.">thrust</ref>;<sp/></highlight></codeline>
+<codeline lineno="130" refid="classMechanics_1a4467d7d60ace2a433c2001b21bf4c2d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classTorque" kindref="compound" tooltip="Container Class for torques on the quadrocopter frame.">Torque</ref><sp/><sp/><ref refid="classMechanics_1a4467d7d60ace2a433c2001b21bf4c2d3" kindref="member" tooltip="Torque on the quadrocopter frame.">torque</ref>;<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="classGPS" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGPS" kindref="compound" tooltip="Container Class for GPS sensor data.">GPS</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>GPS<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>altitude;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>latitude_deg;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>longitude_deg;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="classIMU" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classIMU" kindref="compound" tooltip="Container Class for IMU sensor data.">IMU</ref><sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>acc_x,<sp/>acc_y,<sp/>acc_z;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gyro_x,<sp/>gyro_y,<sp/>gyro_z;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>roll_actual,<sp/>pitch_actual,<sp/>yaw_actual;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::msgs::Vector3d<sp/>acc_vec3;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::msgs::Vector3d<sp/>gyro_vec3;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*public:<sp/>gazebo::msgs::Vector3d<sp/>get_acc_vec3()</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>acc_vec3.Set<sp/>(acc_x,<sp/>acc_y,<sp/>acc_z);</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>acc_vec3;</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"></highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/>public:<sp/>gazebo::msgs::Vector3d<sp/>get_gyro_vec3()</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>gyro_vec3.Set<sp/>(gyro_x,<sp/>gyro_y,<sp/>gyro_z);</highlight></codeline>
+<codeline lineno="164"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>gyro_vec3;</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/><sp/><sp/><sp/>};*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="classIMU_1a613d03d8dbf949cdf1bbe8acad3b687f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_acc(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a_x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a_z)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_x<sp/>=<sp/>a_x;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_y<sp/>=<sp/>a_y;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_z<sp/>=<sp/>a_z;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="classIMU_1a5187c130fb52b8be46978ea138103b31" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_acc(gazebo::msgs::Vector3d<sp/>acc)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_vec3<sp/>=<sp/>acc;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_x<sp/>=<sp/>acc_vec3.x();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_y<sp/>=<sp/>acc_vec3.y();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>acc_z<sp/>=<sp/>acc_vec3.z();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="classIMU_1a2c0cbafc7bc6acf142a6720f67ef8a1f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_gyro(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g_x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g_z)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_x<sp/>=<sp/>g_x;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_y<sp/>=<sp/>g_y;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_z<sp/>=<sp/>g_z;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="classIMU_1af35a3067088c5ffe0acbcfe5eeedcb3b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_gyro(gazebo::msgs::Vector3d<sp/>gyro)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_vec3<sp/>=<sp/>gyro;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_x<sp/>=<sp/>gyro_vec3.x();</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_y<sp/>=<sp/>gyro_vec3.y();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>gyro_z<sp/>=<sp/>gyro_vec3.z();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="202" refid="classIMU_1a72be203017649a73245e1825bb0fa6a3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(gazebo::msgs::Vector3d<sp/>acc,<sp/>gazebo::msgs::Vector3d<sp/>gyro)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>set_gyro(acc);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>set_acc(gyro);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="211" refid="classMAG" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMAG" kindref="compound" tooltip="Container Class for magnetic field sensor data.">MAG</ref></highlight></codeline>
+<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mag_x,<sp/>mag_y,<sp/>mag_z;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::math::Vector3<sp/>mag_vec3;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*public:<sp/>gazebo::math::Vector3<sp/>get_mag_vec3()</highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>mag_vec3.Set<sp/>(mag_x,<sp/>mag_y,<sp/>mag_z);</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>mag_vec3;</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/><sp/>};*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="classMAG_1a4bcbb01a0e2c45b0ae41e4d3ad5cc878" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_z)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_x<sp/>=<sp/>m_x;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_y<sp/>=<sp/>m_y;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_z<sp/>=<sp/>m_z;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="234" refid="classMAG_1a1c816ef6f02a6311c2d6f633d27c3d8e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(gazebo::math::Vector3<sp/>mag)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_vec3<sp/>=<sp/>mag;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_x<sp/>=<sp/>mag_vec3.x;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_y<sp/>=<sp/>mag_vec3.y;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>mag_z<sp/>=<sp/>mag_vec3.z;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//public:<sp/>gazebo::msgs::Vector3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="classSensors" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSensors" kindref="compound" tooltip="Container Class for sensor data (IMU, MAG, GPS)">Sensors</ref></highlight></codeline>
+<codeline lineno="248"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIMU" kindref="compound" tooltip="Container Class for IMU sensor data.">IMU</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imu;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMAG" kindref="compound" tooltip="Container Class for magnetic field sensor data.">MAG</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mag;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classGPS" kindref="compound" tooltip="Container Class for GPS sensor data.">GPS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gps;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh"/>
+  </compounddef>
+</doxygen>

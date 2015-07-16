@@ -1,0 +1,52 @@
+\hypertarget{classJoystickEvent}{\section{\-Joystick\-Event \-Class \-Reference}
+\label{classJoystickEvent}\index{\-Joystick\-Event@{\-Joystick\-Event}}
+}
+
+
+\-Encapsulates all data relevant to a sampled joystick event.  
+
+
+
+
+{\ttfamily \#include $<$joystick.\-hh$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classJoystickEvent_aae34d965daafe3e45a0bbfd733866386}{bool \hyperlink{classJoystickEvent_aae34d965daafe3e45a0bbfd733866386}{is\-Button} ()}\label{classJoystickEvent_aae34d965daafe3e45a0bbfd733866386}
+
+\begin{DoxyCompactList}\small\item\em \-Returns true if this event is the result of a button press. \end{DoxyCompactList}\item 
+\hypertarget{classJoystickEvent_a0b82c33e3a562798595138bcffe02d6a}{bool \hyperlink{classJoystickEvent_a0b82c33e3a562798595138bcffe02d6a}{is\-Axis} ()}\label{classJoystickEvent_a0b82c33e3a562798595138bcffe02d6a}
+
+\begin{DoxyCompactList}\small\item\em \-Returns true if this event is the result of an axis movement. \end{DoxyCompactList}\item 
+\hypertarget{classJoystickEvent_a33df9d4e8ffc2a83e96fda2010a5d7ca}{bool \hyperlink{classJoystickEvent_a33df9d4e8ffc2a83e96fda2010a5d7ca}{is\-Initial\-State} ()}\label{classJoystickEvent_a33df9d4e8ffc2a83e96fda2010a5d7ca}
+
+\begin{DoxyCompactList}\small\item\em \-Returns true if this event is part of the initial state obtained when the joystick is first connected to. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classJoystickEvent_a5daa361798dd403ff4dd771fca60ede0}{unsigned int \hyperlink{classJoystickEvent_a5daa361798dd403ff4dd771fca60ede0}{time}}\label{classJoystickEvent_a5daa361798dd403ff4dd771fca60ede0}
+
+\begin{DoxyCompactList}\small\item\em \-The timestamp of the event, in milliseconds. \end{DoxyCompactList}\item 
+short \hyperlink{classJoystickEvent_a52cd09ad823d2eec682657f27485109d}{value}
+\item 
+\hypertarget{classJoystickEvent_ada8aabcfb833ec362a3d8b2502d26951}{unsigned char \hyperlink{classJoystickEvent_ada8aabcfb833ec362a3d8b2502d26951}{type}}\label{classJoystickEvent_ada8aabcfb833ec362a3d8b2502d26951}
+
+\begin{DoxyCompactList}\small\item\em \-The event type. \end{DoxyCompactList}\item 
+\hypertarget{classJoystickEvent_a786468a9d3ad11577fdbd64292d8bc06}{unsigned char \hyperlink{classJoystickEvent_a786468a9d3ad11577fdbd64292d8bc06}{number}}\label{classJoystickEvent_a786468a9d3ad11577fdbd64292d8bc06}
+
+\begin{DoxyCompactList}\small\item\em \-The axis/button number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Encapsulates all data relevant to a sampled joystick event. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classJoystickEvent_a52cd09ad823d2eec682657f27485109d}{\index{\-Joystick\-Event@{\-Joystick\-Event}!value@{value}}
+\index{value@{value}!JoystickEvent@{\-Joystick\-Event}}
+\subsubsection[{value}]{\setlength{\rightskip}{0pt plus 5cm}short {\bf \-Joystick\-Event\-::value}}}\label{classJoystickEvent_a52cd09ad823d2eec682657f27485109d}
+\-The value associated with this joystick event. \-For buttons this will be either 1 (down) or 0 (up). \-For axes, this will range between -\/32768 and 32768. 
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/usappz/\-Deadalus\-Sim/source/joystick/joystick.\-hh\end{DoxyCompactItemize}

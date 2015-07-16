@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgazebo_1_1GazeboModelPlugin" kind="class" prot="public">
+    <compoundname>gazebo::GazeboModelPlugin</compoundname>
+    <includes refid="gazebo__model__plugin_8hh" local="no">gazebo_model_plugin.hh</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9" prot="private" static="no">
+        <name>MotorNumber</name>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9acb4fc614d902d1f490207d88f11fb911" prot="private">
+          <name>m1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a37dbafb498adb70ffb929a420a70831e" prot="private">
+          <name>m2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a93f1d20a3a540b1087bde960a9535b0e" prot="private">
+          <name>m3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a8ca5996bb7e879110e02f0252d65c806" prot="private">
+          <name>m4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aef16ab626c82e77b4a9edec2df7e840f" prot="private">
+          <name>front</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9ac31eb42af267b4e37620b9221d590bd7" prot="private">
+          <name>rear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9af1657cc55b4b699b0f1884b8c2b67d42" prot="private">
+          <name>right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aba54cc65bfaddc4582e9da20bf35ba4d" prot="private">
+          <name>left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aee312578a6961f32d51f4295aa406268" prot="private">
+          <name>all</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="83" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="83" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a2571cf379d4745beb5442ae21f645f25" prot="private" static="no" mutable="no">
+        <type>transport::NodePtr</type>
+        <definition>transport::NodePtr gazebo::GazeboModelPlugin::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+<para>Node for publishing simulated <ref refid="classIMU" kindref="compound">IMU</ref> sensor data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="59" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a6bb4e9927e64ad53d649535e2ef8d0b0" prot="private" static="no" mutable="no">
+        <type>transport::SubscriberPtr</type>
+        <definition>transport::SubscriberPtr gazebo::GazeboModelPlugin::imuSubscriber</definition>
+        <argsstring></argsstring>
+        <name>imuSubscriber</name>
+        <briefdescription>
+<para>Subscriber for simulated <ref refid="classIMU" kindref="compound">IMU</ref> sensor data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="60" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a69d01118cf06d61fea5e62ee77489b8a" prot="private" static="no" mutable="no">
+        <type><ref refid="classSIL" kindref="compound">SIL</ref></type>
+        <definition>SIL gazebo::GazeboModelPlugin::_sil</definition>
+        <argsstring></argsstring>
+        <name>_sil</name>
+        <briefdescription>
+<para>Instance of the Software in the Loop (<ref refid="classSIL" kindref="compound">SIL</ref>) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="78" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a1e9a41b9fd8c68ac969d97f933db0198" prot="private" static="no" mutable="no">
+        <type><ref refid="classSensors" kindref="compound">Sensors</ref></type>
+        <definition>Sensors gazebo::GazeboModelPlugin::_sensor_vals</definition>
+        <argsstring></argsstring>
+        <name>_sensor_vals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current Sensor values of all subscribed and simulated sensors. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="80" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a0fbfe75bffa843ac952e1d08ea67110f" prot="private" static="no" mutable="no">
+        <type>physics::ModelPtr</type>
+        <definition>physics::ModelPtr gazebo::GazeboModelPlugin::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+<para>Pointer to the model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="94" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a42d09cf0d5e1c6d3b7385e4dce2cdd43" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_1</definition>
+        <argsstring></argsstring>
+        <name>motor_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="97" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1aaddf5eb936608853ab36e8786fcc2346" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_front</definition>
+        <argsstring></argsstring>
+        <name>motor_front</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="97" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1ad9e71524247cdeccc4f3e53586a20e05" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_2</definition>
+        <argsstring></argsstring>
+        <name>motor_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="98" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1ab787ec174ec4211d0c27577c720ac5f7" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_right</definition>
+        <argsstring></argsstring>
+        <name>motor_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="98" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1aac73f9656e8979685e4cc7164431c8f7" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_3</definition>
+        <argsstring></argsstring>
+        <name>motor_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="99" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a28a7ed92ebd787f4767810a0ecb11ee6" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_rear</definition>
+        <argsstring></argsstring>
+        <name>motor_rear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="99" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a3c50c36cce65ce5e65b5cc08024cc033" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_4</definition>
+        <argsstring></argsstring>
+        <name>motor_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="100" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a853106aab5b2407f2b4becd724acacb9" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_left</definition>
+        <argsstring></argsstring>
+        <name>motor_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="100" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1af769e39dc2e861abed3ce335df116eb6" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::frame_center</definition>
+        <argsstring></argsstring>
+        <name>frame_center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="104" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a42d1d411ad37b788686ff3d1240c9239" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_1</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="108" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a9468f8d620fe9a20ee313f39084defbc" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_front</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_front</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="108" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1aa4c2ed74f4c59d358699fc6f3b37a155" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_2</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="109" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a42f06366b20d8a80732e5547612f4b3d" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_right</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="109" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a240d9274f0f5adf5e6e19d200d7db312" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_3</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="110" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1ac26841bd3942099369dd7a3d9608fecf" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_rear</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_rear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="110" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1ab9c23e9585d90400db5bd34eefcef843" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_4</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="111" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a1bcb117228698965475e8e0b11a8f73c" prot="private" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::GazeboModelPlugin::motor_prop_left</definition>
+        <argsstring></argsstring>
+        <name>motor_prop_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="111" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a665033358138a2bd92cd321b28ebb10c" prot="private" static="no" mutable="no">
+        <type>event::ConnectionPtr</type>
+        <definition>event::ConnectionPtr gazebo::GazeboModelPlugin::updateConnection</definition>
+        <argsstring></argsstring>
+        <name>updateConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="114" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1ad2082ae8c6fb975117c23a4d2936303a" prot="private" static="no" mutable="no">
+        <type>common::Time</type>
+        <definition>common::Time gazebo::GazeboModelPlugin::_current_time</definition>
+        <argsstring></argsstring>
+        <name>_current_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="118" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1abd8d95f8e053b4bd420cff88cd915426" prot="private" static="no" mutable="no">
+        <type>common::Time</type>
+        <definition>common::Time gazebo::GazeboModelPlugin::_last_time</definition>
+        <argsstring></argsstring>
+        <name>_last_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="119" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a1a4f5eff9706be4cf260db754f0ec2ad" prot="private" static="no" mutable="no">
+        <type>common::Time</type>
+        <definition>common::Time gazebo::GazeboModelPlugin::_dt</definition>
+        <argsstring></argsstring>
+        <name>_dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="120" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a123f298e1e0e711f7e262f035e39cf70" prot="private" static="no" mutable="no">
+        <type>const gazebo::math::Vector3</type>
+        <definition>const gazebo::math::Vector3 gazebo::GazeboModelPlugin::_earth_mag_vec3</definition>
+        <argsstring></argsstring>
+        <name>_earth_mag_vec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="123" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1aa7c7b05e8f795ed76e5042a62fc829c4" prot="public" static="no" mutable="no">
+        <type><ref refid="classQuadRotorDynamics" kindref="compound">QuadRotorDynamics</ref></type>
+        <definition>QuadRotorDynamics gazebo::GazeboModelPlugin::_myQuadRotorDynamics</definition>
+        <argsstring></argsstring>
+        <name>_myQuadRotorDynamics</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Instance of <ref refid="classQuadRotorDynamics" kindref="compound">QuadRotorDynamics</ref> class, to calculate the <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and Drag <ref refid="classTorque" kindref="compound">Torque</ref> in the quadrocopter frame resulting from the current rotor speeds </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="72" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a20d35d7157cad810ac9aa1b92927579b" prot="public" static="no" mutable="no">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel gazebo::GazeboModelPlugin::_rotor_speed</definition>
+        <argsstring></argsstring>
+        <name>_rotor_speed</name>
+        <briefdescription>
+<para>Current rotor speeds of the motors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="73" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboModelPlugin_1a02f22e2315b742e4b76807364082d8ec" prot="public" static="no" mutable="no">
+        <type><ref refid="classMechanics" kindref="compound">Mechanics</ref></type>
+        <definition>Mechanics gazebo::GazeboModelPlugin::_mechanics</definition>
+        <argsstring></argsstring>
+        <name>_mechanics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and Drag Torques On the quadcopter frame. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="75" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1GazeboModelPlugin_1a2eb3a7d7cac16ab46a6be036a9573b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GazeboModelPlugin::GazeboModelPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>GazeboModelPlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="63" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc" bodystart="56" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1GazeboModelPlugin_1a1bf10d7f63327b8d024686443a114483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GazeboModelPlugin::Load</definition>
+        <argsstring>(physics::ModelPtr _parent, sdf::ElementPtr)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_parent</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="85" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc" bodystart="72" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1GazeboModelPlugin_1a65181b67c9709f1f66767b540bf632ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GazeboModelPlugin::callback_imu</definition>
+        <argsstring>(ConstIMUPtr &amp;msg)</argsstring>
+        <name>callback_imu</name>
+        <param>
+          <type>ConstIMUPtr &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>Function is called everytime an imu-message is received. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="88" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc" bodystart="125" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1GazeboModelPlugin_1aab07b045bb13a56523a8843954d6f78c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GazeboModelPlugin::OnUpdate</definition>
+        <argsstring>(const common::UpdateInfo &amp;)</argsstring>
+        <name>OnUpdate</name>
+        <param>
+          <type>const common::UpdateInfo &amp;</type>
+        </param>
+        <briefdescription>
+<para>Called by the world update start event, for all simulation steps. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="91" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc" bodystart="143" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1GazeboModelPlugin_1ae962fe17fb145ccae51264b512905578" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GazeboModelPlugin::get_magnetic_field</definition>
+        <argsstring>()</argsstring>
+        <name>get_magnetic_field</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="125" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc" bodystart="183" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Model plugin for gazebo. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>Thrust</label>
+        <link refid="classThrust"/>
+      </node>
+      <node id="7">
+        <label>gazebo::GazeboModelPlugin</label>
+        <link refid="classgazebo_1_1GazeboModelPlugin"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_myQuadRotorDynamics</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>_sil</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>_rotor_speed</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>_sensor_vals</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>_mechanics</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>SIL</label>
+        <link refid="classSIL"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>_actuation_value</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>_ps3controller</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>_rotor_speed</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>GPS</label>
+        <link refid="classGPS"/>
+      </node>
+      <node id="19">
+        <label>MAG</label>
+        <link refid="classMAG"/>
+      </node>
+      <node id="9">
+        <label>ActuationVal</label>
+        <link refid="classActuationVal"/>
+      </node>
+      <node id="10">
+        <label>AngularVel</label>
+        <link refid="classAngularVel"/>
+      </node>
+      <node id="13">
+        <label>Torque</label>
+        <link refid="classTorque"/>
+      </node>
+      <node id="15">
+        <label>Joystick</label>
+        <link refid="classJoystick"/>
+      </node>
+      <node id="8">
+        <label>QuadRotorDynamics</label>
+        <link refid="classQuadRotorDynamics"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>_actuation_value</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>_rotor_acceleration</edgelabel>
+          <edgelabel>_rotor_speed_prev</edgelabel>
+          <edgelabel>_rotor_speed</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>_mechanics</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IMU</label>
+        <link refid="classIMU"/>
+      </node>
+      <node id="16">
+        <label>Sensors</label>
+        <link refid="classSensors"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>gps</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>imu</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>mag</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Mechanics</label>
+        <link refid="classMechanics"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>thrust</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>torque</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" line="57" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh" bodystart="56" bodyend="130"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ad2082ae8c6fb975117c23a4d2936303a" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_current_time</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a1a4f5eff9706be4cf260db754f0ec2ad" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_dt</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a123f298e1e0e711f7e262f035e39cf70" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_earth_mag_vec3</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1abd8d95f8e053b4bd420cff88cd915426" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_last_time</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a02f22e2315b742e4b76807364082d8ec" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_mechanics</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1aa7c7b05e8f795ed76e5042a62fc829c4" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_myQuadRotorDynamics</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a20d35d7157cad810ac9aa1b92927579b" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_rotor_speed</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a1e9a41b9fd8c68ac969d97f933db0198" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_sensor_vals</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a69d01118cf06d61fea5e62ee77489b8a" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>_sil</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aee312578a6961f32d51f4295aa406268" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>all</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a65181b67c9709f1f66767b540bf632ce" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>callback_imu</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1af769e39dc2e861abed3ce335df116eb6" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>frame_center</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aef16ab626c82e77b4a9edec2df7e840f" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>front</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a2eb3a7d7cac16ab46a6be036a9573b12" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>GazeboModelPlugin</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae962fe17fb145ccae51264b512905578" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>get_magnetic_field</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a6bb4e9927e64ad53d649535e2ef8d0b0" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>imuSubscriber</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aba54cc65bfaddc4582e9da20bf35ba4d" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>left</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a1bf10d7f63327b8d024686443a114483" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9acb4fc614d902d1f490207d88f11fb911" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>m1</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a37dbafb498adb70ffb929a420a70831e" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>m2</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a93f1d20a3a540b1087bde960a9535b0e" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>m3</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a8ca5996bb7e879110e02f0252d65c806" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>m4</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a0fbfe75bffa843ac952e1d08ea67110f" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>model</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a42d09cf0d5e1c6d3b7385e4dce2cdd43" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_1</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ad9e71524247cdeccc4f3e53586a20e05" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_2</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1aac73f9656e8979685e4cc7164431c8f7" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_3</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a3c50c36cce65ce5e65b5cc08024cc033" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_4</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1aaddf5eb936608853ab36e8786fcc2346" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_front</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a853106aab5b2407f2b4becd724acacb9" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_left</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a42d1d411ad37b788686ff3d1240c9239" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_1</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1aa4c2ed74f4c59d358699fc6f3b37a155" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_2</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a240d9274f0f5adf5e6e19d200d7db312" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_3</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ab9c23e9585d90400db5bd34eefcef843" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_4</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a9468f8d620fe9a20ee313f39084defbc" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_front</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a1bcb117228698965475e8e0b11a8f73c" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_left</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ac26841bd3942099369dd7a3d9608fecf" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_rear</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a42f06366b20d8a80732e5547612f4b3d" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_prop_right</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a28a7ed92ebd787f4767810a0ecb11ee6" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_rear</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ab787ec174ec4211d0c27577c720ac5f7" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>motor_right</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>MotorNumber</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a2571cf379d4745beb5442ae21f645f25" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>node</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1aab07b045bb13a56523a8843954d6f78c" prot="public" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9ac31eb42af267b4e37620b9221d590bd7" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>rear</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9af1657cc55b4b699b0f1884b8c2b67d42" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>right</name></member>
+      <member refid="classgazebo_1_1GazeboModelPlugin_1a665033358138a2bd92cd321b28ebb10c" prot="private" virt="non-virtual"><scope>gazebo::GazeboModelPlugin</scope><name>updateConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

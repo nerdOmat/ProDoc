@@ -1,0 +1,168 @@
+\hypertarget{classgazebo_1_1GazeboModelPlugin}{\section{gazebo\-:\-:\-Gazebo\-Model\-Plugin \-Class \-Reference}
+\label{classgazebo_1_1GazeboModelPlugin}\index{gazebo\-::\-Gazebo\-Model\-Plugin@{gazebo\-::\-Gazebo\-Model\-Plugin}}
+}
+
+
+\-Model plugin for gazebo.  
+
+
+
+
+{\ttfamily \#include $<$gazebo\-\_\-model\-\_\-plugin.\-hh$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a2eb3a7d7cac16ab46a6be036a9573b12}{\hyperlink{classgazebo_1_1GazeboModelPlugin_a2eb3a7d7cac16ab46a6be036a9573b12}{\-Gazebo\-Model\-Plugin} ()}\label{classgazebo_1_1GazeboModelPlugin_a2eb3a7d7cac16ab46a6be036a9573b12}
+
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a1bf10d7f63327b8d024686443a114483}{void {\bfseries \-Load} (physics\-::\-Model\-Ptr \-\_\-parent, sdf\-::\-Element\-Ptr)}\label{classgazebo_1_1GazeboModelPlugin_a1bf10d7f63327b8d024686443a114483}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a65181b67c9709f1f66767b540bf632ce}{void \hyperlink{classgazebo_1_1GazeboModelPlugin_a65181b67c9709f1f66767b540bf632ce}{callback\-\_\-imu} (\-Const\-I\-M\-U\-Ptr \&msg)}\label{classgazebo_1_1GazeboModelPlugin_a65181b67c9709f1f66767b540bf632ce}
+
+\begin{DoxyCompactList}\small\item\em \-Function is called everytime an imu-\/message is received. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_aab07b045bb13a56523a8843954d6f78c}{void \hyperlink{classgazebo_1_1GazeboModelPlugin_aab07b045bb13a56523a8843954d6f78c}{\-On\-Update} (const common\-::\-Update\-Info \&)}\label{classgazebo_1_1GazeboModelPlugin_aab07b045bb13a56523a8843954d6f78c}
+
+\begin{DoxyCompactList}\small\item\em \-Called by the world update start event, for all simulation steps. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classQuadRotorDynamics}{\-Quad\-Rotor\-Dynamics} \hyperlink{classgazebo_1_1GazeboModelPlugin_aa7c7b05e8f795ed76e5042a62fc829c4}{\-\_\-my\-Quad\-Rotor\-Dynamics}
+\begin{DoxyCompactList}\small\item\em \-Destructor. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a20d35d7157cad810ac9aa1b92927579b}{\hyperlink{classAngularVel}{\-Angular\-Vel} \hyperlink{classgazebo_1_1GazeboModelPlugin_a20d35d7157cad810ac9aa1b92927579b}{\-\_\-rotor\-\_\-speed}}\label{classgazebo_1_1GazeboModelPlugin_a20d35d7157cad810ac9aa1b92927579b}
+
+\begin{DoxyCompactList}\small\item\em \-Current rotor speeds of the motors. \end{DoxyCompactList}\item 
+\hyperlink{classMechanics}{\-Mechanics} \hyperlink{classgazebo_1_1GazeboModelPlugin_a02f22e2315b742e4b76807364082d8ec}{\-\_\-mechanics}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries \-Motor\-Number} \{ \*
+{\bfseries m1}, 
+{\bfseries m2}, 
+{\bfseries m3}, 
+{\bfseries m4}, 
+\*
+{\bfseries front}, 
+{\bfseries rear}, 
+{\bfseries right}, 
+{\bfseries left}, 
+\*
+{\bfseries all}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ae962fe17fb145ccae51264b512905578}{void {\bfseries get\-\_\-magnetic\-\_\-field} ()}\label{classgazebo_1_1GazeboModelPlugin_ae962fe17fb145ccae51264b512905578}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a2571cf379d4745beb5442ae21f645f25}{transport\-::\-Node\-Ptr \hyperlink{classgazebo_1_1GazeboModelPlugin_a2571cf379d4745beb5442ae21f645f25}{node}}\label{classgazebo_1_1GazeboModelPlugin_a2571cf379d4745beb5442ae21f645f25}
+
+\begin{DoxyCompactList}\small\item\em \-Node for publishing simulated \hyperlink{classIMU}{\-I\-M\-U} sensor data. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a6bb4e9927e64ad53d649535e2ef8d0b0}{transport\-::\-Subscriber\-Ptr \hyperlink{classgazebo_1_1GazeboModelPlugin_a6bb4e9927e64ad53d649535e2ef8d0b0}{imu\-Subscriber}}\label{classgazebo_1_1GazeboModelPlugin_a6bb4e9927e64ad53d649535e2ef8d0b0}
+
+\begin{DoxyCompactList}\small\item\em \-Subscriber for simulated \hyperlink{classIMU}{\-I\-M\-U} sensor data. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a69d01118cf06d61fea5e62ee77489b8a}{\hyperlink{classSIL}{\-S\-I\-L} \hyperlink{classgazebo_1_1GazeboModelPlugin_a69d01118cf06d61fea5e62ee77489b8a}{\-\_\-sil}}\label{classgazebo_1_1GazeboModelPlugin_a69d01118cf06d61fea5e62ee77489b8a}
+
+\begin{DoxyCompactList}\small\item\em \-Instance of the \-Software in the \-Loop (\hyperlink{classSIL}{\-S\-I\-L}) \end{DoxyCompactList}\item 
+\hyperlink{classSensors}{\-Sensors} \hyperlink{classgazebo_1_1GazeboModelPlugin_a1e9a41b9fd8c68ac969d97f933db0198}{\-\_\-sensor\-\_\-vals}
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a0fbfe75bffa843ac952e1d08ea67110f}{physics\-::\-Model\-Ptr \hyperlink{classgazebo_1_1GazeboModelPlugin_a0fbfe75bffa843ac952e1d08ea67110f}{model}}\label{classgazebo_1_1GazeboModelPlugin_a0fbfe75bffa843ac952e1d08ea67110f}
+
+\begin{DoxyCompactList}\small\item\em \-Pointer to the model. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a42d09cf0d5e1c6d3b7385e4dce2cdd43}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-1}}\label{classgazebo_1_1GazeboModelPlugin_a42d09cf0d5e1c6d3b7385e4dce2cdd43}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_aaddf5eb936608853ab36e8786fcc2346}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-front}}\label{classgazebo_1_1GazeboModelPlugin_aaddf5eb936608853ab36e8786fcc2346}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ad9e71524247cdeccc4f3e53586a20e05}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-2}}\label{classgazebo_1_1GazeboModelPlugin_ad9e71524247cdeccc4f3e53586a20e05}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ab787ec174ec4211d0c27577c720ac5f7}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-right}}\label{classgazebo_1_1GazeboModelPlugin_ab787ec174ec4211d0c27577c720ac5f7}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_aac73f9656e8979685e4cc7164431c8f7}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-3}}\label{classgazebo_1_1GazeboModelPlugin_aac73f9656e8979685e4cc7164431c8f7}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a28a7ed92ebd787f4767810a0ecb11ee6}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-rear}}\label{classgazebo_1_1GazeboModelPlugin_a28a7ed92ebd787f4767810a0ecb11ee6}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a3c50c36cce65ce5e65b5cc08024cc033}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-4}}\label{classgazebo_1_1GazeboModelPlugin_a3c50c36cce65ce5e65b5cc08024cc033}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a853106aab5b2407f2b4becd724acacb9}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-left}}\label{classgazebo_1_1GazeboModelPlugin_a853106aab5b2407f2b4becd724acacb9}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_af769e39dc2e861abed3ce335df116eb6}{physics\-::\-Link\-Ptr {\bfseries frame\-\_\-center}}\label{classgazebo_1_1GazeboModelPlugin_af769e39dc2e861abed3ce335df116eb6}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a42d1d411ad37b788686ff3d1240c9239}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-1}}\label{classgazebo_1_1GazeboModelPlugin_a42d1d411ad37b788686ff3d1240c9239}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a9468f8d620fe9a20ee313f39084defbc}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-front}}\label{classgazebo_1_1GazeboModelPlugin_a9468f8d620fe9a20ee313f39084defbc}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_aa4c2ed74f4c59d358699fc6f3b37a155}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-2}}\label{classgazebo_1_1GazeboModelPlugin_aa4c2ed74f4c59d358699fc6f3b37a155}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a42f06366b20d8a80732e5547612f4b3d}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-right}}\label{classgazebo_1_1GazeboModelPlugin_a42f06366b20d8a80732e5547612f4b3d}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a240d9274f0f5adf5e6e19d200d7db312}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-3}}\label{classgazebo_1_1GazeboModelPlugin_a240d9274f0f5adf5e6e19d200d7db312}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ac26841bd3942099369dd7a3d9608fecf}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-rear}}\label{classgazebo_1_1GazeboModelPlugin_ac26841bd3942099369dd7a3d9608fecf}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ab9c23e9585d90400db5bd34eefcef843}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-4}}\label{classgazebo_1_1GazeboModelPlugin_ab9c23e9585d90400db5bd34eefcef843}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a1bcb117228698965475e8e0b11a8f73c}{physics\-::\-Link\-Ptr {\bfseries motor\-\_\-prop\-\_\-left}}\label{classgazebo_1_1GazeboModelPlugin_a1bcb117228698965475e8e0b11a8f73c}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a665033358138a2bd92cd321b28ebb10c}{event\-::\-Connection\-Ptr {\bfseries update\-Connection}}\label{classgazebo_1_1GazeboModelPlugin_a665033358138a2bd92cd321b28ebb10c}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_ad2082ae8c6fb975117c23a4d2936303a}{common\-::\-Time {\bfseries \-\_\-current\-\_\-time}}\label{classgazebo_1_1GazeboModelPlugin_ad2082ae8c6fb975117c23a4d2936303a}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_abd8d95f8e053b4bd420cff88cd915426}{common\-::\-Time {\bfseries \-\_\-last\-\_\-time}}\label{classgazebo_1_1GazeboModelPlugin_abd8d95f8e053b4bd420cff88cd915426}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a1a4f5eff9706be4cf260db754f0ec2ad}{common\-::\-Time {\bfseries \-\_\-dt}}\label{classgazebo_1_1GazeboModelPlugin_a1a4f5eff9706be4cf260db754f0ec2ad}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a123f298e1e0e711f7e262f035e39cf70}{const gazebo\-::math\-::\-Vector3 {\bfseries \-\_\-earth\-\_\-mag\-\_\-vec3}}\label{classgazebo_1_1GazeboModelPlugin_a123f298e1e0e711f7e262f035e39cf70}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Model plugin for gazebo. 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classgazebo_1_1GazeboModelPlugin_a02f22e2315b742e4b76807364082d8ec}{\index{gazebo\-::\-Gazebo\-Model\-Plugin@{gazebo\-::\-Gazebo\-Model\-Plugin}!\-\_\-mechanics@{\-\_\-mechanics}}
+\index{\-\_\-mechanics@{\-\_\-mechanics}!gazebo::GazeboModelPlugin@{gazebo\-::\-Gazebo\-Model\-Plugin}}
+\subsubsection[{\-\_\-mechanics}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Mechanics} {\bf gazebo\-::\-Gazebo\-Model\-Plugin\-::\-\_\-mechanics}}}\label{classgazebo_1_1GazeboModelPlugin_a02f22e2315b742e4b76807364082d8ec}
+\-Current \hyperlink{classThrust}{\-Thrust} \-Forces and \-Drag \-Torques \-On the quadcopter frame. \hypertarget{classgazebo_1_1GazeboModelPlugin_aa7c7b05e8f795ed76e5042a62fc829c4}{\index{gazebo\-::\-Gazebo\-Model\-Plugin@{gazebo\-::\-Gazebo\-Model\-Plugin}!\-\_\-my\-Quad\-Rotor\-Dynamics@{\-\_\-my\-Quad\-Rotor\-Dynamics}}
+\index{\-\_\-my\-Quad\-Rotor\-Dynamics@{\-\_\-my\-Quad\-Rotor\-Dynamics}!gazebo::GazeboModelPlugin@{gazebo\-::\-Gazebo\-Model\-Plugin}}
+\subsubsection[{\-\_\-my\-Quad\-Rotor\-Dynamics}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Quad\-Rotor\-Dynamics} {\bf gazebo\-::\-Gazebo\-Model\-Plugin\-::\-\_\-my\-Quad\-Rotor\-Dynamics}}}\label{classgazebo_1_1GazeboModelPlugin_aa7c7b05e8f795ed76e5042a62fc829c4}
+
+
+\-Destructor. 
+
+\-Instance of \hyperlink{classQuadRotorDynamics}{\-Quad\-Rotor\-Dynamics} class, to calculate the \hyperlink{classThrust}{\-Thrust} \-Forces and \-Drag \hyperlink{classTorque}{\-Torque} in the quadrocopter frame resulting from the current rotor speeds \hypertarget{classgazebo_1_1GazeboModelPlugin_a1e9a41b9fd8c68ac969d97f933db0198}{\index{gazebo\-::\-Gazebo\-Model\-Plugin@{gazebo\-::\-Gazebo\-Model\-Plugin}!\-\_\-sensor\-\_\-vals@{\-\_\-sensor\-\_\-vals}}
+\index{\-\_\-sensor\-\_\-vals@{\-\_\-sensor\-\_\-vals}!gazebo::GazeboModelPlugin@{gazebo\-::\-Gazebo\-Model\-Plugin}}
+\subsubsection[{\-\_\-sensor\-\_\-vals}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Sensors} {\bf gazebo\-::\-Gazebo\-Model\-Plugin\-::\-\_\-sensor\-\_\-vals}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classgazebo_1_1GazeboModelPlugin_a1e9a41b9fd8c68ac969d97f933db0198}
+\-Current \-Sensor values of all subscribed and simulated sensors. 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/usappz/\-Deadalus\-Sim/source/gazebo\-\_\-plugins/gazebo\-\_\-model\-\_\-plugin.\-hh\item 
+/home/usappz/\-Deadalus\-Sim/source/gazebo\-\_\-plugins/gazebo\-\_\-model\-\_\-plugin.\-cc\end{DoxyCompactItemize}

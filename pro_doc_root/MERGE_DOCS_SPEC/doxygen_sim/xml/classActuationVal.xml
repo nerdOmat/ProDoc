@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classActuationVal" kind="class" prot="public">
+    <compoundname>ActuationVal</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classActuationVal_1a43157138ca9d9e600252f8c41ce3d032" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ActuationVal::motor[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>motor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="56" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classActuationVal_1a3ae2be4775a524a441fed113ff621a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ActuationVal::ActuationVal</definition>
+        <argsstring>()</argsstring>
+        <name>ActuationVal</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="53" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container class for actuation values of four motors. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="49" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="48" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classActuationVal_1a3ae2be4775a524a441fed113ff621a39" prot="public" virt="non-virtual"><scope>ActuationVal</scope><name>ActuationVal</name></member>
+      <member refid="classActuationVal_1a43157138ca9d9e600252f8c41ce3d032" prot="public" virt="non-virtual"><scope>ActuationVal</scope><name>motor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

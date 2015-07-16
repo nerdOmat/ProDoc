@@ -1,0 +1,87 @@
+\hypertarget{classgazebo_1_1GazeboIMUPlugin}{\section{gazebo\-:\-:\-Gazebo\-I\-M\-U\-Plugin \-Class \-Reference}
+\label{classgazebo_1_1GazeboIMUPlugin}\index{gazebo\-::\-Gazebo\-I\-M\-U\-Plugin@{gazebo\-::\-Gazebo\-I\-M\-U\-Plugin}}
+}
+
+
+\-An example plugin for a contact sensor.  
+
+
+
+
+{\ttfamily \#include $<$gazebo\-\_\-imu\-\_\-plugin.\-hh$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a825a685d2954b2f21216d806d1d10a46}{\hyperlink{classgazebo_1_1GazeboIMUPlugin_a825a685d2954b2f21216d806d1d10a46}{\-Gazebo\-I\-M\-U\-Plugin} ()}\label{classgazebo_1_1GazeboIMUPlugin_a825a685d2954b2f21216d806d1d10a46}
+
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a88ed20ee82baad7195e1529588685cb5}{virtual \hyperlink{classgazebo_1_1GazeboIMUPlugin_a88ed20ee82baad7195e1529588685cb5}{$\sim$\-Gazebo\-I\-M\-U\-Plugin} ()}\label{classgazebo_1_1GazeboIMUPlugin_a88ed20ee82baad7195e1529588685cb5}
+
+\begin{DoxyCompactList}\small\item\em \-Destructor. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classgazebo_1_1GazeboIMUPlugin_af793b9782ec5bd05035a191626c37564}{\-Load} (sensors\-::\-Sensor\-Ptr \-\_\-sensor, sdf\-::\-Element\-Ptr \-\_\-sdf)
+\begin{DoxyCompactList}\small\item\em \-Load the sensor plugin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_ad792da6d6616086392e28fe919090b28}{virtual void \hyperlink{classgazebo_1_1GazeboIMUPlugin_ad792da6d6616086392e28fe919090b28}{\-On\-Update} ()}\label{classgazebo_1_1GazeboIMUPlugin_ad792da6d6616086392e28fe919090b28}
+
+\begin{DoxyCompactList}\small\item\em \-Callback that recieves the contact sensor's update signal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_acbf05202baa4372075fd2b92a755e6f4}{sensors\-::\-Imu\-Sensor\-Ptr \hyperlink{classgazebo_1_1GazeboIMUPlugin_acbf05202baa4372075fd2b92a755e6f4}{parent\-Sensor}}\label{classgazebo_1_1GazeboIMUPlugin_acbf05202baa4372075fd2b92a755e6f4}
+
+\begin{DoxyCompactList}\small\item\em \-Pointer to the contact sensor. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_ab641d34696082d04895c37bd3a04a4fc}{event\-::\-Connection\-Ptr \hyperlink{classgazebo_1_1GazeboIMUPlugin_ab641d34696082d04895c37bd3a04a4fc}{update\-Connection}}\label{classgazebo_1_1GazeboIMUPlugin_ab641d34696082d04895c37bd3a04a4fc}
+
+\begin{DoxyCompactList}\small\item\em \-Connection that maintains a link between the contact sensor's updated signal and the \-On\-Update callback. \end{DoxyCompactList}\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a353321c42baf09fd6b4f542ef92c4b2c}{double {\bfseries m\-\_\-acc\-\_\-x}}\label{classgazebo_1_1GazeboIMUPlugin_a353321c42baf09fd6b4f542ef92c4b2c}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a9209423fc4dc45c2db7d96a239b78539}{double {\bfseries m\-\_\-acc\-\_\-y}}\label{classgazebo_1_1GazeboIMUPlugin_a9209423fc4dc45c2db7d96a239b78539}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a3f1430576aae2c8790bd444f8a7696a7}{double {\bfseries m\-\_\-acc\-\_\-z}}\label{classgazebo_1_1GazeboIMUPlugin_a3f1430576aae2c8790bd444f8a7696a7}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a1ab7b15c4e59142060de61de883367c8}{double {\bfseries m\-\_\-omega\-\_\-x}}\label{classgazebo_1_1GazeboIMUPlugin_a1ab7b15c4e59142060de61de883367c8}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_aabecd1fa883d375dee9e366ce62ee910}{double {\bfseries m\-\_\-omega\-\_\-y}}\label{classgazebo_1_1GazeboIMUPlugin_aabecd1fa883d375dee9e366ce62ee910}
+
+\item 
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_a172a5a0c84e0daacb2034d6aad0fceee}{double {\bfseries m\-\_\-omega\-\_\-z}}\label{classgazebo_1_1GazeboIMUPlugin_a172a5a0c84e0daacb2034d6aad0fceee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-An example plugin for a contact sensor. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classgazebo_1_1GazeboIMUPlugin_af793b9782ec5bd05035a191626c37564}{\index{gazebo\-::\-Gazebo\-I\-M\-U\-Plugin@{gazebo\-::\-Gazebo\-I\-M\-U\-Plugin}!\-Load@{\-Load}}
+\index{\-Load@{\-Load}!gazebo::GazeboIMUPlugin@{gazebo\-::\-Gazebo\-I\-M\-U\-Plugin}}
+\subsubsection[{\-Load}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gazebo\-I\-M\-U\-Plugin\-::\-Load} (
+\begin{DoxyParamCaption}
+\item[{sensors\-::\-Sensor\-Ptr}]{\-\_\-sensor, }
+\item[{sdf\-::\-Element\-Ptr}]{\-\_\-sdf}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classgazebo_1_1GazeboIMUPlugin_af793b9782ec5bd05035a191626c37564}
+
+
+\-Load the sensor plugin. 
+
+
+\begin{DoxyParams}[1]{\-Parameters}
+\mbox{\tt in}  & {\em \-\_\-sensor} & \-Pointer to the sensor that loaded this plugin. \\
+\hline
+\mbox{\tt in}  & {\em \-\_\-sdf} & \-S\-D\-F element that describes the plugin. \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/usappz/\-Deadalus\-Sim/source/gazebo\-\_\-plugins/gazebo\-\_\-imu\-\_\-plugin.\-hh\item 
+/home/usappz/\-Deadalus\-Sim/source/gazebo\-\_\-plugins/gazebo\-\_\-imu\-\_\-plugin.\-cc\end{DoxyCompactItemize}

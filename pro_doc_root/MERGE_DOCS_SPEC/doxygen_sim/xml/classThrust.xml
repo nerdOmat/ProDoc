@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classThrust" kind="class" prot="public">
+    <compoundname>Thrust</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classThrust_1ae1670b0483f78052e37bfc43d7b5705b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Thrust::motor[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>motor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="68" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classThrust_1a1a1b69987e0ba0c118594a16c9aac8a8" prot="private" static="no" mutable="no">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 Thrust::motor_vec3[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>motor_vec3</name>
+        <briefdescription>
+<para>thrust in gazebo gazebo::math::Vector3 type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="71" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classThrust_1ac5c6aefb280d3d3ffe2970c1a6d7f421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Thrust::Thrust</definition>
+        <argsstring>()</argsstring>
+        <name>Thrust</name>
+        <briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="65" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classThrust_1a9eb98d876a28c1f9d84bf329df9f3bab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 Thrust::vec3</definition>
+        <argsstring>(int nmb_motor)</argsstring>
+        <name>vec3</name>
+        <param>
+          <type>int</type>
+          <declname>nmb_motor</declname>
+        </param>
+        <briefdescription>
+<para>Return thrust in gazebo::math:Vector3 type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nmb_motor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of desired motor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>motor_vec3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="78" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classThrust_1aacfa892b397ca841afd069d44d798159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>gazebo::math::Vector3</type>
+        <definition>gazebo::math::Vector3 Thrust::all_vec3</definition>
+        <argsstring>()</argsstring>
+        <name>all_vec3</name>
+        <briefdescription>
+<para>Return sum of thrusts of all motors in gazebo::math::Vector3 type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="87" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="86" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container class for Thrusts of four motors. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="61" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="60" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classThrust_1aacfa892b397ca841afd069d44d798159" prot="public" virt="non-virtual"><scope>Thrust</scope><name>all_vec3</name></member>
+      <member refid="classThrust_1ae1670b0483f78052e37bfc43d7b5705b" prot="public" virt="non-virtual"><scope>Thrust</scope><name>motor</name></member>
+      <member refid="classThrust_1a1a1b69987e0ba0c118594a16c9aac8a8" prot="private" virt="non-virtual"><scope>Thrust</scope><name>motor_vec3</name></member>
+      <member refid="classThrust_1ac5c6aefb280d3d3ffe2970c1a6d7f421" prot="public" virt="non-virtual"><scope>Thrust</scope><name>Thrust</name></member>
+      <member refid="classThrust_1a9eb98d876a28c1f9d84bf329df9f3bab" prot="public" virt="non-virtual"><scope>Thrust</scope><name>vec3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

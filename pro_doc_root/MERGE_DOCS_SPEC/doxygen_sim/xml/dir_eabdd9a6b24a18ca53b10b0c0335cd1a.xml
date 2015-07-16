@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_eabdd9a6b24a18ca53b10b0c0335cd1a" kind="dir">
+    <compoundname>/home/usappz/DeadalusSim/source/quadrotor_dynamics/</compoundname>
+    <innerfile refid="quadrotor__dynamics_8cc">quadrotor_dynamics.cc</innerfile>
+    <innerfile refid="quadrotor__dynamics_8hh">quadrotor_dynamics.hh</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/"/>
+  </compounddef>
+</doxygen>

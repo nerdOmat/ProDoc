@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classAngularVel" kind="class" prot="public">
+    <compoundname>AngularVel</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classAngularVel_1ab7a9eeef733d63a3cb811cf0a286b371" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double AngularVel::motor[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>motor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="28" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAngularVel_1ac2a344f43aa10a8ef2ef432752cd5f7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AngularVel::AngularVel</definition>
+        <argsstring>()</argsstring>
+        <name>AngularVel</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="25" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classAngularVel_1adb9bb615453cfa0614a54a61d98e73c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel AngularVel::get_acceleration</definition>
+        <argsstring>(AngularVel angular_vel_current, AngularVel angular_vel_last, double dT)</argsstring>
+        <name>get_acceleration</name>
+        <param>
+          <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+          <declname>angular_vel_current</declname>
+        </param>
+        <param>
+          <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+          <declname>angular_vel_last</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dT</declname>
+        </param>
+        <briefdescription>
+<para>Returns angular acceleration. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angular_vel_current</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current value of angular velocity </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angular_vel_last</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Previous value of angular velocity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>angular Current angular acceleration since last simulation step </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="36" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="35" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for Angular velocities of four motors. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="21" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="20" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classAngularVel_1ac2a344f43aa10a8ef2ef432752cd5f7a" prot="public" virt="non-virtual"><scope>AngularVel</scope><name>AngularVel</name></member>
+      <member refid="classAngularVel_1adb9bb615453cfa0614a54a61d98e73c0" prot="public" virt="non-virtual"><scope>AngularVel</scope><name>get_acceleration</name></member>
+      <member refid="classAngularVel_1ab7a9eeef733d63a3cb811cf0a286b371" prot="public" virt="non-virtual"><scope>AngularVel</scope><name>motor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

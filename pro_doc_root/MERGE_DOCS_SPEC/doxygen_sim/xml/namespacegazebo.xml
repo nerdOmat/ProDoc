@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegazebo" kind="namespace">
+    <compoundname>gazebo</compoundname>
+    <innerclass refid="classgazebo_1_1GazeboIMUPlugin" prot="public">gazebo::GazeboIMUPlugin</innerclass>
+    <innerclass refid="classgazebo_1_1GazeboModelPlugin" prot="public">gazebo::GazeboModelPlugin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="10"/>
+  </compounddef>
+</doxygen>

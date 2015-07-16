@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.7.6.1">
+  <compound refid="classActuationVal" kind="class"><name>ActuationVal</name>
+    <member refid="classActuationVal_1a43157138ca9d9e600252f8c41ce3d032" kind="variable"><name>motor</name></member>
+    <member refid="classActuationVal_1a3ae2be4775a524a441fed113ff621a39" kind="function"><name>ActuationVal</name></member>
+  </compound>
+  <compound refid="classAngularVel" kind="class"><name>AngularVel</name>
+    <member refid="classAngularVel_1ab7a9eeef733d63a3cb811cf0a286b371" kind="variable"><name>motor</name></member>
+    <member refid="classAngularVel_1ac2a344f43aa10a8ef2ef432752cd5f7a" kind="function"><name>AngularVel</name></member>
+    <member refid="classAngularVel_1adb9bb615453cfa0614a54a61d98e73c0" kind="function"><name>get_acceleration</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1GazeboIMUPlugin" kind="class"><name>gazebo::GazeboIMUPlugin</name>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" kind="variable"><name>parentSensor</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1ab641d34696082d04895c37bd3a04a4fc" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a353321c42baf09fd6b4f542ef92c4b2c" kind="variable"><name>m_acc_x</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a9209423fc4dc45c2db7d96a239b78539" kind="variable"><name>m_acc_y</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a3f1430576aae2c8790bd444f8a7696a7" kind="variable"><name>m_acc_z</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a1ab7b15c4e59142060de61de883367c8" kind="variable"><name>m_omega_x</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1aabecd1fa883d375dee9e366ce62ee910" kind="variable"><name>m_omega_y</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a172a5a0c84e0daacb2034d6aad0fceee" kind="variable"><name>m_omega_z</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a825a685d2954b2f21216d806d1d10a46" kind="function"><name>GazeboIMUPlugin</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1a88ed20ee82baad7195e1529588685cb5" kind="function"><name>~GazeboIMUPlugin</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1af793b9782ec5bd05035a191626c37564" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1GazeboIMUPlugin_1ad792da6d6616086392e28fe919090b28" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1GazeboModelPlugin" kind="class"><name>gazebo::GazeboModelPlugin</name>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9" kind="enum"><name>MotorNumber</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9acb4fc614d902d1f490207d88f11fb911" kind="enumvalue"><name>m1</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a37dbafb498adb70ffb929a420a70831e" kind="enumvalue"><name>m2</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a93f1d20a3a540b1087bde960a9535b0e" kind="enumvalue"><name>m3</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9a8ca5996bb7e879110e02f0252d65c806" kind="enumvalue"><name>m4</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aef16ab626c82e77b4a9edec2df7e840f" kind="enumvalue"><name>front</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9ac31eb42af267b4e37620b9221d590bd7" kind="enumvalue"><name>rear</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9af1657cc55b4b699b0f1884b8c2b67d42" kind="enumvalue"><name>right</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aba54cc65bfaddc4582e9da20bf35ba4d" kind="enumvalue"><name>left</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae415fc86d4d7ada2e5eadf036eff5ab9aee312578a6961f32d51f4295aa406268" kind="enumvalue"><name>all</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a2571cf379d4745beb5442ae21f645f25" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a6bb4e9927e64ad53d649535e2ef8d0b0" kind="variable"><name>imuSubscriber</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a69d01118cf06d61fea5e62ee77489b8a" kind="variable"><name>_sil</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a1e9a41b9fd8c68ac969d97f933db0198" kind="variable"><name>_sensor_vals</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a0fbfe75bffa843ac952e1d08ea67110f" kind="variable"><name>model</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a42d09cf0d5e1c6d3b7385e4dce2cdd43" kind="variable"><name>motor_1</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1aaddf5eb936608853ab36e8786fcc2346" kind="variable"><name>motor_front</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ad9e71524247cdeccc4f3e53586a20e05" kind="variable"><name>motor_2</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ab787ec174ec4211d0c27577c720ac5f7" kind="variable"><name>motor_right</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1aac73f9656e8979685e4cc7164431c8f7" kind="variable"><name>motor_3</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a28a7ed92ebd787f4767810a0ecb11ee6" kind="variable"><name>motor_rear</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a3c50c36cce65ce5e65b5cc08024cc033" kind="variable"><name>motor_4</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a853106aab5b2407f2b4becd724acacb9" kind="variable"><name>motor_left</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1af769e39dc2e861abed3ce335df116eb6" kind="variable"><name>frame_center</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a42d1d411ad37b788686ff3d1240c9239" kind="variable"><name>motor_prop_1</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a9468f8d620fe9a20ee313f39084defbc" kind="variable"><name>motor_prop_front</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1aa4c2ed74f4c59d358699fc6f3b37a155" kind="variable"><name>motor_prop_2</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a42f06366b20d8a80732e5547612f4b3d" kind="variable"><name>motor_prop_right</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a240d9274f0f5adf5e6e19d200d7db312" kind="variable"><name>motor_prop_3</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ac26841bd3942099369dd7a3d9608fecf" kind="variable"><name>motor_prop_rear</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ab9c23e9585d90400db5bd34eefcef843" kind="variable"><name>motor_prop_4</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a1bcb117228698965475e8e0b11a8f73c" kind="variable"><name>motor_prop_left</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a665033358138a2bd92cd321b28ebb10c" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ad2082ae8c6fb975117c23a4d2936303a" kind="variable"><name>_current_time</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1abd8d95f8e053b4bd420cff88cd915426" kind="variable"><name>_last_time</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a1a4f5eff9706be4cf260db754f0ec2ad" kind="variable"><name>_dt</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a123f298e1e0e711f7e262f035e39cf70" kind="variable"><name>_earth_mag_vec3</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1aa7c7b05e8f795ed76e5042a62fc829c4" kind="variable"><name>_myQuadRotorDynamics</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a20d35d7157cad810ac9aa1b92927579b" kind="variable"><name>_rotor_speed</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a02f22e2315b742e4b76807364082d8ec" kind="variable"><name>_mechanics</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a2eb3a7d7cac16ab46a6be036a9573b12" kind="function"><name>GazeboModelPlugin</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a1bf10d7f63327b8d024686443a114483" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1a65181b67c9709f1f66767b540bf632ce" kind="function"><name>callback_imu</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1aab07b045bb13a56523a8843954d6f78c" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1GazeboModelPlugin_1ae962fe17fb145ccae51264b512905578" kind="function"><name>get_magnetic_field</name></member>
+  </compound>
+  <compound refid="classGPS" kind="class"><name>GPS</name>
+    <member refid="classGPS_1a6cad8c8b40c8d08bf3d0e9092d5e937f" kind="variable"><name>altitude</name></member>
+    <member refid="classGPS_1aa17b87d756ef70409bde2cb38fa0d036" kind="variable"><name>latitude_deg</name></member>
+    <member refid="classGPS_1a6bafc9ae5dac5949afea29c19e5eb20b" kind="variable"><name>longitude_deg</name></member>
+  </compound>
+  <compound refid="classIMU" kind="class"><name>IMU</name>
+    <member refid="classIMU_1a16bd4062efbff3e6e07f81491bdc3dc1" kind="variable"><name>acc_x</name></member>
+    <member refid="classIMU_1aa5bde37d857dec28fcbe7544af9ec3e9" kind="variable"><name>acc_y</name></member>
+    <member refid="classIMU_1a47bb386e4b6acc5600b3c03d0d130960" kind="variable"><name>acc_z</name></member>
+    <member refid="classIMU_1a0a3f4e8e47e1047ec96fa558b83eb567" kind="variable"><name>gyro_x</name></member>
+    <member refid="classIMU_1a40c3a9e20d6aa8c72df86a5bb3592060" kind="variable"><name>gyro_y</name></member>
+    <member refid="classIMU_1a9bb72ce07f2318bbb93603c9fa2729fd" kind="variable"><name>gyro_z</name></member>
+    <member refid="classIMU_1a515105cde25acc79d21ac892489a0f9e" kind="variable"><name>roll_actual</name></member>
+    <member refid="classIMU_1aaf572063b0d77b64e112f031a4bd0897" kind="variable"><name>pitch_actual</name></member>
+    <member refid="classIMU_1a6d85a90119da57e3ffe317e03e8f5b3c" kind="variable"><name>yaw_actual</name></member>
+    <member refid="classIMU_1a55eff9775a5077f46d5c81be127ed09c" kind="variable"><name>acc_vec3</name></member>
+    <member refid="classIMU_1a9417b4520518ccb5fe7cfcf54baec6b8" kind="variable"><name>gyro_vec3</name></member>
+    <member refid="classIMU_1a613d03d8dbf949cdf1bbe8acad3b687f" kind="function"><name>set_acc</name></member>
+    <member refid="classIMU_1a5187c130fb52b8be46978ea138103b31" kind="function"><name>set_acc</name></member>
+    <member refid="classIMU_1a2c0cbafc7bc6acf142a6720f67ef8a1f" kind="function"><name>set_gyro</name></member>
+    <member refid="classIMU_1af35a3067088c5ffe0acbcfe5eeedcb3b" kind="function"><name>set_gyro</name></member>
+    <member refid="classIMU_1a72be203017649a73245e1825bb0fa6a3" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="classJoystick" kind="class"><name>Joystick</name>
+    <member refid="classJoystick_1ac822cf12c13b0611d5a2535bb39a48b4" kind="variable"><name>_fd</name></member>
+    <member refid="classJoystick_1ac5faea26fc83f4cf8113fc962ae788c2" kind="function"><name>openPath</name></member>
+    <member refid="classJoystick_1a23429c0470e1a32b8de61e1ad7c251c1" kind="function"><name>~Joystick</name></member>
+    <member refid="classJoystick_1a158b1f77b78717efbf1b8fac43b1fcef" kind="function"><name>Joystick</name></member>
+    <member refid="classJoystick_1a0bd88249a8e103fe326d5345019a3de2" kind="function"><name>Joystick</name></member>
+    <member refid="classJoystick_1ac0cd7f0cb955fd62850589e1f0660285" kind="function"><name>Joystick</name></member>
+    <member refid="classJoystick_1a466b80d028a829cb4aa24ae60602c646" kind="function"><name>isFound</name></member>
+    <member refid="classJoystick_1a13d48d8d9a32a788394f69472b6b3d9d" kind="function"><name>sample</name></member>
+  </compound>
+  <compound refid="classJoystickEvent" kind="class"><name>JoystickEvent</name>
+    <member refid="classJoystickEvent_1a5daa361798dd403ff4dd771fca60ede0" kind="variable"><name>time</name></member>
+    <member refid="classJoystickEvent_1a52cd09ad823d2eec682657f27485109d" kind="variable"><name>value</name></member>
+    <member refid="classJoystickEvent_1ada8aabcfb833ec362a3d8b2502d26951" kind="variable"><name>type</name></member>
+    <member refid="classJoystickEvent_1a786468a9d3ad11577fdbd64292d8bc06" kind="variable"><name>number</name></member>
+    <member refid="classJoystickEvent_1aae34d965daafe3e45a0bbfd733866386" kind="function"><name>isButton</name></member>
+    <member refid="classJoystickEvent_1a0b82c33e3a562798595138bcffe02d6a" kind="function"><name>isAxis</name></member>
+    <member refid="classJoystickEvent_1a33df9d4e8ffc2a83e96fda2010a5d7ca" kind="function"><name>isInitialState</name></member>
+  </compound>
+  <compound refid="classMAG" kind="class"><name>MAG</name>
+    <member refid="classMAG_1a29709cccd4a8fc8d3ecf8646e5d24fd6" kind="variable"><name>mag_x</name></member>
+    <member refid="classMAG_1a3eb871e74ebc1576b4745af33a9bbd0c" kind="variable"><name>mag_y</name></member>
+    <member refid="classMAG_1a5762e6f926b3ec3a8b6ff18cdd6965ba" kind="variable"><name>mag_z</name></member>
+    <member refid="classMAG_1ac734724869ac0d1261fd5dc3a3e6d54a" kind="variable"><name>mag_vec3</name></member>
+    <member refid="classMAG_1a4bcbb01a0e2c45b0ae41e4d3ad5cc878" kind="function"><name>set</name></member>
+    <member refid="classMAG_1a1c816ef6f02a6311c2d6f633d27c3d8e" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="classMechanics" kind="class"><name>Mechanics</name>
+    <member refid="classMechanics_1a9ed197f325203c900db04d1bf2389832" kind="variable"><name>thrust</name></member>
+    <member refid="classMechanics_1a4467d7d60ace2a433c2001b21bf4c2d3" kind="variable"><name>torque</name></member>
+  </compound>
+  <compound refid="structOkno" kind="struct"><name>Okno</name>
+    <member refid="structOkno_1a64babe6aa39916ce92abded14d526ade" kind="variable"><name>xup</name></member>
+    <member refid="structOkno_1a9893576eee0e17561ba4aebfcb7e44c1" kind="variable"><name>yup</name></member>
+    <member refid="structOkno_1a6b139259d2410acffef63d84716111bd" kind="variable"><name>xdown</name></member>
+    <member refid="structOkno_1a9320b0845b7bd9849fd299a41125f507" kind="variable"><name>ydown</name></member>
+    <member refid="structOkno_1a3c458829d0cb66b61a52414f7b704333" kind="variable"><name>okno</name></member>
+  </compound>
+  <compound refid="classQuadRotorDynamics" kind="class"><name>QuadRotorDynamics</name>
+    <member refid="classQuadRotorDynamics_1a11ebd2bb3cb9a0245230246a37268ed8" kind="variable"><name>_rotor_speed</name></member>
+    <member refid="classQuadRotorDynamics_1af767bcd7e68d2867721cec08e52caaa3" kind="variable"><name>_rotor_speed_prev</name></member>
+    <member refid="classQuadRotorDynamics_1a0ae2098f9ed0752b2fb5b3079dd02cf1" kind="variable"><name>_rotor_acceleration</name></member>
+    <member refid="classQuadRotorDynamics_1ad096150d94c3500ccea432f39c9518fc" kind="variable"><name>_actuation_value</name></member>
+    <member refid="classQuadRotorDynamics_1a4c835e60eaceadda5c92ee01c5f97fd2" kind="variable"><name>_mechanics</name></member>
+    <member refid="classQuadRotorDynamics_1acb408bb34e58205c8c9239de6755a1ec" kind="variable"><name>_dT</name></member>
+    <member refid="classQuadRotorDynamics_1ad16ff51ab4ce8bec56f953da64fb71b9" kind="variable"><name>_k_t</name></member>
+    <member refid="classQuadRotorDynamics_1acf8efb67931462dba06fe187661010a7" kind="variable"><name>_k_m</name></member>
+    <member refid="classQuadRotorDynamics_1af531365138f761c7210d78da8c92e95a" kind="variable"><name>_moment_arm</name></member>
+    <member refid="classQuadRotorDynamics_1a44b7a5861b2f411029e2506f4cf1d532" kind="variable"><name>_error_type</name></member>
+    <member refid="classQuadRotorDynamics_1a076bfa86519993cb1fa9c1a6f49c05e2" kind="variable"><name>_sine_index</name></member>
+    <member refid="classQuadRotorDynamics_1aa804817d487b3fa1b8bd8f8ff6201565" kind="variable"><name>_K</name></member>
+    <member refid="classQuadRotorDynamics_1a229de7528658128afa2f0aed504efad5" kind="variable"><name>_C</name></member>
+    <member refid="classQuadRotorDynamics_1a25e1b881d7501ccba3bc213896f62e05" kind="variable"><name>_T</name></member>
+    <member refid="classQuadRotorDynamics_1ab9c5ae3b9d8a1d582486488dd9682a75" kind="variable"><name>_dead_time</name></member>
+    <member refid="classQuadRotorDynamics_1acae91d3031650906ca6a995ae0443813" kind="variable"><name>_rotor_speed_max</name></member>
+    <member refid="classQuadRotorDynamics_1acd0beff4d2419aa7aa37d87c3c5690bf" kind="variable"><name>_rotor_acceleration_max</name></member>
+    <member refid="classQuadRotorDynamics_1a52129351aee2aa2ca2218c888f83fa8f" kind="variable"><name>_limit_const_act</name></member>
+    <member refid="classQuadRotorDynamics_1a68be41ce31d096a587aabdc2c6f0bcfb" kind="variable"><name>_limit_transient_act</name></member>
+    <member refid="classQuadRotorDynamics_1a2f2eb8e9690abdc5679f0172e71b56fe" kind="variable"><name>_gyroscopic_torque_active</name></member>
+    <member refid="classQuadRotorDynamics_1a372eda60cafabb0a7f1d2ee2e32258e6" kind="function"><name>QuadRotorDynamics</name></member>
+    <member refid="classQuadRotorDynamics_1ad7b93bca3a67ed73bd274396ba0ad6e7" kind="function"><name>~QuadRotorDynamics</name></member>
+    <member refid="classQuadRotorDynamics_1a8516ae14795d90e9f484e552b4f94bc8" kind="function"><name>update</name></member>
+    <member refid="classQuadRotorDynamics_1aa5e7a8721f17b3e893ffaf4ba2e11fe0" kind="function"><name>activate_limit_constant</name></member>
+    <member refid="classQuadRotorDynamics_1ac4f8ac41406b65281bdc5956af41add5" kind="function"><name>activate_limit_transient</name></member>
+    <member refid="classQuadRotorDynamics_1acac6ab2a247e7ab5278f561161655d63" kind="function"><name>set_limit_const</name></member>
+    <member refid="classQuadRotorDynamics_1afe07675d12e14fb5f87a2ec308adcde6" kind="function"><name>set_limit_transient</name></member>
+    <member refid="classQuadRotorDynamics_1a8cbc221a76ea5bbbfa4e02749215d246" kind="function"><name>activate_gyroscopic_torque</name></member>
+    <member refid="classQuadRotorDynamics_1aba615011e777f74007ad85f081a4461d" kind="function"><name>set_k_pt1</name></member>
+    <member refid="classQuadRotorDynamics_1a143f29c5e77618243f63ebcca816616e" kind="function"><name>set_t_pt1</name></member>
+    <member refid="classQuadRotorDynamics_1a65438d151cc47e28e071c6871e4723cd" kind="function"><name>set_c_pt1</name></member>
+    <member refid="classQuadRotorDynamics_1ad743aee3d06c6987d0a70e4503f9c7c6" kind="function"><name>set_dead_time_pt1</name></member>
+    <member refid="classQuadRotorDynamics_1a57f4210aee5f8ddde170d4b9f62fde2b" kind="function"><name>getMechanics</name></member>
+    <member refid="classQuadRotorDynamics_1a63b315a9a66707236a8780a9229fd63c" kind="function"><name>getThrust</name></member>
+    <member refid="classQuadRotorDynamics_1aaa0be18d7a8b9244ce57292c60d74698" kind="function"><name>getTorque</name></member>
+    <member refid="classQuadRotorDynamics_1adec8d18d4ce8bad0197501773fa7e6ea" kind="function"><name>setErrorType</name></member>
+    <member refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kind="function"><name>check_limits</name></member>
+    <member refid="classQuadRotorDynamics_1a6af363905190ef448b961a70a5b0042a" kind="function"><name>aerodynamics</name></member>
+    <member refid="classQuadRotorDynamics_1af7e8d034a94d648d9d6136e0540db630" kind="function"><name>roll_pitch_torque</name></member>
+    <member refid="classQuadRotorDynamics_1a78d2bfe2469d1fd447b486ebf6a3fd64" kind="function"><name>disturbance</name></member>
+    <member refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kind="function"><name>pt1_element</name></member>
+  </compound>
+  <compound refid="classSensors" kind="class"><name>Sensors</name>
+    <member refid="classSensors_1a941f353c9788c592575d2267860793db" kind="variable"><name>imu</name></member>
+    <member refid="classSensors_1ace2d0bed5dc417f666b1af05f1985852" kind="variable"><name>mag</name></member>
+    <member refid="classSensors_1a6d327380100530f7221d0a75506f03f4" kind="variable"><name>gps</name></member>
+  </compound>
+  <compound refid="classSIL" kind="class"><name>SIL</name>
+    <member refid="classSIL_1a807e18b347926da1b8bfd375b31b4397" kind="variable"><name>_rotor_speed</name></member>
+    <member refid="classSIL_1acf01cad2432f30fa1bf3566c11400119" kind="variable"><name>_actuation_value</name></member>
+    <member refid="classSIL_1a19b0b595318ed350fad37b9945489588" kind="variable"><name>_test_sequence_iterator</name></member>
+    <member refid="classSIL_1a9c92d49ff4644b8bb71f69cc55961a8a" kind="variable"><name>_ps3controller</name></member>
+    <member refid="classSIL_1a0e195277d2e26a6ce681b1d84dbe72a6" kind="function"><name>SIL</name></member>
+    <member refid="classSIL_1aa9c8c439c3fa725fe59f2245c274a369" kind="function"><name>~SIL</name></member>
+    <member refid="classSIL_1a15370199edeb534b96ac2fb7fc97362a" kind="function"><name>get_rotor_speed</name></member>
+    <member refid="classSIL_1ad61155d21c843c82a40e7a0143ba15a7" kind="function"><name>get_actuation_value</name></member>
+    <member refid="classSIL_1ae46ca96d637be59877af11d0ec661bb0" kind="function"><name>init</name></member>
+    <member refid="classSIL_1a6a7c1fe2a8b2e251c392569129fc06ea" kind="function"><name>update</name></member>
+    <member refid="classSIL_1ad2aea8d97e12b77f5438d40b91514336" kind="function"><name>test_sequence</name></member>
+    <member refid="classSIL_1ab1f50cad8ee00ead398a145974827b29" kind="function"><name>get_ps3controller</name></member>
+    <member refid="classSIL_1a8260a0d9fcac749ac23fe0f945f60af9" kind="function"><name>get_key</name></member>
+  </compound>
+  <compound refid="classStartuj" kind="class"><name>Startuj</name>
+    <member refid="classStartuj_1a6d7fd5724c5caf8c6325e1aa99291d23" kind="function"><name>Startuj</name></member>
+    <member refid="classStartuj_1abf9af56129ce3921834970a815be8988" kind="function"><name>~Startuj</name></member>
+  </compound>
+  <compound refid="classThrust" kind="class"><name>Thrust</name>
+    <member refid="classThrust_1ae1670b0483f78052e37bfc43d7b5705b" kind="variable"><name>motor</name></member>
+    <member refid="classThrust_1a1a1b69987e0ba0c118594a16c9aac8a8" kind="variable"><name>motor_vec3</name></member>
+    <member refid="classThrust_1ac5c6aefb280d3d3ffe2970c1a6d7f421" kind="function"><name>Thrust</name></member>
+    <member refid="classThrust_1a9eb98d876a28c1f9d84bf329df9f3bab" kind="function"><name>vec3</name></member>
+    <member refid="classThrust_1aacfa892b397ca841afd069d44d798159" kind="function"><name>all_vec3</name></member>
+  </compound>
+  <compound refid="classTorque" kind="class"><name>Torque</name>
+    <member refid="classTorque_1a64b4e9ef32f9ca60fa5902a4bb3b3bc0" kind="variable"><name>roll</name></member>
+    <member refid="classTorque_1a070c7b6cc2709580beb1dcfd49ac5886" kind="variable"><name>pitch</name></member>
+    <member refid="classTorque_1a960a9d0e47dfdca04359994daf0dea33" kind="variable"><name>yaw</name></member>
+    <member refid="classTorque_1ae87feb5f218fba7aa5be9fab4e2d114c" kind="variable"><name>torque_vec3</name></member>
+    <member refid="classTorque_1adab996768b7f4f78f489fed1ae256930" kind="function"><name>vec3</name></member>
+    <member refid="classTorque_1a15f19c1be7744f4cb2de141a60f2b8d5" kind="function"><name>set_torque</name></member>
+  </compound>
+  <compound refid="namespacegazebo" kind="namespace"><name>gazebo</name>
+  </compound>
+  <compound refid="conio_8h" kind="file"><name>conio.h</name>
+    <member refid="conio_8h_1a0f1eb71eb2a99ce91a2de2d681551d15" kind="define"><name>MAX_OKIEN</name></member>
+    <member refid="conio_8h_1a7b3b25cba33b07c303f3060fe41887f6" kind="define"><name>BLACK</name></member>
+    <member refid="conio_8h_1a8d23feea868a983c8c2b661e1e16972f" kind="define"><name>RED</name></member>
+    <member refid="conio_8h_1acfbc006ea433ad708fdee3e82996e721" kind="define"><name>GREEN</name></member>
+    <member refid="conio_8h_1ab2baea56ece91306020afd6d77fd19f9" kind="define"><name>BROWN</name></member>
+    <member refid="conio_8h_1a79d10e672abb49ad63eeaa8aaef57c38" kind="define"><name>BLUE</name></member>
+    <member refid="conio_8h_1a6f699060902f800f12aaae150f3a708e" kind="define"><name>MAGENTA</name></member>
+    <member refid="conio_8h_1ad243f93c16bc4c1d3e0a13b84421d760" kind="define"><name>CYAN</name></member>
+    <member refid="conio_8h_1a04c5c34bd701165eade98623d1cc0020" kind="define"><name>LIGHTGRAY</name></member>
+    <member refid="conio_8h_1a4c08a6ce38e246fb2e4443329645aa5a" kind="define"><name>DARKGRAY</name></member>
+    <member refid="conio_8h_1a880e260096b011d770b6983e576e1237" kind="define"><name>LIGHTRED</name></member>
+    <member refid="conio_8h_1a4cc964ad8b138b5bf7d54f1c1032d921" kind="define"><name>LIGHTGREEN</name></member>
+    <member refid="conio_8h_1abf681265909adf3d3e8116c93c0ba179" kind="define"><name>YELLOW</name></member>
+    <member refid="conio_8h_1aaf6e41139cf8cb9ce7824a4f82ff5f83" kind="define"><name>LIGHTBLUE</name></member>
+    <member refid="conio_8h_1ada419fe3b48fcf19daed7cc57ccf1174" kind="define"><name>PINK</name></member>
+    <member refid="conio_8h_1a27520e6218a2c2253a81bc291b366e90" kind="define"><name>LIGHTCYAN</name></member>
+    <member refid="conio_8h_1a87b537f5fa5c109d3c05c13d6b18f382" kind="define"><name>WHITE</name></member>
+    <member refid="conio_8h_1a6dc7d4c628485c01f1547fe6895305b2" kind="define"><name>getch</name></member>
+    <member refid="conio_8h_1a00061a93a8dc5997e31ca60e0b2a183f" kind="define"><name>getche</name></member>
+    <member refid="conio_8h_1a7dd49648831bf5d1ade1852c4682dd64" kind="variable"><name>Start</name></member>
+    <member refid="conio_8h_1a3a658e5e49785cfef74265bf4dd30948" kind="variable"><name>zainicjowane</name></member>
+    <member refid="conio_8h_1a6854fcc2d94f3c63ba52312bd9e11980" kind="variable"><name>znakSpecjalny</name></member>
+    <member refid="conio_8h_1a76f11d9a0a47b94f72c2d0e77fb32240" kind="variable"><name>n</name></member>
+    <member refid="conio_8h_1ab4a7a9d9d03f7b50f0edf0aebe851aee" kind="variable"><name>kolorTekstu</name></member>
+    <member refid="conio_8h_1ab80f24247b2304c513ba0847e661e48b" kind="variable"><name>kolorTla</name></member>
+    <member refid="conio_8h_1a6a2a2e9cf454cbc4df215d4222035db6" kind="variable"><name>biezacaPara</name></member>
+    <member refid="conio_8h_1a4b81b0a81e6afbb4129c4620448a2765" kind="variable"><name>okienka</name></member>
+    <member refid="conio_8h_1ab15b7318229ccc5626e554d1ec503bec" kind="variable"><name>aktywneOkno</name></member>
+    <member refid="conio_8h_1a359340edc53b8ce32170a9ff29a7a45c" kind="function"><name>inicjuj</name></member>
+    <member refid="conio_8h_1a4c6e8ba7bc552473eed5fed5b17df471" kind="function"><name>simple_strlen</name></member>
+    <member refid="conio_8h_1a1d0f65badae5af5501bed64713c06e85" kind="function"><name>cputs</name></member>
+    <member refid="conio_8h_1a07af838cb75b39f011e7c530ba49f911" kind="function"><name>cgets</name></member>
+    <member refid="conio_8h_1a24aca17c97bbc6e547a836df3d57be3a" kind="function"><name>clreol</name></member>
+    <member refid="conio_8h_1af3eac3ad203ab091baad010ef3f7ab0a" kind="function"><name>clrscr</name></member>
+    <member refid="conio_8h_1aa5fa136f271fadd06aac0968aea7382a" kind="function"><name>cprintf</name></member>
+    <member refid="conio_8h_1ab4a73f478ba9b65fbd3fa6e00e93b545" kind="function"><name>cscanf</name></member>
+    <member refid="conio_8h_1a3638c19d14044eef5b111f3bc5497004" kind="function"><name>CURSgetch</name></member>
+    <member refid="conio_8h_1abd3cb6895ddef52c62a98ad6337107c3" kind="function"><name>CURSgetche</name></member>
+    <member refid="conio_8h_1a1b0bf0ea7227f31f173af0decd87cf63" kind="function"><name>gotoxy</name></member>
+    <member refid="conio_8h_1ad5451da499ab9d3907da8dd7060ab677" kind="function"><name>kbhit</name></member>
+    <member refid="conio_8h_1af7469d78447e4e492b4100dba013863b" kind="function"><name>putch</name></member>
+    <member refid="conio_8h_1aaf71104f1d57f0bc9b80416cc3cf4f16" kind="function"><name>textbackground</name></member>
+    <member refid="conio_8h_1a818b5eb21f83d17a055dfb604949cbd3" kind="function"><name>textcolor</name></member>
+    <member refid="conio_8h_1a8025f3b9544217c4375ddbfe8999fc55" kind="function"><name>wherex</name></member>
+    <member refid="conio_8h_1a71fd601ded5451d1ce7091830343d67a" kind="function"><name>wherey</name></member>
+    <member refid="conio_8h_1a754009c3ffd1a54953693d5448b311c6" kind="function"><name>window</name></member>
+  </compound>
+  <compound refid="constants_8hh" kind="file"><name>constants.hh</name>
+    <member refid="constants_8hh_1a6deae531d7a9dacd80e28d1d165f54fe" kind="define"><name>EFFICIENCY_CMR</name></member>
+    <member refid="constants_8hh_1a3cbb787b120096c4fbc7d6b546b137b5" kind="define"><name>KT_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1ad3d7416dc16011010abbe4c38b31ec45" kind="define"><name>KM_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1ace8c41f7cf75c20c75f98b8094b06134" kind="define"><name>K_PT1_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1a3ee02821c90e91b53c23e88793a8fa70" kind="define"><name>C_PT1_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1ad474a2f1a932417c8dfab4d0e018d475" kind="define"><name>T_PT1_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1a695d9934e1387fad6660380df895e107" kind="define"><name>DEAD_TIME_PT1_RR282734_10_45_R</name></member>
+    <member refid="constants_8hh_1a920fa16721f6c96099567d039d3d6e52" kind="define"><name>MOMENT_ARM</name></member>
+    <member refid="constants_8hh_1a6af465fcd305a2848df3559345032420" kind="define"><name>SIM_TIME</name></member>
+    <member refid="constants_8hh_1a258bb72419ef143530a2f8f55e7d57af" kind="define"><name>NO_ERROR</name></member>
+    <member refid="constants_8hh_1a9669ffb28821952924f09113ff956194" kind="define"><name>GAUSSIAN_NOISE</name></member>
+    <member refid="constants_8hh_1ad782c187742fc9749b4f10f6238cd678" kind="define"><name>SINE_ERROR</name></member>
+    <member refid="constants_8hh_1ac25c6a324554f8ae267ad7c1638074a8" kind="define"><name>FRONT</name></member>
+    <member refid="constants_8hh_1a80fb826a684cf3f0d306b22aa100ddac" kind="define"><name>RIGHT</name></member>
+    <member refid="constants_8hh_1a8429b2894ba4d100699273e5bd5d80ca" kind="define"><name>REAR</name></member>
+    <member refid="constants_8hh_1a437ef08681e7210d6678427030446a54" kind="define"><name>LEFT</name></member>
+    <member refid="constants_8hh_1a22515020e3a35a44154c2746fe4ecb34" kind="define"><name>MOTOR_1</name></member>
+    <member refid="constants_8hh_1afeb61856f0eaca0069683f263efc35f7" kind="define"><name>MOTOR_2</name></member>
+    <member refid="constants_8hh_1ad445efe8bf5c90538e2e8204892bcc13" kind="define"><name>MOTOR_3</name></member>
+    <member refid="constants_8hh_1adec1c0f95571eda666a05aca2bfc2272" kind="define"><name>MOTOR_4</name></member>
+    <member refid="constants_8hh_1ac597abe7cf610f262f7aaec53ed1d413" kind="define"><name>M1</name></member>
+    <member refid="constants_8hh_1a2a187ef3afced0eb4c4cb99515e5429c" kind="define"><name>M2</name></member>
+    <member refid="constants_8hh_1ad801d72bd01ef1ac9b86dbf4de0d355d" kind="define"><name>M3</name></member>
+    <member refid="constants_8hh_1a9a3433d6613a64df14bf05957ba30837" kind="define"><name>M4</name></member>
+  </compound>
+  <compound refid="ps3control_8hh" kind="file"><name>ps3control.hh</name>
+    <member refid="ps3control_8hh_1a2f42ec9f30934c824c44e512dc511e5b" kind="define"><name>LEFT_STICK_UP_MAX</name></member>
+    <member refid="ps3control_8hh_1a26ef24d4891a7f43e1971b1a2400ac35" kind="define"><name>LEFT_STICK_DOWN_MAX</name></member>
+    <member refid="ps3control_8hh_1ae415a1090c9b10a95d6f0fbd222cb984" kind="define"><name>PS3_GAIN_GAS</name></member>
+    <member refid="ps3control_8hh_1a5173bc5a5f2d8154526bbbf968ea6ebf" kind="define"><name>PS3_GAIN_PITCH</name></member>
+    <member refid="ps3control_8hh_1aed89fb7624fcd9e835fe336387530f13" kind="define"><name>PS3_GAIN_ROLL</name></member>
+    <member refid="ps3control_8hh_1aef216a66e124761d74cf7bd0cfe8a009" kind="define"><name>PS3_GAIN_YAW</name></member>
+  </compound>
+  <compound refid="resources_8hh" kind="file"><name>resources.hh</name>
+  </compound>
+  <compound refid="gazebo__imu__plugin_8cc" kind="file"><name>gazebo_imu_plugin.cc</name>
+  </compound>
+  <compound refid="gazebo__imu__plugin_8hh" kind="file"><name>gazebo_imu_plugin.hh</name>
+  </compound>
+  <compound refid="gazebo__model__plugin_8cc" kind="file"><name>gazebo_model_plugin.cc</name>
+  </compound>
+  <compound refid="gazebo__model__plugin_8hh" kind="file"><name>gazebo_model_plugin.hh</name>
+  </compound>
+  <compound refid="joystick_8cc" kind="file"><name>joystick.cc</name>
+  </compound>
+  <compound refid="joystick_8hh" kind="file"><name>joystick.hh</name>
+    <member refid="joystick_8hh_1a71d23125c1b98e6465437421fa81c1c1" kind="define"><name>JS_EVENT_BUTTON</name></member>
+    <member refid="joystick_8hh_1af044e880551e906e55ba0747fd521da3" kind="define"><name>JS_EVENT_AXIS</name></member>
+    <member refid="joystick_8hh_1a026e247352c2347ccf871daa4047f7ff" kind="define"><name>JS_EVENT_INIT</name></member>
+  </compound>
+  <compound refid="test_8cc" kind="file"><name>test.cc</name>
+    <member refid="test_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="quadrotor__dynamics_8cc" kind="file"><name>quadrotor_dynamics.cc</name>
+  </compound>
+  <compound refid="quadrotor__dynamics_8hh" kind="file"><name>quadrotor_dynamics.hh</name>
+  </compound>
+  <compound refid="sil_8cc" kind="file"><name>sil.cc</name>
+  </compound>
+  <compound refid="sil_8hh" kind="file"><name>sil.hh</name>
+  </compound>
+  <compound refid="dir_c4281fbd73f88f15ea1128345f110628" kind="dir"><name>/home/usappz/DeadalusSim/source/dependencies/</name>
+  </compound>
+  <compound refid="dir_163814bbaf85410eff9286c0b9ff6664" kind="dir"><name>/home/usappz/DeadalusSim/source/gazebo_plugins/</name>
+  </compound>
+  <compound refid="dir_d2fb64e04484a12e110299d38e992e4c" kind="dir"><name>/home/usappz/DeadalusSim/source/joystick/</name>
+  </compound>
+  <compound refid="dir_eabdd9a6b24a18ca53b10b0c0335cd1a" kind="dir"><name>/home/usappz/DeadalusSim/source/quadrotor_dynamics/</name>
+  </compound>
+  <compound refid="dir_7cab9fd6335a927d8fdc83ce9d98d423" kind="dir"><name>/home/usappz/DeadalusSim/source/sil/</name>
+  </compound>
+  <compound refid="dir_ea4717b444ce520bef28cb276e7783e4" kind="dir"><name>/home/usappz/DeadalusSim/source/</name>
+  </compound>
+</doxygenindex>

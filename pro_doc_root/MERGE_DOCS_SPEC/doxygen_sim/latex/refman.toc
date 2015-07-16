@@ -1,0 +1,44 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Class \discretionary {-}{}{}List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Class \discretionary {-}{}{}Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Actuation\discretionary {-}{}{}Value \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}\discretionary {-}{}{}Angular\discretionary {-}{}{}Vel \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}gazebo\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Gazebo\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}U\discretionary {-}{}{}Plugin \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{3}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{4}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}\discretionary {-}{}{}Load}{4}{subsubsection.2.3.2.1}
+\contentsline {section}{\numberline {2.4}gazebo\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Gazebo\discretionary {-}{}{}Model\discretionary {-}{}{}Plugin \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{6}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{6}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}callback\discretionary {-}{}{}\_\discretionary {-}{}{}imu}{6}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}\discretionary {-}{}{}On\discretionary {-}{}{}Update}{6}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}S \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}U \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{7}{section.2.6}
+\contentsline {section}{\numberline {2.7}\discretionary {-}{}{}M\discretionary {-}{}{}A\discretionary {-}{}{}G \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{section.2.7}
+\contentsline {section}{\numberline {2.8}\discretionary {-}{}{}Mechanics \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{section.2.8}
+\contentsline {section}{\numberline {2.9}\discretionary {-}{}{}Quad\discretionary {-}{}{}Rotor\discretionary {-}{}{}Dynamics \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{10}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{11}{subsection.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.2.1}aerodynamics}{11}{subsubsection.2.9.2.1}
+\contentsline {subsubsection}{\numberline {2.9.2.2}check\discretionary {-}{}{}\_\discretionary {-}{}{}limits}{11}{subsubsection.2.9.2.2}
+\contentsline {subsubsection}{\numberline {2.9.2.3}disturbance}{11}{subsubsection.2.9.2.3}
+\contentsline {subsubsection}{\numberline {2.9.2.4}get\discretionary {-}{}{}Mechanics}{11}{subsubsection.2.9.2.4}
+\contentsline {subsubsection}{\numberline {2.9.2.5}get\discretionary {-}{}{}Thrust}{11}{subsubsection.2.9.2.5}
+\contentsline {subsubsection}{\numberline {2.9.2.6}get\discretionary {-}{}{}Torque}{11}{subsubsection.2.9.2.6}
+\contentsline {subsubsection}{\numberline {2.9.2.7}pt1\discretionary {-}{}{}\_\discretionary {-}{}{}element}{12}{subsubsection.2.9.2.7}
+\contentsline {subsubsection}{\numberline {2.9.2.8}roll\discretionary {-}{}{}\_\discretionary {-}{}{}pitch\discretionary {-}{}{}\_\discretionary {-}{}{}torque}{12}{subsubsection.2.9.2.8}
+\contentsline {subsubsection}{\numberline {2.9.2.9}set\discretionary {-}{}{}\_\discretionary {-}{}{}k\discretionary {-}{}{}\_\discretionary {-}{}{}pt1}{12}{subsubsection.2.9.2.9}
+\contentsline {subsubsection}{\numberline {2.9.2.10}set\discretionary {-}{}{}Error\discretionary {-}{}{}Type}{12}{subsubsection.2.9.2.10}
+\contentsline {subsubsection}{\numberline {2.9.2.11}update}{12}{subsubsection.2.9.2.11}
+\contentsline {subsection}{\numberline {2.9.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{13}{subsection.2.9.3}
+\contentsline {subsubsection}{\numberline {2.9.3.1}\discretionary {-}{}{}\_\discretionary {-}{}{}actuation\discretionary {-}{}{}\_\discretionary {-}{}{}value}{13}{subsubsection.2.9.3.1}
+\contentsline {subsubsection}{\numberline {2.9.3.2}\discretionary {-}{}{}\_\discretionary {-}{}{}d\discretionary {-}{}{}T}{13}{subsubsection.2.9.3.2}
+\contentsline {section}{\numberline {2.10}\discretionary {-}{}{}Sensors \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{13}{section.2.10}
+\contentsline {section}{\numberline {2.11}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}L \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{13}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{14}{subsection.2.11.1}
+\contentsline {subsection}{\numberline {2.11.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{14}{subsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.2.1}update}{14}{subsubsection.2.11.2.1}
+\contentsline {subsection}{\numberline {2.11.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{14}{subsection.2.11.3}
+\contentsline {subsubsection}{\numberline {2.11.3.1}\discretionary {-}{}{}\_\discretionary {-}{}{}actuation\discretionary {-}{}{}\_\discretionary {-}{}{}value}{14}{subsubsection.2.11.3.1}
+\contentsline {section}{\numberline {2.12}\discretionary {-}{}{}Thrust \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{15}{section.2.12}
+\contentsline {section}{\numberline {2.13}\discretionary {-}{}{}Torque \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{15}{section.2.13}

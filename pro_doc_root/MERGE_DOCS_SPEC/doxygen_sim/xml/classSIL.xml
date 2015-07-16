@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classSIL" kind="class" prot="public">
+    <compoundname>SIL</compoundname>
+    <includes refid="sil_8hh" local="no">sil.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSIL_1a807e18b347926da1b8bfd375b31b4397" prot="private" static="no" mutable="no">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel SIL::_rotor_speed</definition>
+        <argsstring></argsstring>
+        <name>_rotor_speed</name>
+        <briefdescription>
+<para>Current rotor speed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="41" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.hh" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSIL_1acf01cad2432f30fa1bf3566c11400119" prot="private" static="no" mutable="no">
+        <type><ref refid="classActuationVal" kindref="compound">ActuationVal</ref></type>
+        <definition>ActuationVal SIL::_actuation_value</definition>
+        <argsstring></argsstring>
+        <name>_actuation_value</name>
+        <briefdescription>
+<para>Current actuation value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="42" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.hh" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSIL_1a19b0b595318ed350fad37b9945489588" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SIL::_test_sequence_iterator</definition>
+        <argsstring></argsstring>
+        <name>_test_sequence_iterator</name>
+        <briefdescription>
+<para>Iterator for the test_sequence function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="45" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.hh" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSIL_1a9c92d49ff4644b8bb71f69cc55961a8a" prot="private" static="no" mutable="no">
+        <type><ref refid="classJoystick" kindref="compound">Joystick</ref></type>
+        <definition>Joystick SIL::_ps3controller</definition>
+        <argsstring></argsstring>
+        <name>_ps3controller</name>
+        <briefdescription>
+<para>Instance of <ref refid="classJoystick" kindref="compound">Joystick</ref> class to obtain data of playstion 3 controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="61" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.hh" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSIL_1a0e195277d2e26a6ce681b1d84dbe72a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SIL::SIL</definition>
+        <argsstring>()</argsstring>
+        <name>SIL</name>
+        <briefdescription>
+<para>The <ref refid="classSIL" kindref="compound">SIL</ref> class contains everything, that is needed to simulate the firmware of the quadrocopter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="35" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1aa9c8c439c3fa725fe59f2245c274a369" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SIL::~SIL</definition>
+        <argsstring>()</argsstring>
+        <name>~SIL</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="38" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1a15370199edeb534b96ac2fb7fc97362a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel SIL::get_rotor_speed</definition>
+        <argsstring>()</argsstring>
+        <name>get_rotor_speed</name>
+        <briefdescription>
+<para>Returns the current rotor speed. </para>        </briefdescription>
+        <detaileddescription>
+<para>Get current rotor speed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="69" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1ad61155d21c843c82a40e7a0143ba15a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classActuationVal" kindref="compound">ActuationVal</ref></type>
+        <definition>ActuationVal SIL::get_actuation_value</definition>
+        <argsstring>()</argsstring>
+        <name>get_actuation_value</name>
+        <briefdescription>
+<para>Returns the current actuation value. </para>        </briefdescription>
+        <detaileddescription>
+<para>Get current actuation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="70" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1ae46ca96d637be59877af11d0ec661bb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SIL::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+<para>This function is intended to be called when the simulation is loaded. It should contain all test code which is intended to be called before the main loop. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="75" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="146" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1a6a7c1fe2a8b2e251c392569129fc06ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SIL::update</definition>
+        <argsstring>(double dT, Sensors mySensorsVals)</argsstring>
+        <name>update</name>
+        <param>
+          <type>double</type>
+          <declname>dT</declname>
+        </param>
+        <param>
+          <type><ref refid="classSensors" kindref="compound">Sensors</ref></type>
+          <declname>mySensorsVals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is intended to be called in the whenever the simulation is updated. It should contain the code of the firmware which is intended to be simulated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="80" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="157" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSIL_1ad2aea8d97e12b77f5438d40b91514336" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SIL::test_sequence</definition>
+        <argsstring>()</argsstring>
+        <name>test_sequence</name>
+        <briefdescription>
+<para>This function contains a sequence of test stimuli. It is intended to be called in <ref refid="classSIL_1a6a7c1fe2a8b2e251c392569129fc06ea" kindref="member">update(double, Sensors)</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="63" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="120" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1ab1f50cad8ee00ead398a145974827b29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SIL::get_ps3controller</definition>
+        <argsstring>()</argsstring>
+        <name>get_ps3controller</name>
+        <briefdescription>
+<para>Obtains the current state of the playstation 3 controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="65" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="55" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classSIL_1a8260a0d9fcac749ac23fe0f945f60af9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SIL::get_key</definition>
+        <argsstring>()</argsstring>
+        <name>get_key</name>
+        <briefdescription>
+<para>Obtains keyboard inputs (not supported yet) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="66" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.cc" bodystart="114" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classSIL" kindref="compound">SIL</ref> class contains everything, that is needed to simulate the Software in the Loop (<ref refid="classSIL" kindref="compound">SIL</ref>) of the quadrocopter, which is intended to be the quadrotor firmware. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="49">
+        <label>SIL</label>
+        <link refid="classSIL"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>_actuation_value</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>_ps3controller</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>_rotor_speed</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>ActuationVal</label>
+        <link refid="classActuationVal"/>
+      </node>
+      <node id="52">
+        <label>AngularVel</label>
+        <link refid="classAngularVel"/>
+      </node>
+      <node id="51">
+        <label>Joystick</label>
+        <link refid="classJoystick"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usappz/DeadalusSim/source/sil/sil.hh" line="32" bodyfile="/home/usappz/DeadalusSim/source/sil/sil.hh" bodystart="31" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classSIL_1acf01cad2432f30fa1bf3566c11400119" prot="private" virt="non-virtual"><scope>SIL</scope><name>_actuation_value</name></member>
+      <member refid="classSIL_1a9c92d49ff4644b8bb71f69cc55961a8a" prot="private" virt="non-virtual"><scope>SIL</scope><name>_ps3controller</name></member>
+      <member refid="classSIL_1a807e18b347926da1b8bfd375b31b4397" prot="private" virt="non-virtual"><scope>SIL</scope><name>_rotor_speed</name></member>
+      <member refid="classSIL_1a19b0b595318ed350fad37b9945489588" prot="private" virt="non-virtual"><scope>SIL</scope><name>_test_sequence_iterator</name></member>
+      <member refid="classSIL_1ad61155d21c843c82a40e7a0143ba15a7" prot="public" virt="non-virtual"><scope>SIL</scope><name>get_actuation_value</name></member>
+      <member refid="classSIL_1a8260a0d9fcac749ac23fe0f945f60af9" prot="private" virt="non-virtual"><scope>SIL</scope><name>get_key</name></member>
+      <member refid="classSIL_1ab1f50cad8ee00ead398a145974827b29" prot="private" virt="non-virtual"><scope>SIL</scope><name>get_ps3controller</name></member>
+      <member refid="classSIL_1a15370199edeb534b96ac2fb7fc97362a" prot="public" virt="non-virtual"><scope>SIL</scope><name>get_rotor_speed</name></member>
+      <member refid="classSIL_1ae46ca96d637be59877af11d0ec661bb0" prot="public" virt="non-virtual"><scope>SIL</scope><name>init</name></member>
+      <member refid="classSIL_1a0e195277d2e26a6ce681b1d84dbe72a6" prot="public" virt="non-virtual"><scope>SIL</scope><name>SIL</name></member>
+      <member refid="classSIL_1ad2aea8d97e12b77f5438d40b91514336" prot="private" virt="non-virtual"><scope>SIL</scope><name>test_sequence</name></member>
+      <member refid="classSIL_1a6a7c1fe2a8b2e251c392569129fc06ea" prot="public" virt="non-virtual"><scope>SIL</scope><name>update</name></member>
+      <member refid="classSIL_1aa9c8c439c3fa725fe59f2245c274a369" prot="public" virt="virtual"><scope>SIL</scope><name>~SIL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+\hypertarget{classSIL}{\section{\-S\-I\-L \-Class \-Reference}
+\label{classSIL}\index{\-S\-I\-L@{\-S\-I\-L}}
+}
+
+
+\-The \hyperlink{classSIL}{\-S\-I\-L} class contains everything, that is needed to simulate the \-Software in the \-Loop (\hyperlink{classSIL}{\-S\-I\-L}) of the quadrocopter, which is intended to be the quadrotor firmware.  
+
+
+
+
+{\ttfamily \#include $<$sil.\-hh$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSIL_a0e195277d2e26a6ce681b1d84dbe72a6}{\hyperlink{classSIL_a0e195277d2e26a6ce681b1d84dbe72a6}{\-S\-I\-L} ()}\label{classSIL_a0e195277d2e26a6ce681b1d84dbe72a6}
+
+\begin{DoxyCompactList}\small\item\em \-The \hyperlink{classSIL}{\-S\-I\-L} class contains everything, that is needed to simulate the firmware of the quadrocopter. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_aa9c8c439c3fa725fe59f2245c274a369}{virtual \hyperlink{classSIL_aa9c8c439c3fa725fe59f2245c274a369}{$\sim$\-S\-I\-L} ()}\label{classSIL_aa9c8c439c3fa725fe59f2245c274a369}
+
+\begin{DoxyCompactList}\small\item\em \-Destructor. \end{DoxyCompactList}\item 
+\hyperlink{classAngularVel}{\-Angular\-Vel} \hyperlink{classSIL_a15370199edeb534b96ac2fb7fc97362a}{get\-\_\-rotor\-\_\-speed} ()
+\begin{DoxyCompactList}\small\item\em \-Returns the current rotor speed. \end{DoxyCompactList}\item 
+\hyperlink{classActuationVal}{\-Actuation\-Val} \hyperlink{classSIL_ad61155d21c843c82a40e7a0143ba15a7}{get\-\_\-actuation\-\_\-value} ()
+\begin{DoxyCompactList}\small\item\em \-Returns the current actuation value. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_ae46ca96d637be59877af11d0ec661bb0}{void \hyperlink{classSIL_ae46ca96d637be59877af11d0ec661bb0}{init} ()}\label{classSIL_ae46ca96d637be59877af11d0ec661bb0}
+
+\begin{DoxyCompactList}\small\item\em \-This function is intended to be called when the simulation is loaded. \-It should contain all test code which is intended to be called before the main loop. \end{DoxyCompactList}\item 
+void \hyperlink{classSIL_a6a7c1fe2a8b2e251c392569129fc06ea}{update} (double d\-T, \hyperlink{classSensors}{\-Sensors} my\-Sensors\-Vals)
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSIL_ad2aea8d97e12b77f5438d40b91514336}{void \hyperlink{classSIL_ad2aea8d97e12b77f5438d40b91514336}{test\-\_\-sequence} ()}\label{classSIL_ad2aea8d97e12b77f5438d40b91514336}
+
+\begin{DoxyCompactList}\small\item\em \-This function contains a sequence of test stimuli. \-It is intended to be called in \hyperlink{classSIL_a6a7c1fe2a8b2e251c392569129fc06ea}{update(double, Sensors)} \end{DoxyCompactList}\item 
+\hypertarget{classSIL_ab1f50cad8ee00ead398a145974827b29}{void \hyperlink{classSIL_ab1f50cad8ee00ead398a145974827b29}{get\-\_\-ps3controller} ()}\label{classSIL_ab1f50cad8ee00ead398a145974827b29}
+
+\begin{DoxyCompactList}\small\item\em \-Obtains the current state of the playstation 3 controller. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_a8260a0d9fcac749ac23fe0f945f60af9}{void \hyperlink{classSIL_a8260a0d9fcac749ac23fe0f945f60af9}{get\-\_\-key} ()}\label{classSIL_a8260a0d9fcac749ac23fe0f945f60af9}
+
+\begin{DoxyCompactList}\small\item\em \-Obtains keyboard inputs (not supported yet) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSIL_a807e18b347926da1b8bfd375b31b4397}{\hyperlink{classAngularVel}{\-Angular\-Vel} \hyperlink{classSIL_a807e18b347926da1b8bfd375b31b4397}{\-\_\-rotor\-\_\-speed}}\label{classSIL_a807e18b347926da1b8bfd375b31b4397}
+
+\begin{DoxyCompactList}\small\item\em \-Current rotor speed. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_acf01cad2432f30fa1bf3566c11400119}{\hyperlink{classActuationVal}{\-Actuation\-Val} \hyperlink{classSIL_acf01cad2432f30fa1bf3566c11400119}{\-\_\-actuation\-\_\-value}}\label{classSIL_acf01cad2432f30fa1bf3566c11400119}
+
+\begin{DoxyCompactList}\small\item\em \-Current actuation value. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_a19b0b595318ed350fad37b9945489588}{int \hyperlink{classSIL_a19b0b595318ed350fad37b9945489588}{\-\_\-test\-\_\-sequence\-\_\-iterator}}\label{classSIL_a19b0b595318ed350fad37b9945489588}
+
+\begin{DoxyCompactList}\small\item\em \-Iterator for the test\-\_\-sequence function. \end{DoxyCompactList}\item 
+\hypertarget{classSIL_a9c92d49ff4644b8bb71f69cc55961a8a}{\hyperlink{classJoystick}{\-Joystick} \hyperlink{classSIL_a9c92d49ff4644b8bb71f69cc55961a8a}{\-\_\-ps3controller}}\label{classSIL_a9c92d49ff4644b8bb71f69cc55961a8a}
+
+\begin{DoxyCompactList}\small\item\em \-Instance of \hyperlink{classJoystick}{\-Joystick} class to obtain data of playstion 3 controller. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-The \hyperlink{classSIL}{\-S\-I\-L} class contains everything, that is needed to simulate the \-Software in the \-Loop (\hyperlink{classSIL}{\-S\-I\-L}) of the quadrocopter, which is intended to be the quadrotor firmware. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classSIL_ad61155d21c843c82a40e7a0143ba15a7}{\index{\-S\-I\-L@{\-S\-I\-L}!get\-\_\-actuation\-\_\-value@{get\-\_\-actuation\-\_\-value}}
+\index{get\-\_\-actuation\-\_\-value@{get\-\_\-actuation\-\_\-value}!SIL@{\-S\-I\-L}}
+\subsubsection[{get\-\_\-actuation\-\_\-value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Actuation\-Val} {\bf \-S\-I\-L\-::get\-\_\-actuation\-\_\-value} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classSIL_ad61155d21c843c82a40e7a0143ba15a7}
+
+
+\-Returns the current actuation value. 
+
+\-Get current actuation. \hypertarget{classSIL_a15370199edeb534b96ac2fb7fc97362a}{\index{\-S\-I\-L@{\-S\-I\-L}!get\-\_\-rotor\-\_\-speed@{get\-\_\-rotor\-\_\-speed}}
+\index{get\-\_\-rotor\-\_\-speed@{get\-\_\-rotor\-\_\-speed}!SIL@{\-S\-I\-L}}
+\subsubsection[{get\-\_\-rotor\-\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Angular\-Vel} {\bf \-S\-I\-L\-::get\-\_\-rotor\-\_\-speed} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classSIL_a15370199edeb534b96ac2fb7fc97362a}
+
+
+\-Returns the current rotor speed. 
+
+\-Get current rotor speed. \hypertarget{classSIL_a6a7c1fe2a8b2e251c392569129fc06ea}{\index{\-S\-I\-L@{\-S\-I\-L}!update@{update}}
+\index{update@{update}!SIL@{\-S\-I\-L}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-S\-I\-L\-::update} (
+\begin{DoxyParamCaption}
+\item[{double}]{d\-T, }
+\item[{{\bf \-Sensors}}]{my\-Sensors\-Vals}
+\end{DoxyParamCaption}
+)}}\label{classSIL_a6a7c1fe2a8b2e251c392569129fc06ea}
+\-This function is intended to be called in the whenever the simulation is updated. \-It should contain the code of the firmware which is intended to be simulated. 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/usappz/\-Deadalus\-Sim/source/sil/sil.\-hh\item 
+/home/usappz/\-Deadalus\-Sim/source/sil/sil.\-cc\end{DoxyCompactItemize}

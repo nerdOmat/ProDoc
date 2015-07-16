@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classIMU" kind="class" prot="public">
+    <compoundname>IMU</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classIMU_1a16bd4062efbff3e6e07f81491bdc3dc1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::acc_x</definition>
+        <argsstring></argsstring>
+        <name>acc_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="147" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1aa5bde37d857dec28fcbe7544af9ec3e9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::acc_y</definition>
+        <argsstring></argsstring>
+        <name>acc_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="147" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a47bb386e4b6acc5600b3c03d0d130960" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::acc_z</definition>
+        <argsstring></argsstring>
+        <name>acc_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="147" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a0a3f4e8e47e1047ec96fa558b83eb567" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::gyro_x</definition>
+        <argsstring></argsstring>
+        <name>gyro_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="148" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a40c3a9e20d6aa8c72df86a5bb3592060" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::gyro_y</definition>
+        <argsstring></argsstring>
+        <name>gyro_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="148" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a9bb72ce07f2318bbb93603c9fa2729fd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::gyro_z</definition>
+        <argsstring></argsstring>
+        <name>gyro_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="148" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a515105cde25acc79d21ac892489a0f9e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::roll_actual</definition>
+        <argsstring></argsstring>
+        <name>roll_actual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="149" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1aaf572063b0d77b64e112f031a4bd0897" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::pitch_actual</definition>
+        <argsstring></argsstring>
+        <name>pitch_actual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="149" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a6d85a90119da57e3ffe317e03e8f5b3c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IMU::yaw_actual</definition>
+        <argsstring></argsstring>
+        <name>yaw_actual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="149" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classIMU_1a55eff9775a5077f46d5c81be127ed09c" prot="private" static="no" mutable="no">
+        <type>gazebo::msgs::Vector3d</type>
+        <definition>gazebo::msgs::Vector3d IMU::acc_vec3</definition>
+        <argsstring></argsstring>
+        <name>acc_vec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="152" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classIMU_1a9417b4520518ccb5fe7cfcf54baec6b8" prot="private" static="no" mutable="no">
+        <type>gazebo::msgs::Vector3d</type>
+        <definition>gazebo::msgs::Vector3d IMU::gyro_vec3</definition>
+        <argsstring></argsstring>
+        <name>gyro_vec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="153" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIMU_1a613d03d8dbf949cdf1bbe8acad3b687f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set_acc</definition>
+        <argsstring>(double a_x, double a_y, double a_z)</argsstring>
+        <name>set_acc</name>
+        <param>
+          <type>double</type>
+          <declname>a_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a_z</declname>
+        </param>
+        <briefdescription>
+<para>Set acceleration values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="169" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classIMU_1a5187c130fb52b8be46978ea138103b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set_acc</definition>
+        <argsstring>(gazebo::msgs::Vector3d acc)</argsstring>
+        <name>set_acc</name>
+        <param>
+          <type>gazebo::msgs::Vector3d</type>
+          <declname>acc</declname>
+        </param>
+        <briefdescription>
+<para>Set acceleration values in gazebo types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="177" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="176" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classIMU_1a2c0cbafc7bc6acf142a6720f67ef8a1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set_gyro</definition>
+        <argsstring>(double g_x, double g_y, double g_z)</argsstring>
+        <name>set_gyro</name>
+        <param>
+          <type>double</type>
+          <declname>g_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>g_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>g_z</declname>
+        </param>
+        <briefdescription>
+<para>Set gyro values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="186" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="185" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classIMU_1af35a3067088c5ffe0acbcfe5eeedcb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set_gyro</definition>
+        <argsstring>(gazebo::msgs::Vector3d gyro)</argsstring>
+        <name>set_gyro</name>
+        <param>
+          <type>gazebo::msgs::Vector3d</type>
+          <declname>gyro</declname>
+        </param>
+        <briefdescription>
+<para>Set gyro values in gazebo types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="194" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="193" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classIMU_1a72be203017649a73245e1825bb0fa6a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IMU::set</definition>
+        <argsstring>(gazebo::msgs::Vector3d acc, gazebo::msgs::Vector3d gyro)</argsstring>
+        <name>set</name>
+        <param>
+          <type>gazebo::msgs::Vector3d</type>
+          <declname>acc</declname>
+        </param>
+        <param>
+          <type>gazebo::msgs::Vector3d</type>
+          <declname>gyro</declname>
+        </param>
+        <briefdescription>
+<para>Set gyro and acceleration values in gazebo types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="203" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="202" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for <ref refid="classIMU" kindref="compound">IMU</ref> sensor data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="145" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="144" bodyend="208"/>
+    <listofallmembers>
+      <member refid="classIMU_1a55eff9775a5077f46d5c81be127ed09c" prot="private" virt="non-virtual"><scope>IMU</scope><name>acc_vec3</name></member>
+      <member refid="classIMU_1a16bd4062efbff3e6e07f81491bdc3dc1" prot="public" virt="non-virtual"><scope>IMU</scope><name>acc_x</name></member>
+      <member refid="classIMU_1aa5bde37d857dec28fcbe7544af9ec3e9" prot="public" virt="non-virtual"><scope>IMU</scope><name>acc_y</name></member>
+      <member refid="classIMU_1a47bb386e4b6acc5600b3c03d0d130960" prot="public" virt="non-virtual"><scope>IMU</scope><name>acc_z</name></member>
+      <member refid="classIMU_1a9417b4520518ccb5fe7cfcf54baec6b8" prot="private" virt="non-virtual"><scope>IMU</scope><name>gyro_vec3</name></member>
+      <member refid="classIMU_1a0a3f4e8e47e1047ec96fa558b83eb567" prot="public" virt="non-virtual"><scope>IMU</scope><name>gyro_x</name></member>
+      <member refid="classIMU_1a40c3a9e20d6aa8c72df86a5bb3592060" prot="public" virt="non-virtual"><scope>IMU</scope><name>gyro_y</name></member>
+      <member refid="classIMU_1a9bb72ce07f2318bbb93603c9fa2729fd" prot="public" virt="non-virtual"><scope>IMU</scope><name>gyro_z</name></member>
+      <member refid="classIMU_1aaf572063b0d77b64e112f031a4bd0897" prot="public" virt="non-virtual"><scope>IMU</scope><name>pitch_actual</name></member>
+      <member refid="classIMU_1a515105cde25acc79d21ac892489a0f9e" prot="public" virt="non-virtual"><scope>IMU</scope><name>roll_actual</name></member>
+      <member refid="classIMU_1a72be203017649a73245e1825bb0fa6a3" prot="public" virt="non-virtual"><scope>IMU</scope><name>set</name></member>
+      <member refid="classIMU_1a613d03d8dbf949cdf1bbe8acad3b687f" prot="public" virt="non-virtual"><scope>IMU</scope><name>set_acc</name></member>
+      <member refid="classIMU_1a5187c130fb52b8be46978ea138103b31" prot="public" virt="non-virtual"><scope>IMU</scope><name>set_acc</name></member>
+      <member refid="classIMU_1a2c0cbafc7bc6acf142a6720f67ef8a1f" prot="public" virt="non-virtual"><scope>IMU</scope><name>set_gyro</name></member>
+      <member refid="classIMU_1af35a3067088c5ffe0acbcfe5eeedcb3b" prot="public" virt="non-virtual"><scope>IMU</scope><name>set_gyro</name></member>
+      <member refid="classIMU_1a6d85a90119da57e3ffe317e03e8f5b3c" prot="public" virt="non-virtual"><scope>IMU</scope><name>yaw_actual</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

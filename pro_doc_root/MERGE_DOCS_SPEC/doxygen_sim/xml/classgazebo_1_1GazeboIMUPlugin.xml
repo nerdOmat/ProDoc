@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgazebo_1_1GazeboIMUPlugin" kind="class" prot="public">
+    <compoundname>gazebo::GazeboIMUPlugin</compoundname>
+    <includes refid="gazebo__imu__plugin_8hh" local="no">gazebo_imu_plugin.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" prot="private" static="no" mutable="no">
+        <type>sensors::ImuSensorPtr</type>
+        <definition>sensors::ImuSensorPtr gazebo::GazeboIMUPlugin::parentSensor</definition>
+        <argsstring></argsstring>
+        <name>parentSensor</name>
+        <briefdescription>
+<para>Pointer to the contact sensor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="32" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1ab641d34696082d04895c37bd3a04a4fc" prot="private" static="no" mutable="no">
+        <type>event::ConnectionPtr</type>
+        <definition>event::ConnectionPtr gazebo::GazeboIMUPlugin::updateConnection</definition>
+        <argsstring></argsstring>
+        <name>updateConnection</name>
+        <briefdescription>
+<para>Connection that maintains a link between the contact sensor&apos;s updated signal and the OnUpdate callback. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="36" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1a353321c42baf09fd6b4f542ef92c4b2c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_acc_x</definition>
+        <argsstring></argsstring>
+        <name>m_acc_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="40" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1a9209423fc4dc45c2db7d96a239b78539" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_acc_y</definition>
+        <argsstring></argsstring>
+        <name>m_acc_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="41" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1a3f1430576aae2c8790bd444f8a7696a7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_acc_z</definition>
+        <argsstring></argsstring>
+        <name>m_acc_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="42" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1a1ab7b15c4e59142060de61de883367c8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_omega_x</definition>
+        <argsstring></argsstring>
+        <name>m_omega_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="46" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1aabecd1fa883d375dee9e366ce62ee910" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_omega_y</definition>
+        <argsstring></argsstring>
+        <name>m_omega_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="47" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1GazeboIMUPlugin_1a172a5a0c84e0daacb2034d6aad0fceee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GazeboIMUPlugin::m_omega_z</definition>
+        <argsstring></argsstring>
+        <name>m_omega_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="48" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1GazeboIMUPlugin_1a825a685d2954b2f21216d806d1d10a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GazeboIMUPlugin::GazeboIMUPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>GazeboIMUPlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="18" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc" bodystart="7" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1GazeboIMUPlugin_1a88ed20ee82baad7195e1529588685cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>GazeboIMUPlugin::~GazeboIMUPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~GazeboIMUPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="21" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1GazeboIMUPlugin_1af793b9782ec5bd05035a191626c37564" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GazeboIMUPlugin::Load</definition>
+        <argsstring>(sensors::SensorPtr _sensor, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>sensors::SensorPtr</type>
+          <declname>_sensor</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load the sensor plugin. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the sensor that loaded this plugin. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">_sdf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>SDF element that describes the plugin. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="26" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc" bodystart="26" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1GazeboIMUPlugin_1ad792da6d6616086392e28fe919090b28" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void GazeboIMUPlugin::OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <briefdescription>
+<para>Callback that recieves the contact sensor&apos;s update signal. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="29" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An example plugin for a contact sensor. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" line="16" bodyfile="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.hh" bodystart="15" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a825a685d2954b2f21216d806d1d10a46" prot="public" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>GazeboIMUPlugin</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1af793b9782ec5bd05035a191626c37564" prot="public" virt="virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a353321c42baf09fd6b4f542ef92c4b2c" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_acc_x</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a9209423fc4dc45c2db7d96a239b78539" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_acc_y</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a3f1430576aae2c8790bd444f8a7696a7" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_acc_z</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a1ab7b15c4e59142060de61de883367c8" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_omega_x</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1aabecd1fa883d375dee9e366ce62ee910" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_omega_y</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a172a5a0c84e0daacb2034d6aad0fceee" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>m_omega_z</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1ad792da6d6616086392e28fe919090b28" prot="private" virt="virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>parentSensor</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1ab641d34696082d04895c37bd3a04a4fc" prot="private" virt="non-virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>updateConnection</name></member>
+      <member refid="classgazebo_1_1GazeboIMUPlugin_1a88ed20ee82baad7195e1529588685cb5" prot="public" virt="virtual"><scope>gazebo::GazeboIMUPlugin</scope><name>~GazeboIMUPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="gazebo__imu__plugin_8cc" kind="file">
+    <compoundname>gazebo_imu_plugin.cc</compoundname>
+    <includes refid="gazebo__imu__plugin_8hh" local="yes">gazebo_imu_plugin.hh</includes>
+    <incdepgraph>
+      <node id="25">
+        <label>string</label>
+      </node>
+      <node id="23">
+        <label>/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc</label>
+        <link refid="gazebo_imu_plugin.cc"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="24">
+        <label>gazebo_imu_plugin.hh</label>
+        <link refid="gazebo__imu__plugin_8hh_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gazebo/sensors/sensors.hh</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;gazebo_imu_plugin.hh&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">gazebo;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">GZ_REGISTER_SENSOR_PLUGIN(<ref refid="classgazebo_1_1GazeboIMUPlugin" kindref="compound" tooltip="An example plugin for a contact sensor.">GazeboIMUPlugin</ref>)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="classgazebo_1_1GazeboIMUPlugin" kindref="compound" tooltip="An example plugin for a contact sensor.">GazeboIMUPlugin</ref>::<ref refid="classgazebo_1_1GazeboIMUPlugin" kindref="compound" tooltip="An example plugin for a contact sensor.">GazeboIMUPlugin</ref>()<sp/>:<sp/>SensorPlugin()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulated<sp/>accesleration<sp/>(my_imu)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>m_acc_x<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>m_acc_y<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>m_acc_z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulated<sp/>angular<sp/>velocity<sp/>(my_imu)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>m_omega_x<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>m_omega_y<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>m_omega_z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="classgazebo_1_1GazeboIMUPlugin_1a88ed20ee82baad7195e1529588685cb5" kindref="member" tooltip="Destructor.">GazeboIMUPlugin::~GazeboIMUPlugin</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1GazeboIMUPlugin_1af793b9782ec5bd05035a191626c37564" kindref="member" tooltip="Load the sensor plugin.">GazeboIMUPlugin::Load</ref>(sensors::SensorPtr<sp/>_sensor,<sp/>sdf::ElementPtr<sp/></highlight><highlight class="comment">/*_sdf*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>parent<sp/>sensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>this-&gt;<ref refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" kindref="member" tooltip="Pointer to the contact sensor.">parentSensor</ref><sp/>=</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::shared_dynamic_cast&lt;sensors::ImuSensor&gt;(_sensor);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>the<sp/>parent<sp/>sensor<sp/>is<sp/>valid.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;<ref refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" kindref="member" tooltip="Pointer to the contact sensor.">parentSensor</ref>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>gzerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ContactPlugin<sp/>requires<sp/>a<sp/>IMU-Sensor.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Connect<sp/>to<sp/>the<sp/>sensor<sp/>update<sp/>event.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>this-&gt;<ref refid="classgazebo_1_1GazeboIMUPlugin_1ab641d34696082d04895c37bd3a04a4fc" kindref="member" tooltip="Connection that maintains a link between the contact sensor&amp;#39;s updated signal and the OnUpdate callbac...">updateConnection</ref><sp/>=<sp/>this-&gt;<ref refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" kindref="member" tooltip="Pointer to the contact sensor.">parentSensor</ref>-&gt;ConnectUpdated(</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;<ref refid="classgazebo_1_1GazeboIMUPlugin_1ad792da6d6616086392e28fe919090b28" kindref="member" tooltip="Callback that recieves the contact sensor&amp;#39;s update signal.">GazeboIMUPlugin::OnUpdate</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>the<sp/>parent<sp/>sensor<sp/>is<sp/>active.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>this-&gt;<ref refid="classgazebo_1_1GazeboIMUPlugin_1acbf05202baa4372075fd2b92a755e6f4" kindref="member" tooltip="Pointer to the contact sensor.">parentSensor</ref>-&gt;SetActive(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1GazeboIMUPlugin_1ad792da6d6616086392e28fe919090b28" kindref="member" tooltip="Callback that recieves the contact sensor&amp;#39;s update signal.">GazeboIMUPlugin::OnUpdate</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_imu_plugin.cc"/>
+  </compounddef>
+</doxygen>

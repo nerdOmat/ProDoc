@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="constants_8hh" kind="file">
+    <compoundname>constants.hh</compoundname>
+    <includedby refid="resources_8hh" local="yes">/home/usappz/DeadalusSim/source/dependencies/resources.hh</includedby>
+    <includedby refid="quadrotor__dynamics_8hh" local="yes">/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh</includedby>
+    <includedby refid="sil_8hh" local="yes">/home/usappz/DeadalusSim/source/sil/sil.hh</includedby>
+    <includedby refid="gazebo__model__plugin_8cc" local="yes">/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.cc</includedby>
+    <includedby refid="sil_8cc" local="yes">/home/usappz/DeadalusSim/source/sil/sil.cc</includedby>
+    <invincdepgraph>
+      <node id="5">
+        <label>/home/usappz/DeadalusSim/source/dependencies/resources.hh</label>
+        <link refid="resources_8hh_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/usappz/DeadalusSim/source/dependencies/constants.hh</label>
+        <link refid="constants.hh"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/usappz/DeadalusSim/source/sil/sil.hh</label>
+        <link refid="sil_8hh_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/usappz/DeadalusSim/source/gazebo_plugins/gazebo_model_plugin.hh</label>
+        <link refid="gazebo__model__plugin_8hh_source"/>
+      </node>
+      <node id="6">
+        <label>/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh</label>
+        <link refid="quadrotor__dynamics_8hh_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="constants_8hh_1a6deae531d7a9dacd80e28d1d165f54fe" prot="public" static="no">
+        <name>EFFICIENCY_CMR</name>
+        <initializer>0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="25" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a3cbb787b120096c4fbc7d6b546b137b5" prot="public" static="no">
+        <name>KT_RR282734_10_45_R</name>
+        <initializer>0.00060934</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="26" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ad3d7416dc16011010abbe4c38b31ec45" prot="public" static="no">
+        <name>KM_RR282734_10_45_R</name>
+        <initializer>0.00011386*EFFICIENCY_CMR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="27" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ace8c41f7cf75c20c75f98b8094b06134" prot="public" static="no">
+        <name>K_PT1_RR282734_10_45_R</name>
+        <initializer>0.378634164294</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="31" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a3ee02821c90e91b53c23e88793a8fa70" prot="public" static="no">
+        <name>C_PT1_RR282734_10_45_R</name>
+        <initializer>15.1056160953</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="32" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ad474a2f1a932417c8dfab4d0e018d475" prot="public" static="no">
+        <name>T_PT1_RR282734_10_45_R</name>
+        <initializer>0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="33" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a695d9934e1387fad6660380df895e107" prot="public" static="no">
+        <name>DEAD_TIME_PT1_RR282734_10_45_R</name>
+        <initializer>0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="34" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a920fa16721f6c96099567d039d3d6e52" prot="public" static="no">
+        <name>MOMENT_ARM</name>
+        <initializer>0.22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="38" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a6af465fcd305a2848df3559345032420" prot="public" static="no">
+        <name>SIM_TIME</name>
+        <initializer>0.001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="43" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a258bb72419ef143530a2f8f55e7d57af" prot="public" static="no">
+        <name>NO_ERROR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="50" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a9669ffb28821952924f09113ff956194" prot="public" static="no">
+        <name>GAUSSIAN_NOISE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="51" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ad782c187742fc9749b4f10f6238cd678" prot="public" static="no">
+        <name>SINE_ERROR</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="52" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ac25c6a324554f8ae267ad7c1638074a8" prot="public" static="no">
+        <name>FRONT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="57" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a80fb826a684cf3f0d306b22aa100ddac" prot="public" static="no">
+        <name>RIGHT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="58" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a8429b2894ba4d100699273e5bd5d80ca" prot="public" static="no">
+        <name>REAR</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="59" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a437ef08681e7210d6678427030446a54" prot="public" static="no">
+        <name>LEFT</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="60" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a22515020e3a35a44154c2746fe4ecb34" prot="public" static="no">
+        <name>MOTOR_1</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="62" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1afeb61856f0eaca0069683f263efc35f7" prot="public" static="no">
+        <name>MOTOR_2</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="63" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ad445efe8bf5c90538e2e8204892bcc13" prot="public" static="no">
+        <name>MOTOR_3</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="64" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1adec1c0f95571eda666a05aca2bfc2272" prot="public" static="no">
+        <name>MOTOR_4</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="65" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ac597abe7cf610f262f7aaec53ed1d413" prot="public" static="no">
+        <name>M1</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="67" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a2a187ef3afced0eb4c4cb99515e5429c" prot="public" static="no">
+        <name>M2</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="68" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1ad801d72bd01ef1ac9b86dbf4de0d355d" prot="public" static="no">
+        <name>M3</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="69" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hh_1a9a3433d6613a64df14bf05957ba30837" prot="public" static="no">
+        <name>M4</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh" line="70" bodyfile="/home/usappz/DeadalusSim/source/dependencies/constants.hh" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>____<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_____<sp/><sp/><sp/><sp/><sp/>_</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>/<sp/>___|<sp/><sp/>__<sp/>_<sp/>_<sp/>__<sp/><sp/>_<sp/>__|__<sp/><sp/>/<sp/><sp/>__|<sp/>|<sp/>___</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>\___<sp/>\<sp/>/<sp/>_`<sp/>|<sp/>&apos;_<sp/>\|<sp/>&apos;_<sp/>\<sp/>/<sp/>/<sp/><sp/>/<sp/>_`<sp/>|/<sp/>_<sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/>___)<sp/>|<sp/>(_|<sp/>|<sp/>|_)<sp/>|<sp/>|_)<sp/>/<sp/>/_<sp/>|<sp/>(_|<sp/>|<sp/><sp/>__/</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>|____/<sp/>\__,_|<sp/>.__/|<sp/>.__/____(_)__,_|\___|</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|_|<sp/><sp/><sp/>|_|</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Andreas<sp/>Gschossmann</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Email:<sp/><sp/>andreas.gschossmann@hs-regensburg.de</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>quadrotor_dynamics.hh<sp/>-<sp/>Relationship<sp/>between<sp/>rotor-speed<sp/>or<sp/>alternatively</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>digital<sp/>value<sp/>for<sp/>brushless<sp/>drivers<sp/>and<sp/>resulting<sp/>thrust<sp/>of<sp/>the<sp/>motor.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>-----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_CONSTANTS_HH_<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_CONSTANTS_HH_</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">//<sp/>Aerodynamik</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFFICIENCY_CMR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.8</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>KT_RR282734_10_45_R<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.00060934<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>KM_RR282734_10_45_R<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.00011386*EFFICIENCY_CMR<sp/><sp/>//<sp/>durch<sp/>Elektrische<sp/>Leistung<sp/>ermittelt:<sp/>TODO:<sp/>Drehmoment<sp/>messen<sp/>und<sp/>k_M<sp/>fitten</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment">//<sp/>PT-1<sp/>element<sp/>motor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>K_PT1_RR282734_10_45_R<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.378634164294</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>C_PT1_RR282734_10_45_R<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15.1056160953<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>T_PT1_RR282734_10_45_R<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.0<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DEAD_TIME_PT1_RR282734_10_45_R<sp/><sp/>0.0<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment">//<sp/>dimensions<sp/>quadrotor<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MOMENT_ARM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.22<sp/><sp/><sp/><sp/>//<sp/>distance<sp/>between<sp/>motor<sp/>axis<sp/>and<sp/>center<sp/>of<sp/>frame</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Achtung:<sp/>muss<sp/>mit<sp/>sdf-file<sp/>abgestimmt<sp/>werden<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="comment">//<sp/>simulation<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIM_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.001<sp/><sp/><sp/>//<sp/>time<sp/>for<sp/>between<sp/>to<sp/>simulation<sp/>steps</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Achtung<sp/>muss<sp/>mit<sp/>sdf-file<sp/>abgestimmt<sp/>werden<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>KT_RR282734_10_45_R_DIG<sp/>0.5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>KT_RR282734_10_45_R_DiG<sp/>0.5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="comment">//<sp/>Error<sp/>types<sp/>for<sp/>quadrotor_dynamics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NO_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GAUSSIAN_NOISE<sp/><sp/>1</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SINE_ERROR<sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">//<sp/>Symmetric<sp/>motor<sp/>order</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(Andi)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FRONT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RIGHT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>REAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>LEFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MOTOR_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MOTOR_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MOTOR_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MOTOR_4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>M2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="69"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>M3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>M4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/constants.hh"/>
+  </compounddef>
+</doxygen>

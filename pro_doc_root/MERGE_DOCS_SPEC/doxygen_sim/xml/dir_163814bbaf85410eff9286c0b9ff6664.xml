@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_163814bbaf85410eff9286c0b9ff6664" kind="dir">
+    <compoundname>/home/usappz/DeadalusSim/source/gazebo_plugins/</compoundname>
+    <innerfile refid="gazebo__imu__plugin_8cc">gazebo_imu_plugin.cc</innerfile>
+    <innerfile refid="gazebo__imu__plugin_8hh">gazebo_imu_plugin.hh</innerfile>
+    <innerfile refid="gazebo__model__plugin_8cc">gazebo_model_plugin.cc</innerfile>
+    <innerfile refid="gazebo__model__plugin_8hh">gazebo_model_plugin.hh</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/gazebo_plugins/"/>
+  </compounddef>
+</doxygen>

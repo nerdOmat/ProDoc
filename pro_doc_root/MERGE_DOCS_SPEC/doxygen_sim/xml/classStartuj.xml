@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classStartuj" kind="class" prot="public">
+    <compoundname>Startuj</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStartuj_1a6d7fd5724c5caf8c6325e1aa99291d23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Startuj::Startuj</definition>
+        <argsstring>()</argsstring>
+        <name>Startuj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="93" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classStartuj_1abf9af56129ce3921834970a815be8988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Startuj::~Startuj</definition>
+        <argsstring>()</argsstring>
+        <name>~Startuj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="94" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="92" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="91" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classStartuj_1a6d7fd5724c5caf8c6325e1aa99291d23" prot="public" virt="non-virtual"><scope>Startuj</scope><name>Startuj</name></member>
+      <member refid="classStartuj_1abf9af56129ce3921834970a815be8988" prot="public" virt="non-virtual"><scope>Startuj</scope><name>~Startuj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

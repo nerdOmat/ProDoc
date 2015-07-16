@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classQuadRotorDynamics" kind="class" prot="public">
+    <compoundname>QuadRotorDynamics</compoundname>
+    <includes refid="quadrotor__dynamics_8hh" local="no">quadrotor_dynamics.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a11ebd2bb3cb9a0245230246a37268ed8" prot="private" static="no" mutable="no">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel QuadRotorDynamics::_rotor_speed</definition>
+        <argsstring></argsstring>
+        <name>_rotor_speed</name>
+        <briefdescription>
+<para>Current rotor speed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="97" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1af767bcd7e68d2867721cec08e52caaa3" prot="private" static="no" mutable="no">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel QuadRotorDynamics::_rotor_speed_prev</definition>
+        <argsstring></argsstring>
+        <name>_rotor_speed_prev</name>
+        <briefdescription>
+<para>Previous rotor speed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="98" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a0ae2098f9ed0752b2fb5b3079dd02cf1" prot="private" static="no" mutable="no">
+        <type><ref refid="classAngularVel" kindref="compound">AngularVel</ref></type>
+        <definition>AngularVel QuadRotorDynamics::_rotor_acceleration</definition>
+        <argsstring></argsstring>
+        <name>_rotor_acceleration</name>
+        <briefdescription>
+<para>Current rotor acceleration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="99" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1ad096150d94c3500ccea432f39c9518fc" prot="private" static="no" mutable="no">
+        <type><ref refid="classActuationVal" kindref="compound">ActuationVal</ref></type>
+        <definition>ActuationVal QuadRotorDynamics::_actuation_value</definition>
+        <argsstring></argsstring>
+        <name>_actuation_value</name>
+        <briefdescription>
+<para>Current actuation value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="100" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a4c835e60eaceadda5c92ee01c5f97fd2" prot="private" static="no" mutable="no">
+        <type><ref refid="classMechanics" kindref="compound">Mechanics</ref></type>
+        <definition>Mechanics QuadRotorDynamics::_mechanics</definition>
+        <argsstring></argsstring>
+        <name>_mechanics</name>
+        <briefdescription>
+<para>Current <ref refid="classMechanics" kindref="compound">Mechanics</ref>, containing <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and Drag Torques. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="101" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1acb408bb34e58205c8c9239de6755a1ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_dT</definition>
+        <argsstring></argsstring>
+        <name>_dT</name>
+        <briefdescription>
+<para>Simulation time, which has passed since the last simulation step. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="102" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1ad16ff51ab4ce8bec56f953da64fb71b9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_k_t</definition>
+        <argsstring></argsstring>
+        <name>_k_t</name>
+        <briefdescription>
+<para><ref refid="classThrust" kindref="compound">Thrust</ref> coefficient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="106" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1acf8efb67931462dba06fe187661010a7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_k_m</definition>
+        <argsstring></argsstring>
+        <name>_k_m</name>
+        <briefdescription>
+<para>Moment coefficient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="107" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1af531365138f761c7210d78da8c92e95a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_moment_arm</definition>
+        <argsstring></argsstring>
+        <name>_moment_arm</name>
+        <briefdescription>
+<para>Distance between rotor axis and center of quadrotor frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="110" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a44b7a5861b2f411029e2506f4cf1d532" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuadRotorDynamics::_error_type</definition>
+        <argsstring></argsstring>
+        <name>_error_type</name>
+        <briefdescription>
+<para>Error for the error provided by disturbance and set by <ref refid="classQuadRotorDynamics_1adec8d18d4ce8bad0197501773fa7e6ea" kindref="member">setErrorType(int error_type)</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="113" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a076bfa86519993cb1fa9c1a6f49c05e2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_sine_index</definition>
+        <argsstring></argsstring>
+        <name>_sine_index</name>
+        <briefdescription>
+<para>Index needed by disturbance for the error type SINE_ERROR. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="114" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1aa804817d487b3fa1b8bd8f8ff6201565" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_K</definition>
+        <argsstring></argsstring>
+        <name>_K</name>
+        <briefdescription>
+<para>K coefficient for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="118" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a229de7528658128afa2f0aed504efad5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_C</definition>
+        <argsstring></argsstring>
+        <name>_C</name>
+        <briefdescription>
+<para>C coefficient for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="119" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a25e1b881d7501ccba3bc213896f62e05" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_T</definition>
+        <argsstring></argsstring>
+        <name>_T</name>
+        <briefdescription>
+<para>T coefficient for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="120" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1ab9c5ae3b9d8a1d582486488dd9682a75" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_dead_time</definition>
+        <argsstring></argsstring>
+        <name>_dead_time</name>
+        <briefdescription>
+<para>Dead Time for pt1_elment() (not supported yet) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="121" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1acae91d3031650906ca6a995ae0443813" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_rotor_speed_max</definition>
+        <argsstring></argsstring>
+        <name>_rotor_speed_max</name>
+        <briefdescription>
+<para>Maximal rotor speed limited by <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="128" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1acd0beff4d2419aa7aa37d87c3c5690bf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double QuadRotorDynamics::_rotor_acceleration_max</definition>
+        <argsstring></argsstring>
+        <name>_rotor_acceleration_max</name>
+        <briefdescription>
+<para>Maximal rotor accaleration limited by <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="129" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a52129351aee2aa2ca2218c888f83fa8f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuadRotorDynamics::_limit_const_act</definition>
+        <argsstring></argsstring>
+        <name>_limit_const_act</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If set true, maximal rotor speed limit is checked by <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref>, it is set by <ref refid="classQuadRotorDynamics_1aa5e7a8721f17b3e893ffaf4ba2e11fe0" kindref="member">activate_limit_constant( bool activate )</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="131" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a68be41ce31d096a587aabdc2c6f0bcfb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuadRotorDynamics::_limit_transient_act</definition>
+        <argsstring></argsstring>
+        <name>_limit_transient_act</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If set true, maximal rotor acceleration limit is checked by <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref>, it is set by <ref refid="classQuadRotorDynamics_1ac4f8ac41406b65281bdc5956af41add5" kindref="member">activate_limit_transient( bool activate )</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="133" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQuadRotorDynamics_1a2f2eb8e9690abdc5679f0172e71b56fe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QuadRotorDynamics::_gyroscopic_torque_active</definition>
+        <argsstring></argsstring>
+        <name>_gyroscopic_torque_active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If set true, the gyroscopic effect is considered by <ref refid="classQuadRotorDynamics_1af7e8d034a94d648d9d6136e0540db630" kindref="member">roll_pitch_torque()</ref> it is set by <ref refid="classQuadRotorDynamics_1a8cbc221a76ea5bbbfa4e02749215d246" kindref="member">activate_gyroscopic_torque( bool activate )</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="137" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQuadRotorDynamics_1a372eda60cafabb0a7f1d2ee2e32258e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QuadRotorDynamics::QuadRotorDynamics</definition>
+        <argsstring>(double k_t=1.0, double k_m=1.0, double moment_arm=0.220, int error_type=NO_ERROR, double K=1.0, double C=0.0, double T=0.0, double dead_time=0.0)</argsstring>
+        <name>QuadRotorDynamics</name>
+        <param>
+          <type>double</type>
+          <declname>k_t</declname>
+          <defval>1.0</defval>
+          <briefdescription><para>thrust coefficient </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>k_m</declname>
+          <defval>1.0</defval>
+          <briefdescription><para>moment coefficient </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>moment_arm</declname>
+          <defval>0.220</defval>
+          <briefdescription><para>distance between motor axis and center of frame </para></briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>error_type</declname>
+          <defval>NO_ERROR</defval>
+          <briefdescription><para>error type for disturbance function() </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>K</declname>
+          <defval>1.0</defval>
+          <briefdescription><para>K-constant for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>C</declname>
+          <defval>0.0</defval>
+          <briefdescription><para>C-constant for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>T</declname>
+          <defval>0.0</defval>
+          <briefdescription><para>T-constant for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dead_time</declname>
+          <defval>0.0</defval>
+          <briefdescription><para>dead_time for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> (not supported yet) </para></briefdescription>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>constructor with default values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="52" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="25" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1ad7b93bca3a67ed73bd274396ba0ad6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>QuadRotorDynamics::~QuadRotorDynamics</definition>
+        <argsstring>()</argsstring>
+        <name>~QuadRotorDynamics</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="55" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="41" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a8516ae14795d90e9f484e552b4f94bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMechanics" kindref="compound">Mechanics</ref></type>
+        <definition>Mechanics QuadRotorDynamics::update</definition>
+        <argsstring>(ActuationVal actuation_value, double deltaT)</argsstring>
+        <name>update</name>
+        <param>
+          <type><ref refid="classActuationVal" kindref="compound">ActuationVal</ref></type>
+          <declname>actuation_value</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>deltaT</declname>
+        </param>
+        <briefdescription>
+<para>Updates the Thrusts and Torques. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function updates the values of the Thrusts and Torques resulting from the current rotor speeds. It is intended to be called in every simulation step. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>actuation_value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>actuation value corresponding to desired rotor speed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deltaT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>simulatin time passed since the last simulation step </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="classThrust" kindref="compound">Thrust</ref> and <ref refid="classTorque" kindref="compound">Torque</ref> on the quadrotor frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="65" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="44" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1aa5e7a8721f17b3e893ffaf4ba2e11fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::activate_limit_constant</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>activate_limit_constant</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Makes <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> limit the maximal rotor speed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="140" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="185" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1ac4f8ac41406b65281bdc5956af41add5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::activate_limit_transient</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>activate_limit_transient</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Makes <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> limit the maximal rotor acceleration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="141" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="207" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1acac6ab2a247e7ab5278f561161655d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_limit_const</definition>
+        <argsstring>(double rotor_speed_max)</argsstring>
+        <name>set_limit_const</name>
+        <param>
+          <type>double</type>
+          <declname>rotor_speed_max</declname>
+        </param>
+        <briefdescription>
+<para>Set maximal rotor speed for <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="142" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1afe07675d12e14fb5f87a2ec308adcde6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_limit_transient</definition>
+        <argsstring>(double rotor_acceleration_max)</argsstring>
+        <name>set_limit_transient</name>
+        <param>
+          <type>double</type>
+          <declname>rotor_acceleration_max</declname>
+        </param>
+        <briefdescription>
+<para>Set maximal rotor acceleration for <ref refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" kindref="member">check_limits()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="143" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a8cbc221a76ea5bbbfa4e02749215d246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::activate_gyroscopic_torque</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>activate_gyroscopic_torque</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Activates/Deactivates consideration of gyroscopic effect in <ref refid="classQuadRotorDynamics_1af7e8d034a94d648d9d6136e0540db630" kindref="member">roll_pitch_torque()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="145" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="229" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1aba615011e777f74007ad85f081a4461d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_k_pt1</definition>
+        <argsstring>(double K)</argsstring>
+        <name>set_k_pt1</name>
+        <param>
+          <type>double</type>
+          <declname>K</declname>
+        </param>
+        <briefdescription>
+<para>Set K coefficient for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="148" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="254" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a143f29c5e77618243f63ebcca816616e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_t_pt1</definition>
+        <argsstring>(double T)</argsstring>
+        <name>set_t_pt1</name>
+        <param>
+          <type>double</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+<para>Set T coefficient for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="149" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a65438d151cc47e28e071c6871e4723cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_c_pt1</definition>
+        <argsstring>(double C)</argsstring>
+        <name>set_c_pt1</name>
+        <param>
+          <type>double</type>
+          <declname>C</declname>
+        </param>
+        <briefdescription>
+<para>Set C coefficient for pt1_elmennt() </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="150" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="262" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1ad743aee3d06c6987d0a70e4503f9c7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::set_dead_time_pt1</definition>
+        <argsstring>(double dead_time)</argsstring>
+        <name>set_dead_time_pt1</name>
+        <param>
+          <type>double</type>
+          <declname>dead_time</declname>
+        </param>
+        <briefdescription>
+<para>Set dead time for <ref refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" kindref="member">pt1_element()</ref> (not supported yet) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="151" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="266" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a57f4210aee5f8ddde170d4b9f62fde2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classMechanics" kindref="compound">Mechanics</ref></type>
+        <definition>Mechanics QuadRotorDynamics::getMechanics</definition>
+        <argsstring>()</argsstring>
+        <name>getMechanics</name>
+        <briefdescription>
+<para>Returns the <ref refid="classMechanics" kindref="compound">Mechanics</ref> on the quadrotor frame including <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and Drag Torques. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="154" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a63b315a9a66707236a8780a9229fd63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classThrust" kindref="compound">Thrust</ref></type>
+        <definition>Thrust QuadRotorDynamics::getThrust</definition>
+        <argsstring>()</argsstring>
+        <name>getThrust</name>
+        <briefdescription>
+<para>Returns <ref refid="classThrust" kindref="compound">Thrust</ref> Forces produced by the motors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="155" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1aaa0be18d7a8b9244ce57292c60d74698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classTorque" kindref="compound">Torque</ref></type>
+        <definition>Torque QuadRotorDynamics::getTorque</definition>
+        <argsstring>()</argsstring>
+        <name>getTorque</name>
+        <briefdescription>
+<para>Returns <ref refid="classTorque" kindref="compound">Torque</ref> on the quadrotor frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="156" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="282" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1adec8d18d4ce8bad0197501773fa7e6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::setErrorType</definition>
+        <argsstring>(int error_type)</argsstring>
+        <name>setErrorType</name>
+        <param>
+          <type>int</type>
+          <declname>error_type</declname>
+        </param>
+        <briefdescription>
+<para>Sets the error type needed by <ref refid="classQuadRotorDynamics_1a78d2bfe2469d1fd447b486ebf6a3fd64" kindref="member">disturbance()</ref> (NO_ERROR, GAUSSIAN_NOISE and SINE_ERROR supported) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="158" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="287" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::check_limits</definition>
+        <argsstring>()</argsstring>
+        <name>check_limits</name>
+        <briefdescription>
+<para>Check limits of maximal rotor speed and maximal rotor acceleration. </para>        </briefdescription>
+        <detaileddescription>
+<para>If activated by <ref refid="classQuadRotorDynamics_1aa5e7a8721f17b3e893ffaf4ba2e11fe0" kindref="member">activate_limit_constant(bool)</ref> and if the maximal rotor speed (_rotor_speed_max) the maximal rotor acceleration is limited to the maximal value, set by set_limit_const. If activated by <ref refid="classQuadRotorDynamics_1ac4f8ac41406b65281bdc5956af41add5" kindref="member">activate_limit_transient(bool)</ref> and if the maximal rotor acceleration value, set by set_limit_transient. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="75" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="71" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a6af363905190ef448b961a70a5b0042a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::aerodynamics</definition>
+        <argsstring>()</argsstring>
+        <name>aerodynamics</name>
+        <briefdescription>
+<para>Calculates the <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and Drag <ref refid="classTorque" kindref="compound">Torque</ref> on the quadrotor frame created by the rotors angular velocities. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="79" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="134" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1af7e8d034a94d648d9d6136e0540db630" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::roll_pitch_torque</definition>
+        <argsstring>()</argsstring>
+        <name>roll_pitch_torque</name>
+        <briefdescription>
+<para>Calculates the roll and pitch torques on the quadrocopter frame. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function calculates the roll and pitch torques, resulting the thrust forces, calculated by aerodynamics. If activated by <ref refid="classQuadRotorDynamics_1a8cbc221a76ea5bbbfa4e02749215d246" kindref="member">activate_gyroscopic_torque(bool)</ref> also the torques resulting from the gyroscopic effect are being considered </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="86" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="146" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a78d2bfe2469d1fd447b486ebf6a3fd64" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::disturbance</definition>
+        <argsstring>()</argsstring>
+        <name>disturbance</name>
+        <briefdescription>
+<para>Provides disturbance to the <ref refid="classThrust" kindref="compound">Thrust</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provides one of the supported kinds of disturbance to the <ref refid="classThrust" kindref="compound">Thrust</ref>, calculated by <ref refid="classQuadRotorDynamics_1a6af363905190ef448b961a70a5b0042a" kindref="member">aerodynamics()</ref>. The supported error-types are NO_ERROR, GAUSSIAN_NOISE, SINE_ERROR. They are set by <ref refid="classQuadRotorDynamics_1adec8d18d4ce8bad0197501773fa7e6ea" kindref="member">setErrorType(int error_type)</ref> and stored to the private member _error_type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="94" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="159" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuadRotorDynamics::pt1_element</definition>
+        <argsstring>()</argsstring>
+        <name>pt1_element</name>
+        <briefdescription>
+<para>PT1 element K*u + C = T*(d/dt)omega + omega. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="124" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.cc" bodystart="103" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for the calculation of the Quadrotor Dynamics. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class calculates the Torques and Forces on the quadrotor. Since gazebo does not support aerodynamics, this class calculates the <ref refid="classThrust" kindref="compound">Thrust</ref> Forces and the Yaw Torques produced by the the rotor speeds of the motors, which is resulting from the current actuation value. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="41">
+        <label>Thrust</label>
+        <link refid="classThrust"/>
+      </node>
+      <node id="38">
+        <label>ActuationVal</label>
+        <link refid="classActuationVal"/>
+      </node>
+      <node id="39">
+        <label>AngularVel</label>
+        <link refid="classAngularVel"/>
+      </node>
+      <node id="42">
+        <label>Torque</label>
+        <link refid="classTorque"/>
+      </node>
+      <node id="37">
+        <label>QuadRotorDynamics</label>
+        <link refid="classQuadRotorDynamics"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>_actuation_value</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>_rotor_acceleration</edgelabel>
+          <edgelabel>_rotor_speed_prev</edgelabel>
+          <edgelabel>_rotor_speed</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>_mechanics</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Mechanics</label>
+        <link refid="classMechanics"/>
+        <childnode refid="41" relation="usage">
+          <edgelabel>thrust</edgelabel>
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>torque</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" line="39" bodyfile="/home/usappz/DeadalusSim/source/quadrotor_dynamics/quadrotor_dynamics.hh" bodystart="38" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classQuadRotorDynamics_1ad096150d94c3500ccea432f39c9518fc" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_actuation_value</name></member>
+      <member refid="classQuadRotorDynamics_1a229de7528658128afa2f0aed504efad5" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_C</name></member>
+      <member refid="classQuadRotorDynamics_1ab9c5ae3b9d8a1d582486488dd9682a75" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_dead_time</name></member>
+      <member refid="classQuadRotorDynamics_1acb408bb34e58205c8c9239de6755a1ec" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_dT</name></member>
+      <member refid="classQuadRotorDynamics_1a44b7a5861b2f411029e2506f4cf1d532" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_error_type</name></member>
+      <member refid="classQuadRotorDynamics_1a2f2eb8e9690abdc5679f0172e71b56fe" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_gyroscopic_torque_active</name></member>
+      <member refid="classQuadRotorDynamics_1aa804817d487b3fa1b8bd8f8ff6201565" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_K</name></member>
+      <member refid="classQuadRotorDynamics_1acf8efb67931462dba06fe187661010a7" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_k_m</name></member>
+      <member refid="classQuadRotorDynamics_1ad16ff51ab4ce8bec56f953da64fb71b9" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_k_t</name></member>
+      <member refid="classQuadRotorDynamics_1a52129351aee2aa2ca2218c888f83fa8f" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_limit_const_act</name></member>
+      <member refid="classQuadRotorDynamics_1a68be41ce31d096a587aabdc2c6f0bcfb" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_limit_transient_act</name></member>
+      <member refid="classQuadRotorDynamics_1a4c835e60eaceadda5c92ee01c5f97fd2" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_mechanics</name></member>
+      <member refid="classQuadRotorDynamics_1af531365138f761c7210d78da8c92e95a" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_moment_arm</name></member>
+      <member refid="classQuadRotorDynamics_1a0ae2098f9ed0752b2fb5b3079dd02cf1" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_rotor_acceleration</name></member>
+      <member refid="classQuadRotorDynamics_1acd0beff4d2419aa7aa37d87c3c5690bf" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_rotor_acceleration_max</name></member>
+      <member refid="classQuadRotorDynamics_1a11ebd2bb3cb9a0245230246a37268ed8" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_rotor_speed</name></member>
+      <member refid="classQuadRotorDynamics_1acae91d3031650906ca6a995ae0443813" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_rotor_speed_max</name></member>
+      <member refid="classQuadRotorDynamics_1af767bcd7e68d2867721cec08e52caaa3" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_rotor_speed_prev</name></member>
+      <member refid="classQuadRotorDynamics_1a076bfa86519993cb1fa9c1a6f49c05e2" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_sine_index</name></member>
+      <member refid="classQuadRotorDynamics_1a25e1b881d7501ccba3bc213896f62e05" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>_T</name></member>
+      <member refid="classQuadRotorDynamics_1a8cbc221a76ea5bbbfa4e02749215d246" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>activate_gyroscopic_torque</name></member>
+      <member refid="classQuadRotorDynamics_1aa5e7a8721f17b3e893ffaf4ba2e11fe0" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>activate_limit_constant</name></member>
+      <member refid="classQuadRotorDynamics_1ac4f8ac41406b65281bdc5956af41add5" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>activate_limit_transient</name></member>
+      <member refid="classQuadRotorDynamics_1a6af363905190ef448b961a70a5b0042a" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>aerodynamics</name></member>
+      <member refid="classQuadRotorDynamics_1a8c92658749a4850ff5926d580e418e7c" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>check_limits</name></member>
+      <member refid="classQuadRotorDynamics_1a78d2bfe2469d1fd447b486ebf6a3fd64" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>disturbance</name></member>
+      <member refid="classQuadRotorDynamics_1a57f4210aee5f8ddde170d4b9f62fde2b" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>getMechanics</name></member>
+      <member refid="classQuadRotorDynamics_1a63b315a9a66707236a8780a9229fd63c" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>getThrust</name></member>
+      <member refid="classQuadRotorDynamics_1aaa0be18d7a8b9244ce57292c60d74698" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>getTorque</name></member>
+      <member refid="classQuadRotorDynamics_1a9755a314e2c4d7abc54135bb127b8d75" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>pt1_element</name></member>
+      <member refid="classQuadRotorDynamics_1a372eda60cafabb0a7f1d2ee2e32258e6" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>QuadRotorDynamics</name></member>
+      <member refid="classQuadRotorDynamics_1af7e8d034a94d648d9d6136e0540db630" prot="private" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>roll_pitch_torque</name></member>
+      <member refid="classQuadRotorDynamics_1a65438d151cc47e28e071c6871e4723cd" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_c_pt1</name></member>
+      <member refid="classQuadRotorDynamics_1ad743aee3d06c6987d0a70e4503f9c7c6" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_dead_time_pt1</name></member>
+      <member refid="classQuadRotorDynamics_1aba615011e777f74007ad85f081a4461d" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_k_pt1</name></member>
+      <member refid="classQuadRotorDynamics_1acac6ab2a247e7ab5278f561161655d63" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_limit_const</name></member>
+      <member refid="classQuadRotorDynamics_1afe07675d12e14fb5f87a2ec308adcde6" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_limit_transient</name></member>
+      <member refid="classQuadRotorDynamics_1a143f29c5e77618243f63ebcca816616e" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>set_t_pt1</name></member>
+      <member refid="classQuadRotorDynamics_1adec8d18d4ce8bad0197501773fa7e6ea" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>setErrorType</name></member>
+      <member refid="classQuadRotorDynamics_1a8516ae14795d90e9f484e552b4f94bc8" prot="public" virt="non-virtual"><scope>QuadRotorDynamics</scope><name>update</name></member>
+      <member refid="classQuadRotorDynamics_1ad7b93bca3a67ed73bd274396ba0ad6e7" prot="public" virt="virtual"><scope>QuadRotorDynamics</scope><name>~QuadRotorDynamics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

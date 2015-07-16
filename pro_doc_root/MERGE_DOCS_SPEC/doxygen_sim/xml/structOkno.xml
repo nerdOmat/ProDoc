@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="structOkno" kind="struct" prot="public">
+    <compoundname>Okno</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structOkno_1a64babe6aa39916ce92abded14d526ade" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Okno::xup</definition>
+        <argsstring></argsstring>
+        <name>xup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="99" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOkno_1a9893576eee0e17561ba4aebfcb7e44c1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Okno::yup</definition>
+        <argsstring></argsstring>
+        <name>yup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="100" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOkno_1a6b139259d2410acffef63d84716111bd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Okno::xdown</definition>
+        <argsstring></argsstring>
+        <name>xdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="101" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOkno_1a9320b0845b7bd9849fd299a41125f507" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Okno::ydown</definition>
+        <argsstring></argsstring>
+        <name>ydown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="102" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOkno_1a3c458829d0cb66b61a52414f7b704333" prot="public" static="no" mutable="no">
+        <type>WINDOW *</type>
+        <definition>WINDOW* Okno::okno</definition>
+        <argsstring></argsstring>
+        <name>okno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="103" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/conio.h" line="98" bodyfile="/home/usappz/DeadalusSim/source/dependencies/conio.h" bodystart="97" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structOkno_1a3c458829d0cb66b61a52414f7b704333" prot="public" virt="non-virtual"><scope>Okno</scope><name>okno</name></member>
+      <member refid="structOkno_1a6b139259d2410acffef63d84716111bd" prot="public" virt="non-virtual"><scope>Okno</scope><name>xdown</name></member>
+      <member refid="structOkno_1a64babe6aa39916ce92abded14d526ade" prot="public" virt="non-virtual"><scope>Okno</scope><name>xup</name></member>
+      <member refid="structOkno_1a9320b0845b7bd9849fd299a41125f507" prot="public" virt="non-virtual"><scope>Okno</scope><name>ydown</name></member>
+      <member refid="structOkno_1a9893576eee0e17561ba4aebfcb7e44c1" prot="public" virt="non-virtual"><scope>Okno</scope><name>yup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

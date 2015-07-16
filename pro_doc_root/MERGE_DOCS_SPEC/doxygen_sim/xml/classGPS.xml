@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classGPS" kind="class" prot="public">
+    <compoundname>GPS</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGPS_1a6cad8c8b40c8d08bf3d0e9092d5e937f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double GPS::altitude</definition>
+        <argsstring></argsstring>
+        <name>altitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="138" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGPS_1aa17b87d756ef70409bde2cb38fa0d036" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double GPS::latitude_deg</definition>
+        <argsstring></argsstring>
+        <name>latitude_deg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="139" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGPS_1a6bafc9ae5dac5949afea29c19e5eb20b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double GPS::longitude_deg</definition>
+        <argsstring></argsstring>
+        <name>longitude_deg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="140" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for <ref refid="classGPS" kindref="compound">GPS</ref> sensor data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="135" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="134" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classGPS_1a6cad8c8b40c8d08bf3d0e9092d5e937f" prot="public" virt="non-virtual"><scope>GPS</scope><name>altitude</name></member>
+      <member refid="classGPS_1aa17b87d756ef70409bde2cb38fa0d036" prot="public" virt="non-virtual"><scope>GPS</scope><name>latitude_deg</name></member>
+      <member refid="classGPS_1a6bafc9ae5dac5949afea29c19e5eb20b" prot="public" virt="non-virtual"><scope>GPS</scope><name>longitude_deg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

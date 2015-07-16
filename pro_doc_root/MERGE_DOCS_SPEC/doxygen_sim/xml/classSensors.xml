@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classSensors" kind="class" prot="public">
+    <compoundname>Sensors</compoundname>
+    <includes refid="resources_8hh" local="no">resources.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classSensors_1a941f353c9788c592575d2267860793db" prot="public" static="no" mutable="no">
+        <type><ref refid="classIMU" kindref="compound">IMU</ref></type>
+        <definition>IMU Sensors::imu</definition>
+        <argsstring></argsstring>
+        <name>imu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="250" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSensors_1ace2d0bed5dc417f666b1af05f1985852" prot="public" static="no" mutable="no">
+        <type><ref refid="classMAG" kindref="compound">MAG</ref></type>
+        <definition>MAG Sensors::mag</definition>
+        <argsstring></argsstring>
+        <name>mag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="251" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSensors_1a6d327380100530f7221d0a75506f03f4" prot="public" static="no" mutable="no">
+        <type><ref refid="classGPS" kindref="compound">GPS</ref></type>
+        <definition>GPS Sensors::gps</definition>
+        <argsstring></argsstring>
+        <name>gps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="252" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container Class for sensor data (<ref refid="classIMU" kindref="compound">IMU</ref>, <ref refid="classMAG" kindref="compound">MAG</ref>, <ref refid="classGPS" kindref="compound">GPS</ref>) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="45">
+        <label>GPS</label>
+        <link refid="classGPS"/>
+      </node>
+      <node id="47">
+        <label>MAG</label>
+        <link refid="classMAG"/>
+      </node>
+      <node id="46">
+        <label>IMU</label>
+        <link refid="classIMU"/>
+      </node>
+      <node id="44">
+        <label>Sensors</label>
+        <link refid="classSensors"/>
+        <childnode refid="45" relation="usage">
+          <edgelabel>gps</edgelabel>
+        </childnode>
+        <childnode refid="46" relation="usage">
+          <edgelabel>imu</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>mag</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/usappz/DeadalusSim/source/dependencies/resources.hh" line="248" bodyfile="/home/usappz/DeadalusSim/source/dependencies/resources.hh" bodystart="247" bodyend="253"/>
+    <listofallmembers>
+      <member refid="classSensors_1a6d327380100530f7221d0a75506f03f4" prot="public" virt="non-virtual"><scope>Sensors</scope><name>gps</name></member>
+      <member refid="classSensors_1a941f353c9788c592575d2267860793db" prot="public" virt="non-virtual"><scope>Sensors</scope><name>imu</name></member>
+      <member refid="classSensors_1ace2d0bed5dc417f666b1af05f1985852" prot="public" virt="non-virtual"><scope>Sensors</scope><name>mag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

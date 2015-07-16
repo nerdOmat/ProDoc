@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_d2fb64e04484a12e110299d38e992e4c" kind="dir">
+    <compoundname>/home/usappz/DeadalusSim/source/joystick/</compoundname>
+    <innerfile refid="joystick_8cc">joystick.cc</innerfile>
+    <innerfile refid="joystick_8hh">joystick.hh</innerfile>
+    <innerfile refid="test_8cc">test.cc</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/usappz/DeadalusSim/source/joystick/"/>
+  </compounddef>
+</doxygen>

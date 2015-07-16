@@ -1,0 +1,104 @@
+\acro{sappz}[SappZ]{Sensorik-Applikationszentrum}
+\acro{uav}[UAV]{Unmanned Aerial Vehicle}
+\acro{gui}[GUI]{}
+\acro{qr}[QR]{}
+\acro{cbrne}[CBRNE]{chemical, biological, radiological, nuclear and high-yield explosive}
+\acro{luftvg}[LuftVG ]{Luftfahrgesetz}
+\acro{dlr}[DLR]{Deutsches Luft und Raumfahrtzentrum}
+\acro{pid}[PID]{}
+\acro{gps}[GPS]{}
+\acro{faa}[FAA]{Federal Aviation Administration}
+\acro{nas}[]NAS{National Airspace System}
+\acro{rpas}[RPAS]{Remotely Piloted Aircraft Systems}
+\acro{sesar}[]SESAR{Single European Sky ATM Research}
+\acro{atm}[ATM]{Airtraffic Control}
+\acro{2c}[2C]{}
+\acro{spi}[SPI]{}
+\acro{uart}[UART]{}
+\acro{usb}[USB]{}
+\acro{arm}[ARM]{}
+\acro{dsp}[DSP]{}
+\acro{imu}[IMU]{Inertial Measurement Unit}
+\acro{ic}[IC]{}
+\acro{eoma}[EOMA]{}
+\acro{ppm}[PPM]{}
+\acro{ssh}[SSH]{}
+\acro{otg}[OTG]{}
+\acro{gpio}[GPIO]{}
+\acro{gnd}[GND]{}
+\acro{phy}[PHY]{}
+\acro{lsb}[LSB]{}
+\acro{mpu}[MPU]{}
+\acro{ddr}[DDR]{}
+\acro{dsram}[DSRAM]{}
+\acro{som}[SOM]{}
+\acro{io}[IO]{}
+\acro{ttl}[TTL]{}
+\acro{mdio}[MDIO]{}
+\acro{mii}[MII]{}
+\acro{mmc}[MMC]{}
+\acro{sd}[SD]{Secure Digital}
+\acro{pmic}[PMIC]{}
+\acro{pll}[PLL]{Phase Locked Loop}
+\acro{rtc}[RTC]{Real Time Clock}
+\acro{esd}[ESD]{}
+\acro{led}[LED]{}
+\acro{tdi}[TDI]{}
+\acro{tms}[TMS]{}
+\acro{tdo}[TDO]{}
+\acro{ntrst}[nTRST]{}
+\acro{rtck}[RTCK]{}
+\acro{emu}[EMU]{}
+
+\acro{jtag}[JTAG]{}
+\acro{d+}[D+]{}
+\acro{d-}[D-]{}
+\acro{ti}[TI]{}
+\acro{mmc}[]MMC{Multimedia Card}
+\acro{wp}[WP]{Write Protect}
+\acro{cd}[CD]{Card Detect}
+\acro{pcb}[PCB]{}
+\acro{top}[TOP]{}
+\acro{pwr}[pwt]{}
+\acro{cu}[CU]{}
+\acro{lq}[LQ]{}
+\acro{ekf}[EKF]{Extended Kalman Filter}
+\acro{api}[API]{}
+\acro{xml}[XML]{}
+\acro{sdf}[SDF]{}
+\acro{tcp}[TCP]{}
+\acro{ip}[IP]{}
+\acro{mt}[MT]{Momentum Theorie}
+\acro{3d}[3D]{}
+\acro{sil}[SIL]{Software in the Loop}
+\acro{ieee}[IEEE]{}
+\acro{gnss}[GNSS]{GlobalensNavigationssatellitensystem}
+\acro{ukf}[UKF]{Unscented Kalman-Filter}
+\acro{dkf}[DKF]{Distributed Kalman-Filter}
+\acro{marg}[MARG]{Magnetic, Angular Rate, Gravity}
+\acro{ahrs}[AHRS]{Attitude Heading Reference System}
+\acro{eth-Zürich}[ETH-Zürich]{}
+\acro{rtk}[RTK]{Realtime-Kinematics}
+\acro{dgps}[DGPS]{differential GPS}
+\acro{qzss}[QZSS]{}
+\acro{glonass}[GLONASS]{}
+\acro{mems}[MEMS]{}
+\acro{u-d}[U-D]{}
+\acro{b-frame}[b-frame]{körperfeste Koordinatensystemem}
+\acro{e-frame}[e-frame]{erdfesten Koordinatensystems}
+\acro{i-frame}[i-frame]{inertiale Koordinatensystem}
+\acro{n-frame}[n-frame]{Navigationskoordinatensystems}
+\acro{gpl}[GPL]{Gnu General Public Lizenz}
+\acro{sas}[SAS]{Stabilized Augmented Systems}
+\acro{json}[JSON]{}
+\acro{bsd-lizenz}[BSD-Lizenz]{}
+\acro{lgpl-lizenz}[LGPL-Lizenz]{}
+\acro{i/o}[I/O]{}
+\acro{mit}[MIT]{}
+\acro{ascii}[ASCII]{}
+\acro{asf}[ASF]{}
+\acro{can}[CAN]{}
+\acro{sae as-4}[SAE AS-4]{}
+\acro{gsm}[GSM]{}
+\acro{usar}[USAR]{Urban Search and Rescue}
+\acro{ps3}[PS3]{}
