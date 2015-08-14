@@ -11,6 +11,9 @@ parser = argparse.ArgumentParser(description="Install script for MAVlink.")
 parser.add_argument("-i", "--init", help="Initialize project.", action="store_true")
 parser.add_argument("-a", "--add", help="add project")
 parser.add_argument("-d", "--delete", help="delete project")
+parser.add_argument("-m", "--makeall", help="make all", action="store_true")
+parser.add_argument("-o", "--openroot", help="open root", action="store_true")
+
 args=parser.parse_args()
 
 if args.init:
@@ -24,11 +27,12 @@ elif args.add:
 	else:
 		os.system("mkdir " + args.add)
 		os.system("cp " + custom_proj_dir + " " + args.add + "/" + args.add.upper() + "_SPEC -R")
+		#TODO: images Ordner anpassen
 		os.system("cd " + merge_dir + "/included_projects && ln -s ../../../" + args.add + " . && cd ../../..")
 		#TODO: Replace conf.py stuff and more
 		replacements = {'ProDoc':args.add, 'PRODOC':args.add.upper()}
 
-		with open(custom_proj_dir + "/conf.py") as infile, open("conf_out.py", 'w') as outfile:
+		with open(args.add + "/" + args.add.upper() + "_SPEC/conf.py") as infile, open(args.add + "/" + args.add.upper() + "_SPEC/conf_out.py", 'w') as outfile:
 			for line in infile:
 				for src, target in replacements.iteritems():
 					line = line.replace(src, target)
@@ -38,6 +42,14 @@ elif args.delete:
 	print "Delete project."
 	os.system("rm " + args.delete + " -R")
 	os.system("rm " + merge_dir + "/included_projects/" + args.delete)
+
+elif args.makeall:
+	print "Make all."
+	os.system("cd pro_doc_root/MERGE_DOCS_SPEC/ && sudo make bibsphinx && cd ../..")
+
+elif args.openroot:
+	print "Open root."
+	os.system("gnome-open pro_doc_root/MERGE_DOCS_SPEC/_build/latex/MERGE_DOCS_REV_A_SPEC.pdf")
 
 else:
 	print "Publish ...\n\n"
