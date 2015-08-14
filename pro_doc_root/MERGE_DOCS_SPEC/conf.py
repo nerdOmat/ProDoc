@@ -221,6 +221,15 @@ latex_additional_files = [
 #  'sphinxandi.sty',
 #  'MERGE_DOCS_SPEC.bib',
   'refs.bib',
+  'included_projects/rechtliches/RECHTLICHES_SPEC/RECHTLICHES_SPEC.bib',
+  'included_projects/rechtliches/RECHTLICHES_SPEC/documents/rechtliches.pdf',
+
+  'included_projects/gps/GPS_SPEC/GPS_SPEC.bib',
+  'included_projects/gps/GPS_SPEC/documents/EU_Satellitensystem_Galileo_wird_zwei_Milliarden_teurer-Natur-FOCUS_Online-Nachrichten.pdf',
+  'included_projects/gps/GPS_SPEC/documents/GPS-Konkurrent_Galileo-Alles_falsch_gemacht-sueddeutsche.pdf', 
+  'included_projects/gps/GPS_SPEC/documents/galileo-satelliten-start.pdf', 
+  'included_projects/gps/GPS_SPEC/documents/gps_world_article.pdf', 
+  'included_projects/gps/GPS_SPEC/documents/gps_europe.pdf', 
 #  'included_projects/DEADALUS_SIM_SPEC/DEADALUS_SIM_SPEC.bib',
 #  'included_projects/FC_REV_A_SPEC/FC_REV_A_SPEC.bib',
 #  'included_projects/GANYMED_TOOLS_SPEC/GANYMED_TOOLS_SPEC.bib',
@@ -243,7 +252,7 @@ latex_additional_files = [
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'MERGE_DOCS_REV_A_SPEC.tex', u'Titel',
+  ('index', 'MERGE_DOCS_REV_A_SPEC.tex', u'Literaturrecherche',
    u'Dipl.-Ing. (FH) Andreas Gschossmann', 'andi'),
 ]
 # The name of an image file (relative to this directory) to place at the top of

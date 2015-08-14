@@ -1,0 +1,34 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}GPS}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Grundlagen Globale Navigationssysteme (GNSS)}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Funktionsprinzip GNSS}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Satellitensysteme}{2}{subsection.1.1.2}
+\contentsline {subsubsection}{NAVSTAR}{2}{subsubsection*.3}
+\contentsline {subsubsection}{GALILEO}{2}{subsubsection*.4}
+\contentsline {subsubsection}{Korrektursatellitensysteme EGNOS, WAAS und MSAS}{4}{subsubsection*.5}
+\contentsline {subsection}{\numberline {1.1.3}Erh\IeC {\"o}hung der Pr\IeC {\"a}zision bei der Ortung}{5}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Sonstige Satellitengest\IeC {\"u}tzte Navigationssysteme}{6}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Einschr\IeC {\"a}nkung der Nutzung von GNSS-Diensten}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Selective Availability (S/A)}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Lokale T\IeC {\"a}uschung durch Spoofing, Jamming, Meaconning}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Geplante Einschr\IeC {\"a}nkungen}{6}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {2}Rechtliches}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Motivation}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Geltendes Recht in der Luftfahrt}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Nutzung des Luftraumes}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Autonomer Flug}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Versicherungspflicht}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Gewicht eines unbemannten Luftfahrzeuges}{8}{section.2.6}
+\contentsline {section}{\numberline {2.7}Fluggenehmigung}{8}{section.2.7}
+\contentsline {section}{\numberline {2.8}Luftaufnahmen}{9}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Verletzung des h\IeC {\"o}chstpers\IeC {\"o}nlichen Lebensbereichs}{9}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Polizei}{9}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Recht am eigenen Bild}{9}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}\IeC {\"O}ffentlicher Raum}{9}{subsection.2.8.4}
+\contentsline {section}{\numberline {2.9}Flugh\IeC {\"o}he}{9}{section.2.9}
+\contentsline {chapter}{Anhang}{9}{section.2.9}
+\contentsline {chapter}{\numberline {A}GPS Artikel}{11}{appendix.A}
+\contentsline {section}{\numberline {A.1}Zeitungsartikel}{11}{section.A.1}
+\contentsline {chapter}{\numberline {B}Vortrag Rechtliches}{21}{appendix.B}
+\contentsline {section}{\numberline {B.1}Pr\IeC {\"a}sentation Rechtliches}{21}{section.B.1}
+\contentsline {chapter}{Literaturverzeichnis}{35}{appendix*.7}

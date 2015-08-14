@@ -38,8 +38,51 @@ Welcome to MergeDocs's documentation!
    \setcounter{tocdepth}{2}
 
 
-Einleitung
-==========
+GPS
+===
 
 .. toctree::
-   included_projects/test/TEST_SPEC/content
+   included_projects/gps/GPS_SPEC/content
+
+
+Rechtliches
+===========
+
+.. toctree::
+   included_projects/rechtliches/RECHTLICHES_SPEC/content
+
+.. raw:: latex
+
+   \begin{appendix}
+   %\renewcommand{\chaptermark}[1]{\markboth{ \appendixname\ \thechapter ~ \ #1}{}}
+   \addcontentsline{toc}{chapter}{Anhang}
+
+
+.. raw:: latex
+   
+   \renewcommand\thechapter{\Alph{chapter}}
+
+GPS Artikel 
+===========
+
+.. toctree::
+   included_projects/gps/GPS_SPEC/appendix
+.. 
+Vortrag Rechtliches
+===================
+
+.. toctree::
+   included_projects/rechtliches/RECHTLICHES_SPEC/appendix
+
+.. raw:: latex
+   
+   \end{appendix} 
+   %\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
+
+   \bibliographystyle{plain}
+   \bibliography{GPS_SPEC,RECHTLICHES_SPEC}
+
+.. only:: not latex
+
+   .. bibliography:: GPS_SPEC,RECHTLICHES_SPEC
+
